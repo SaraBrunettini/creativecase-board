@@ -3,154 +3,211 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CreativeCase — creative jobs across Europe</title>
-<meta name="description" content="Creative roles in Europe, read straight from company career pages. Updated daily.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<title>Creative jobs in Europe</title>
+<meta name="description" content="Design, brand, content and research roles across Europe, read from company career pages. Updated daily.">
 <style>
 :root{
-  --bg:#F2F4F1; --surface:#FFFFFF; --ink:#1E2928; --muted:#5F6B69; --line:#D6DCD8;
-  --accent:#0E6A61; --accent-ink:#FFF; --hl:#FFE36B; --hl-ink:#1E2928; --soft:#E6ECE8;
-  --sans:"Bricolage Grotesque", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bg:#f3f4f6; --card:#fff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af;
+  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
-  --bg:#111716; --surface:#19211F; --ink:#E4EBE8; --muted:#9AA6A3; --line:#2E3936;
-  --accent:#4CC2B3; --accent-ink:#0B1413; --hl:#5E5214; --hl-ink:#FFF4C2; --soft:#202A28;
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1114; --card:#171a1f; --ink:#e7e9ec; --muted:#9aa2ad; --faint:#6b7280;
+  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026;
 }}
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
-a{color:var(--accent)}
-:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.wrap{max-width:1000px;margin:0 auto;padding:28px 20px 80px}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--link)}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
 
-header{padding-bottom:20px;margin-bottom:26px;border-bottom:1px solid var(--line)}
-.brand{font-weight:800;font-size:1.6rem;letter-spacing:-.035em;margin:0 0 18px}
-.brand span{background:linear-gradient(transparent 58%,var(--hl) 58%,var(--hl) 92%,transparent 92%);padding:0 .06em;color:var(--hl-ink)}
-h1{font-size:clamp(1.9rem,4.5vw,2.9rem);letter-spacing:-.035em;line-height:1.05;margin:0;font-weight:800;max-width:20ch}
-h1 em{font-style:normal;background:linear-gradient(transparent 60%,var(--hl) 60%,var(--hl) 92%,transparent 92%);color:var(--hl-ink)}
-.lede{color:var(--muted);margin:12px 0 0;max-width:58ch}
+.topbar{background:var(--card);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:1100px;margin:0 auto;padding:14px 20px}
+h1{font-size:1.05rem;font-weight:600;margin:0 0 12px}
+.search{display:flex;gap:8px;flex-wrap:wrap}
+.search input,.search select{
+  background:var(--card);border:1px solid var(--line);border-radius:6px;
+  padding:9px 11px;font:inherit;color:inherit;min-width:0}
+.search input{flex:1 1 260px}
+.search select{flex:0 1 200px}
 
-.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
-input[type=search],select{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:9px 12px;font:inherit;color:inherit}
-input[type=search]{flex:1 1 220px;min-width:0}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
-.chip{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 13px;cursor:pointer;font:inherit;font-size:.9rem;color:inherit}
-.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.count{color:var(--muted);font-size:.92rem;margin-bottom:6px}
+.page{max-width:1100px;margin:0 auto;padding:20px;display:grid;
+  grid-template-columns:200px minmax(0,1fr);gap:24px;align-items:start}
 
-.job{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:16px 0;border-top:1px solid var(--line)}
-.job:first-of-type{border-top:0}
-.t{font-size:1.1rem;font-weight:700;line-height:1.25;text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:.4em}
-.t:hover{color:var(--accent);text-decoration:underline}
-.t svg{width:.85em;height:.85em;flex:none;opacity:.75}
-.meta{color:var(--muted);margin-top:3px}
-.bits{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-.pill{font-size:.8rem;border-radius:99px;padding:2px 10px;background:var(--soft)}
-.pill.disc{background:var(--hl);color:var(--hl-ink);font-weight:600}
-.apply{border:0;border-radius:9px;padding:9px 16px;font:inherit;font-weight:600;background:var(--accent);color:var(--accent-ink);text-decoration:none;white-space:nowrap}
-.apply:hover{filter:brightness(1.08)}
-.empty,.loading{text-align:center;padding:50px 20px;color:var(--muted)}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
-@media(max-width:560px){.job{grid-template-columns:1fr}}
+aside h2{font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 8px}
+aside .grp{margin-bottom:22px}
+.fbtn{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;
+  background:none;border:0;border-radius:5px;padding:5px 8px;font:inherit;color:inherit;cursor:pointer}
+.fbtn:hover{background:var(--hover)}
+.fbtn[aria-pressed=true]{background:var(--chip);font-weight:600}
+.fbtn .n{color:var(--faint);font-variant-numeric:tabular-nums}
+.chk{display:flex;align-items:center;gap:8px;padding:5px 8px;cursor:pointer}
+.chk input{margin:0}
+
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  flex-wrap:wrap;margin-bottom:12px}
+.count{color:var(--muted);font-size:.9rem}
+.head select{background:var(--card);border:1px solid var(--line);border-radius:6px;
+  padding:6px 9px;font:inherit;font-size:.9rem;color:inherit}
+
+.job{background:var(--card);border:1px solid var(--line);border-radius:8px;
+  padding:14px 16px;margin-bottom:8px}
+.job:hover{border-color:var(--faint)}
+.job h3{margin:0;font-size:1rem;font-weight:600;line-height:1.35}
+.job h3 a{color:var(--link);text-decoration:none}
+.job h3 a:hover{text-decoration:underline}
+.co{margin:2px 0 0;font-size:.92rem}
+.loc{margin:1px 0 0;color:var(--muted);font-size:.9rem}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px;align-items:center}
+.tag{background:var(--chip);border-radius:4px;padding:2px 8px;font-size:.78rem;color:var(--muted)}
+.date{color:var(--faint);font-size:.8rem;margin-left:auto}
+
+.note{background:var(--card);border:1px solid var(--line);border-radius:8px;
+  padding:40px 20px;text-align:center;color:var(--muted)}
+footer{max-width:1100px;margin:0 auto;padding:8px 20px 40px;color:var(--faint);font-size:.82rem}
+footer p{margin:4px 0}
+
+@media(max-width:760px){
+  .page{grid-template-columns:1fr;gap:16px}
+  aside{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+  aside .grp{margin-bottom:14px}
+  .date{margin-left:0;width:100%}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <p class="brand">Creative<span>Case</span></p>
-    <h1>Creative jobs, straight from the <em>source.</em></h1>
-    <p class="lede">Roles across Europe, read directly from company career pages — no job-board middlemen, no reposts, no expired listings. Updated every morning.</p>
-  </header>
 
-  <div class="bar">
-    <input type="search" id="q" placeholder="Search role or company" aria-label="Search">
-    <select id="loc" aria-label="Location"><option value="">Anywhere in Europe</option></select>
-    <select id="sort" aria-label="Sort">
-      <option value="new">Newest first</option>
-      <option value="company">By company</option>
-    </select>
+<div class="topbar">
+  <div class="in">
+    <h1>Creative jobs in Europe</h1>
+    <div class="search">
+      <input type="search" id="q" placeholder="Job title or company" aria-label="Job title or company">
+      <select id="loc" aria-label="Location"><option value="">All locations</option></select>
+    </div>
   </div>
-  <div class="chips" id="discs" role="group" aria-label="Discipline"></div>
-
-  <p class="count" id="count"></p>
-  <div id="list"><p class="loading">Loading roles…</p></div>
-
-  <footer>
-    <p id="updated"></p>
-    <p>Every role links straight to the company's own posting. Nothing is stored about you — this page has no accounts, no tracking and no database.</p>
-  </footer>
 </div>
+
+<div class="page">
+  <aside>
+    <div class="grp">
+      <h2>Discipline</h2>
+      <div id="discs"></div>
+    </div>
+    <div class="grp">
+      <h2>Filters</h2>
+      <label class="chk"><input type="checkbox" id="rem"> Remote only</label>
+      <label class="chk"><input type="checkbox" id="fresh"> Posted this month</label>
+    </div>
+  </aside>
+
+  <main>
+    <div class="head">
+      <span class="count" id="count"></span>
+      <select id="sort" aria-label="Sort by">
+        <option value="new">Most recent</option>
+        <option value="company">Company A-Z</option>
+        <option value="title">Job title A-Z</option>
+      </select>
+    </div>
+    <div id="list"><p class="note">Loading...</p></div>
+  </main>
+</div>
+
+<footer>
+  <p id="updated"></p>
+  <p>Roles are read from each company's own careers feed and link to the original posting. No account, no tracking.</p>
+</footer>
 
 <script>
 const $ = s => document.querySelector(s);
-const state = { jobs: [], disc: '', q: '', loc: '', sort: 'new' };
-
-const EXT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-8.5 8.5M18 14v4.5A1.5 1.5 0 0 1 16.5 20h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></svg>';
+const state = { jobs: [], disc: '', q: '', loc: '', sort: 'new', remote: false, fresh: false };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 
+function days(d){
+  if (!d) return null;
+  const n = Math.floor((Date.now() - new Date(d)) / 864e5);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
 function ago(d){
-  if (!d) return '';
-  const days = Math.floor((Date.now() - new Date(d)) / 864e5);
-  if (!Number.isFinite(days) || days < 0) return '';
-  return days === 0 ? 'today' : days === 1 ? 'yesterday'
-       : days < 7 ? days + ' days ago'
-       : days < 14 ? 'last week'
-       : days < 60 ? Math.floor(days / 7) + ' weeks ago'
-       : Math.floor(days / 30) + ' months ago';
+  const n = days(d);
+  if (n === null) return '';
+  if (n === 0) return 'Today';
+  if (n === 1) return 'Yesterday';
+  if (n < 7) return n + ' days ago';
+  if (n < 14) return '1 week ago';
+  if (n < 60) return Math.floor(n / 7) + ' weeks ago';
+  return Math.floor(n / 30) + ' months ago';
 }
 
-// Group locations into something worth filtering by.
-function region(loc){
+function place(loc){
   const l = (loc || '').toLowerCase();
-  if (/remote/.test(l)) return 'Remote';
   for (const [name, re] of [
-    ['London',      /london/],
-    ['UK',          /\b(uk|united kingdom|england|scotland|wales|manchester|bristol|edinburgh|glasgow|cambridge|oxford|leeds|brighton)\b/],
-    ['Ireland',     /\b(dublin|ireland)\b/],
-    ['Germany',     /\b(berlin|munich|münchen|hamburg|frankfurt|cologne|germany|deutschland)\b/],
-    ['France',      /\b(paris|france|lyon)\b/],
-    ['Netherlands', /\b(amsterdam|rotterdam|utrecht|netherlands)\b/],
-    ['Spain',       /\b(madrid|barcelona|spain)\b/],
-    ['Portugal',    /\b(lisbon|porto|portugal)\b/],
-    ['Nordics',     /\b(stockholm|sweden|copenhagen|denmark|oslo|norway|helsinki|finland)\b/],
-    ['Poland',      /\b(warsaw|krak|poland)\b/],
-    ['Switzerland', /\b(zurich|zürich|geneva|switzerland)\b/],
+    ['London',         /london/],
+    ['United Kingdom', /\b(uk|united kingdom|england|scotland|wales|manchester|bristol|edinburgh|glasgow|cambridge|oxford|leeds|brighton|cardiff)\b/],
+    ['Ireland',        /\b(dublin|ireland)\b/],
+    ['Germany',        /\b(berlin|munich|hamburg|frankfurt|cologne|germany|deutschland)\b/],
+    ['France',         /\b(paris|france|lyon|bordeaux|marseille|nantes)\b/],
+    ['Netherlands',    /\b(amsterdam|rotterdam|utrecht|netherlands)\b/],
+    ['Spain',          /\b(madrid|barcelona|spain)\b/],
+    ['Portugal',       /\b(lisbon|porto|portugal)\b/],
+    ['Poland',         /\b(warsaw|warszawa|krak|poland)\b/],
+    ['Denmark',        /\b(copenhagen|denmark)\b/],
+    ['Sweden',         /\b(stockholm|sweden)\b/],
+    ['Switzerland',    /\b(zurich|geneva|switzerland)\b/],
+    ['Belgium',        /\b(brussels|belgium)\b/],
   ]) if (re.test(l)) return name;
-  return 'Elsewhere in Europe';
+  if (/remote/.test(l)) return 'Remote';
+  return 'Other';
+}
+
+function match(){
+  let out = state.jobs.slice();
+  if (state.disc)   out = out.filter(j => j.discipline === state.disc);
+  if (state.loc)    out = out.filter(j => place(j.location) === state.loc);
+  if (state.remote) out = out.filter(j => j.remote);
+  if (state.fresh)  out = out.filter(j => { const n = days(j.posted); return n !== null && n <= 31; });
+  if (state.q){
+    const q = state.q.toLowerCase();
+    out = out.filter(j => (j.title + ' ' + j.company).toLowerCase().includes(q));
+  }
+  if (state.sort === 'company') out.sort((a,b) => a.company.localeCompare(b.company));
+  if (state.sort === 'title')   out.sort((a,b) => a.title.localeCompare(b.title));
+  return out;
+}
+
+function drawFilters(){
+  // Counts reflect every filter except the discipline one itself.
+  const keep = state.disc; state.disc = '';
+  const pool = match(); state.disc = keep;
+  const n = {}; pool.forEach(j => n[j.discipline] = (n[j.discipline] || 0) + 1);
+  const rows = [['All roles', '', pool.length],
+    ...Object.keys(n).sort().map(d => [d, d, n[d]])];
+  $('#discs').innerHTML = rows.map(([label, val, c]) =>
+    `<button class="fbtn" data-d="${esc(val)}" aria-pressed="${val === state.disc}">
+       <span>${esc(label)}</span><span class="n">${c}</span></button>`).join('');
 }
 
 function render(){
-  let list = state.jobs.slice();
-  if (state.disc) list = list.filter(j => j.discipline === state.disc);
-  if (state.loc)  list = list.filter(j => region(j.location) === state.loc);
-  if (state.q){
-    const q = state.q.toLowerCase();
-    list = list.filter(j => (j.title + ' ' + j.company).toLowerCase().includes(q));
-  }
-  if (state.sort === 'company') list.sort((a,b) => a.company.localeCompare(b.company));
+  const list = match();
+  drawFilters();
 
-  $('#count').textContent = list.length
-    ? `${list.length} role${list.length === 1 ? '' : 's'}${state.disc ? ' in ' + state.disc : ''}`
-    : '';
+  $('#count').textContent = list.length === 1 ? '1 job' : list.length + ' jobs';
 
   $('#list').innerHTML = list.length ? list.map(j => `
-    <div class="job">
-      <div>
-        <a class="t" href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">${esc(j.title)}${EXT}</a>
-        <div class="meta">${esc(j.company)} · ${esc(j.location)}</div>
-        <div class="bits">
-          <span class="pill disc">${esc(j.discipline)}</span>
-          ${j.remote ? '<span class="pill">Remote</span>' : ''}
-          ${j.posted && ago(j.posted) ? `<span class="pill">Posted ${esc(ago(j.posted))}</span>` : ''}
-        </div>
+    <article class="job">
+      <h3><a href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">${esc(j.title)}</a></h3>
+      <p class="co">${esc(j.company)}</p>
+      <p class="loc">${esc(j.location)}</p>
+      <div class="tags">
+        <span class="tag">${esc(j.discipline)}</span>
+        ${j.remote ? '<span class="tag">Remote</span>' : ''}
+        ${ago(j.posted) ? `<span class="date">${esc(ago(j.posted))}</span>` : ''}
       </div>
-      <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">Apply</a>
-    </div>`).join('')
-    : '<p class="empty">Nothing matches that. Try clearing a filter.</p>';
+    </article>`).join('')
+    : '<p class="note">No jobs match these filters.</p>';
 }
 
 fetch('jobs.json?' + Date.now())
@@ -158,32 +215,27 @@ fetch('jobs.json?' + Date.now())
   .then(d => {
     state.jobs = d.jobs || [];
 
-    const discs = [...new Set(state.jobs.map(j => j.discipline))].sort();
-    $('#discs').innerHTML = ['All', ...discs].map(x =>
-      `<button class="chip" aria-pressed="${x === 'All'}" data-d="${x === 'All' ? '' : esc(x)}">${esc(x)}</button>`).join('');
-    $('#discs').addEventListener('click', e => {
-      const b = e.target.closest('.chip'); if (!b) return;
-      state.disc = b.dataset.d;
-      [...$('#discs').children].forEach(c => c.setAttribute('aria-pressed', c === b));
-      render();
-    });
-
-    const regions = [...new Set(state.jobs.map(j => region(j.location)))].sort();
-    $('#loc').innerHTML = '<option value="">Anywhere in Europe</option>' +
-      regions.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('');
+    const places = [...new Set(state.jobs.map(j => place(j.location)))]
+      .sort((a,b) => a === 'Other' ? 1 : b === 'Other' ? -1 : a.localeCompare(b));
+    $('#loc').innerHTML = '<option value="">All locations</option>' +
+      places.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
 
     $('#updated').textContent =
-      `${d.count} roles from ${d.companies} companies. Last checked ${ago(d.updated) || 'just now'}.`;
+      `${d.count} jobs from ${d.companies} companies. Last updated ${(ago(d.updated) || 'today').toLowerCase()}.`;
 
     render();
   })
-  .catch(() => {
-    $('#list').innerHTML = '<p class="empty">Couldn\'t load the roles just now. Try again shortly.</p>';
-  });
+  .catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs. Please try again later.</p>'; });
 
+$('#discs').addEventListener('click', e => {
+  const b = e.target.closest('.fbtn'); if (!b) return;
+  state.disc = b.dataset.d; render();
+});
 $('#q').addEventListener('input', e => { state.q = e.target.value; render(); });
 $('#loc').addEventListener('change', e => { state.loc = e.target.value; render(); });
 $('#sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+$('#rem').addEventListener('change', e => { state.remote = e.target.checked; render(); });
+$('#fresh').addEventListener('change', e => { state.fresh = e.target.checked; render(); });
 </script>
 </body>
 </html>
