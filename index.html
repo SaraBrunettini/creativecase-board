@@ -136,8 +136,10 @@ function ago(d){
    from what the OTHER filters leave — that is what keeps its options live. */
 function pass(j, skip){
   if (skip !== 'disc'    && state.disc    && j.discipline !== state.disc) return false;
-  if (skip !== 'country' && state.country && j.country !== state.country) return false;
-  if (skip !== 'city'    && state.city    && j.city !== state.city) return false;
+  const geo = skip === 'geo';   // country is the parent of city, so the country
+                                // list ignores both, or you could never switch
+  if (!geo && skip !== 'country' && state.country && j.country !== state.country) return false;
+  if (!geo && skip !== 'city'    && state.city    && j.city !== state.city) return false;
   if (skip !== 'work'    && state.work    && j.workplace !== state.work) return false;
   if (skip !== 'type'    && state.type    && j.type !== state.type) return false;
   if (state.q){
@@ -178,7 +180,7 @@ function fillSelect(el, values, allLabel, current){
 const uniq = (list, key) => [...new Set(list.map(j => j[key]).filter(Boolean))];
 
 function drawSelects(){
-  const countries = uniq(match('country'), 'country')
+  const countries = uniq(match('geo'), 'country')
     .sort((a,b) => a === 'Other' ? 1 : b === 'Other' ? -1 : a.localeCompare(b));
   const cities = uniq(match('city'), 'city').sort((a,b) => a.localeCompare(b));
   const works  = uniq(match('work'), 'workplace')
