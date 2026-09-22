@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T20:34:08.926Z",
+ "updated": "2026-09-22T20:37:56.248Z",
  "companies": 46,
  "count": 100,
  "jobs": [
@@ -582,18 +582,6 @@
   {
    "title": "Senior UX Product Designer, Engagement",
    "company": "HelloFresh",
-   "location": "Toronto, Ontario, Canada",
-   "country": "Canada",
-   "city": "Toronto",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8167268?gh_jid=8167268",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior UX Product Designer, Engagement",
-   "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "country": "Poland",
    "city": "Warsaw",
@@ -601,6 +589,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior UX Product Designer, Engagement",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario, Canada",
+   "country": "Canada",
+   "city": "Toronto",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://careers.hellofresh.com/global/en/job/8167268?gh_jid=8167268",
    "posted": "2026-09-14"
   },
   {
