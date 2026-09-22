@@ -8,12 +8,12 @@
 <style>
 :root{
   --bg:#f3f4f6; --card:#fff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af;
-  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb; --sel:#111827; --sel-ink:#fff;
+  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb; --sel:#111827;
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{
   --bg:#0f1114; --card:#171a1f; --ink:#e7e9ec; --muted:#9aa2ad; --faint:#6b7280;
-  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026; --sel:#e7e9ec; --sel-ink:#12151a;
+  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026; --sel:#e7e9ec;
 }}
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -24,13 +24,12 @@ a{color:var(--link)}
 
 header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
 h1{font-size:1.05rem;font-weight:600;margin:0;padding:14px 0 12px}
-.search{display:flex;gap:8px;flex-wrap:wrap;padding-bottom:12px}
+.search{padding-bottom:12px}
 input[type=search],select{
   background:var(--card);border:1px solid var(--line);border-radius:6px;
-  padding:8px 11px;font:inherit;color:inherit;min-width:0}
-input[type=search]{flex:1 1 240px;font-size:15px}
+  padding:8px 11px;font:inherit;color:inherit;min-width:0;max-width:100%}
+input[type=search]{width:100%;font-size:15px}
 
-/* Discipline tabs */
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabs::-webkit-scrollbar{display:none}
 .tab{flex:none;background:none;border:0;border-bottom:2px solid transparent;
@@ -41,10 +40,7 @@ input[type=search]{flex:1 1 240px;font-size:15px}
 
 .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:14px 0 0}
 .filters select{font-size:.9rem;padding:6px 9px}
-.chk{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);
-  background:var(--card);border-radius:6px;padding:6px 11px;font-size:.9rem;cursor:pointer}
-.chk input{margin:0}
-.chk:has(input:checked){background:var(--sel);color:var(--sel-ink);border-color:var(--sel)}
+.filters select:disabled{opacity:.5}
 .clear{background:none;border:0;padding:6px 4px;font:inherit;font-size:.88rem;
   color:var(--link);cursor:pointer;text-decoration:underline}
 
@@ -71,7 +67,7 @@ input[type=search]{flex:1 1 240px;font-size:15px}
 .more:hover{background:var(--hover)}
 footer{color:var(--faint);font-size:.82rem;padding:24px 0 40px}
 footer p{margin:4px 0}
-@media(max-width:560px){.date{margin-left:0;width:100%}}
+@media(max-width:560px){.date{margin-left:0;width:100%}.filters select{flex:1 1 44%}}
 </style>
 </head>
 <body>
@@ -88,9 +84,10 @@ footer p{margin:4px 0}
 
 <div class="in">
   <div class="filters">
-    <select id="loc" aria-label="Location"><option value="">All locations</option></select>
+    <select id="country" aria-label="Country"><option value="">All countries</option></select>
+    <select id="city" aria-label="City"><option value="">All cities</option></select>
+    <select id="work" aria-label="Work setting"><option value="">Any setting</option></select>
     <select id="type" aria-label="Job type"><option value="">Any type</option></select>
-    <label class="chk"><input type="checkbox" id="rem"> Remote</label>
     <button class="clear" id="clear" hidden>Clear filters</button>
   </div>
 
@@ -114,7 +111,7 @@ footer p{margin:4px 0}
 <script>
 const $ = s => document.querySelector(s);
 const PAGE = 40;
-const state = { jobs: [], disc: '', q: '', loc: '', type: '', remote: false, sort: 'new', shown: PAGE };
+const state = { jobs: [], disc: '', q: '', country: '', city: '', work: '', type: '', sort: 'new', shown: PAGE };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
@@ -135,49 +132,14 @@ function ago(d){
   return Math.floor(n / 30) + ' months ago';
 }
 
-/* Group a free-text location into something worth putting in a dropdown. */
-const COUNTRIES = [
-  ['United Kingdom', /\b(uk|united kingdom|england|scotland|wales|london|manchester|bristol|edinburgh|glasgow|cambridge|oxford|leeds|brighton|cardiff|reading)\b/],
-  ['Ireland',        /\b(dublin|ireland)\b/],
-  ['Germany',        /\b(berlin|munich|munchen|hamburg|frankfurt|cologne|germany|deutschland)\b/],
-  ['France',         /\b(paris|france|lyon|bordeaux|marseille|nantes|toulouse)\b/],
-  ['Netherlands',    /\b(amsterdam|rotterdam|utrecht|netherlands|eindhoven)\b/],
-  ['Spain',          /\b(madrid|barcelona|spain|valencia)\b/],
-  ['Portugal',       /\b(lisbon|porto|portugal)\b/],
-  ['Italy',          /\b(milan|rome|italy)\b/],
-  ['Poland',         /\b(warsaw|warszawa|krak|wroc|poland)\b/],
-  ['Denmark',        /\b(copenhagen|denmark)\b/],
-  ['Sweden',         /\b(stockholm|sweden|gothenburg)\b/],
-  ['Norway',         /\b(oslo|norway)\b/],
-  ['Finland',        /\b(helsinki|finland)\b/],
-  ['Switzerland',    /\b(zurich|geneva|switzerland)\b/],
-  ['Austria',        /\b(vienna|austria)\b/],
-  ['Belgium',        /\b(brussels|belgium)\b/],
-  ['Czechia',        /\b(prague|czech)\b/],
-  ['United States',  /\b(usa|u\.s\.|united states|new york|nyc|san francisco|seattle|austin|boston|chicago|los angeles|denver|atlanta|remote, us)\b/],
-  ['Canada',         /\b(canada|toronto|vancouver|montreal)\b/],
-  ['India',          /\b(india|bangalore|bengaluru|mumbai|delhi|hyderabad|pune)\b/],
-  ['Singapore',      /\bsingapore\b/],
-  ['Australia',      /\b(australia|sydney|melbourne)\b/],
-  ['Japan',          /\b(japan|tokyo)\b/],
-  ['Brazil',         /\b(brazil|brasil|sao paulo)\b/],
-  ['Mexico',         /\b(mexico|guadalajara)\b/],
-  ['Israel',         /\b(israel|tel aviv)\b/],
-  ['UAE',            /\b(dubai|abu dhabi|uae|united arab)\b/],
-  ['Europe (wide)',  /\b(europe|emea)\b/],
-];
-function country(loc){
-  const l = (loc || '').toLowerCase();
-  for (const [name, re] of COUNTRIES) if (re.test(l)) return name;
-  const last = (loc || '').split(/[,;]/).pop().trim();
-  return last && last.length > 2 && !/^remote$/i.test(last) ? last : 'Other';
-}
-
+/* One filter at a time can be skipped, so each dropdown can be populated
+   from what the OTHER filters leave — that is what keeps its options live. */
 function pass(j, skip){
-  if (skip !== 'disc' && state.disc && j.discipline !== state.disc) return false;
-  if (skip !== 'loc'  && state.loc  && country(j.location) !== state.loc) return false;
-  if (skip !== 'type' && state.type && j.type !== state.type) return false;
-  if (state.remote && !j.remote) return false;
+  if (skip !== 'disc'    && state.disc    && j.discipline !== state.disc) return false;
+  if (skip !== 'country' && state.country && j.country !== state.country) return false;
+  if (skip !== 'city'    && state.city    && j.city !== state.city) return false;
+  if (skip !== 'work'    && state.work    && j.workplace !== state.work) return false;
+  if (skip !== 'type'    && state.type    && j.type !== state.type) return false;
   if (state.q){
     const q = state.q.toLowerCase();
     if (!(j.title + ' ' + j.company).toLowerCase().includes(q)) return false;
@@ -192,6 +154,7 @@ function match(skip){
 }
 
 const ORDER = ['Product & UX','Brand','Motion','Content','Research','Design ops','Leadership','Other'];
+const WORK_ORDER = ['Remote','Hybrid','On-site'];
 
 function drawTabs(){
   const pool = match('disc');
@@ -206,19 +169,26 @@ function drawTabs(){
          ${esc(label)}<span class="n">${c}</span></button>`).join('');
 }
 
-function fillSelect(el, values, allLabel){
-  const cur = el.value;
+function fillSelect(el, values, allLabel, current){
   el.innerHTML = `<option value="">${allLabel}</option>` +
-    values.map(v => `<option value="${esc(v)}"${v === cur ? ' selected' : ''}>${esc(v)}</option>`).join('');
+    values.map(v => `<option value="${esc(v)}"${v === current ? ' selected' : ''}>${esc(v)}</option>`).join('');
+  el.disabled = values.length === 0;
 }
 
+const uniq = (list, key) => [...new Set(list.map(j => j[key]).filter(Boolean))];
+
 function drawSelects(){
-  const byLoc = match('loc'), byType = match('type');
-  const locs = [...new Set(byLoc.map(j => country(j.location)))]
+  const countries = uniq(match('country'), 'country')
     .sort((a,b) => a === 'Other' ? 1 : b === 'Other' ? -1 : a.localeCompare(b));
-  const types = [...new Set(byType.map(j => j.type))].sort();
-  fillSelect($('#loc'), locs, 'All locations');
-  fillSelect($('#type'), types, 'Any type');
+  const cities = uniq(match('city'), 'city').sort((a,b) => a.localeCompare(b));
+  const works  = uniq(match('work'), 'workplace')
+    .sort((a,b) => WORK_ORDER.indexOf(a) - WORK_ORDER.indexOf(b));
+  const types  = uniq(match('type'), 'type').sort();
+
+  fillSelect($('#country'), countries, 'All countries', state.country);
+  fillSelect($('#city'),    cities,    'All cities',    state.city);
+  fillSelect($('#work'),    works,     'Any setting',   state.work);
+  fillSelect($('#type'),    types,     'Any type',      state.type);
 }
 
 function render(){
@@ -226,7 +196,7 @@ function render(){
   drawTabs(); drawSelects();
 
   $('#count').textContent = list.length === 1 ? '1 job' : list.length + ' jobs';
-  $('#clear').hidden = !(state.disc || state.loc || state.type || state.remote || state.q);
+  $('#clear').hidden = !(state.disc || state.country || state.city || state.work || state.type || state.q);
 
   const page = list.slice(0, state.shown);
   $('#list').innerHTML = list.length ? page.map(j => `
@@ -237,7 +207,7 @@ function render(){
       <div class="tags">
         <span class="tag">${esc(j.discipline)}</span>
         <span class="tag">${esc(j.type)}</span>
-        ${j.remote ? '<span class="tag">Remote</span>' : ''}
+        ${j.workplace && j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
         ${ago(j.posted) ? `<span class="date">${esc(ago(j.posted))}</span>` : ''}
       </div>
     </article>`).join('') +
@@ -264,14 +234,21 @@ $('#tabs').addEventListener('click', e => {
 $('#list').addEventListener('click', e => {
   if (e.target.id === 'more'){ state.shown += PAGE; render(); }
 });
-$('#q').addEventListener('input',     e => set({ q: e.target.value }));
-$('#loc').addEventListener('change',  e => set({ loc: e.target.value }));
+$('#q').addEventListener('input', e => set({ q: e.target.value }));
+/* Changing country clears a city that no longer belongs to it. */
+$('#country').addEventListener('change', e => {
+  const c = e.target.value;
+  const stillThere = !state.city ||
+    state.jobs.some(j => j.city === state.city && (!c || j.country === c));
+  set({ country: c, city: stillThere ? state.city : '' });
+});
+$('#city').addEventListener('change', e => set({ city: e.target.value }));
+$('#work').addEventListener('change', e => set({ work: e.target.value }));
 $('#type').addEventListener('change', e => set({ type: e.target.value }));
-$('#rem').addEventListener('change',  e => set({ remote: e.target.checked }));
 $('#sort').addEventListener('change', e => set({ sort: e.target.value }));
 $('#clear').addEventListener('click', () => {
-  $('#q').value = ''; $('#rem').checked = false;
-  set({ disc: '', loc: '', type: '', remote: false, q: '' });
+  $('#q').value = '';
+  set({ disc: '', country: '', city: '', work: '', type: '', q: '' });
 });
 </script>
 </body>
