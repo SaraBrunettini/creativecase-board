@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-22T20:37:56.248Z",
+ "updated": "2026-09-22T20:53:48.635Z",
  "companies": 46,
- "count": 100,
+ "count": 99,
  "jobs": [
   {
    "title": "Senior Manager, Product Design (f/m/d)",
@@ -523,7 +523,7 @@
    "title": "Design Engineer (Web & Brand)",
    "company": "Linear",
    "location": "Europe",
-   "country": "Europe (wide)",
+   "country": "Other",
    "city": null,
    "discipline": "Brand",
    "type": "Full-time",
@@ -673,18 +673,6 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
-   "posted": "2026-09-10"
-  },
-  {
-   "title": "UX & Front End Engineer, AI",
-   "company": "Elastic",
-   "location": "United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8154995&gh_jid=8154995",
    "posted": "2026-09-10"
   },
   {
@@ -967,7 +955,7 @@
    "title": "Production Designer",
    "company": "Linear",
    "location": "Europe",
-   "country": "Europe (wide)",
+   "country": "Other",
    "city": null,
    "discipline": "Design ops",
    "type": "Full-time",
@@ -1123,7 +1111,7 @@
    "title": "Principal Product Designer",
    "company": "Linear",
    "location": "Europe",
-   "country": "Europe (wide)",
+   "country": "Other",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
@@ -1147,7 +1135,7 @@
    "title": "Senior Brand Designer, Experiential",
    "company": "Synthesia",
    "location": "Europe",
-   "country": "Europe (wide)",
+   "country": "Other",
    "city": null,
    "discipline": "Brand",
    "type": "Full-time",
