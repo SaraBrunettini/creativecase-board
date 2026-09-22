@@ -237,7 +237,9 @@ const combo = { open: false, items: [], active: -1 };
 function locOptions(){
   const typed = $('#locInput').value.trim().toLowerCase();
   const rows = [
-    ...tally('loc', 'country').map(([v,n]) => ({ id:'country:'+v, v, n, kind:'country' })),
+    /* "Other" holds roles whose location we could not place — not worth offering. */
+    ...tally('loc', 'country').filter(([v]) => v !== 'Other')
+        .map(([v,n]) => ({ id:'country:'+v, v, n, kind:'country' })),
     ...tally('loc', 'city').map(([v,n])    => ({ id:'city:'+v,    v, n, kind:'city' })),
   ].sort((a,b) => b.n - a.n || a.v.localeCompare(b.v));
   return typed && typed !== locValue().toLowerCase()
