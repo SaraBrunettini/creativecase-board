@@ -44,16 +44,17 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
 .f select{font-size:.92rem;padding:7px 10px;min-width:170px}
 
 .combo{position:relative}
-.combo input{width:210px;font-size:.92rem;padding:7px 28px 7px 10px}
+.combo input{width:260px;font-size:.92rem;padding:7px 28px 7px 10px}
 .combo .x{position:absolute;right:4px;top:50%;transform:translateY(-50%);
   background:none;border:0;padding:4px 6px;line-height:1;color:var(--muted);cursor:pointer;font-size:1rem}
 .combo ul{position:absolute;z-index:20;top:calc(100% + 4px);left:0;min-width:100%;
-  max-height:260px;overflow-y:auto;margin:0;padding:4px;list-style:none;
+  max-height:280px;overflow-y:auto;margin:0;padding:4px;list-style:none;
   background:var(--card);border:1px solid var(--line);border-radius:8px;
   box-shadow:0 8px 24px rgba(0,0,0,.14)}
-.combo li{display:flex;justify-content:space-between;gap:14px;white-space:nowrap;
+.combo li{display:flex;justify-content:space-between;gap:16px;white-space:nowrap;
   padding:6px 9px;border-radius:5px;cursor:pointer;font-size:.92rem}
 .combo li[aria-selected=true],.combo li:hover{background:var(--chip)}
+.combo li .kind{color:var(--faint);font-size:.82em;margin-left:7px;text-transform:uppercase;letter-spacing:.04em}
 .combo li .n{color:var(--faint);font-variant-numeric:tabular-nums}
 .combo li.none{color:var(--muted);cursor:default}
 
@@ -110,28 +111,13 @@ footer p{margin:4px 0}
 <div class="in">
   <div class="filters">
     <div class="f">
-      <label for="coInput">Company</label>
+      <label for="locInput">Location</label>
       <div class="combo">
-        <input id="coInput" type="text" placeholder="Any company" autocomplete="off"
-               role="combobox" aria-expanded="false" aria-controls="coList" aria-autocomplete="list">
-        <button class="x" id="coClear" hidden aria-label="Clear company">&times;</button>
-        <ul id="coList" role="listbox" aria-label="Company" hidden></ul>
+        <input id="locInput" type="text" placeholder="City, town or country" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-controls="locList" aria-autocomplete="list">
+        <button class="x" id="locClear" hidden aria-label="Clear location">&times;</button>
+        <ul id="locList" role="listbox" aria-label="Location" hidden></ul>
       </div>
-    </div>
-
-    <div class="f">
-      <label for="cityInput">City</label>
-      <div class="combo">
-        <input id="cityInput" type="text" placeholder="Any city" autocomplete="off"
-               role="combobox" aria-expanded="false" aria-controls="cityList" aria-autocomplete="list">
-        <button class="x" id="cityClear" hidden aria-label="Clear city">&times;</button>
-        <ul id="cityList" role="listbox" aria-label="City" hidden></ul>
-      </div>
-    </div>
-
-    <div class="f">
-      <label for="country">Country</label>
-      <select id="country"><option value="">All countries</option></select>
     </div>
 
     <div class="f">
@@ -167,10 +153,14 @@ footer p{margin:4px 0}
 <script>
 const $ = s => document.querySelector(s);
 const PAGE = 40;
-const state = { jobs: [], disc: '', company: '', country: '', city: '', work: [], type: '', sort: 'new', shown: PAGE };
+/* loc is one field holding either a city or a country, as "city:London". */
+const state = { jobs: [], disc: '', loc: '', work: [], type: '', sort: 'new', shown: PAGE };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+
+const locKind  = () => state.loc.slice(0, state.loc.indexOf(':'));
+const locValue = () => state.loc.slice(state.loc.indexOf(':') + 1);
 
 function days(d){
   if (!d) return null;
@@ -191,12 +181,8 @@ function ago(d){
 /* A filter can be skipped, so each control is populated from what the OTHER
    filters leave — that is what keeps its options and counts live. */
 function pass(j, skip){
-  const geo = skip === 'geo';   // country is the parent of city, so the country
-                                // list ignores both, or you could never switch
-  if (skip !== 'disc'    && state.disc    && j.discipline !== state.disc) return false;
-  if (skip !== 'company' && state.company && j.company !== state.company) return false;
-  if (!geo && skip !== 'country' && state.country && j.country !== state.country) return false;
-  if (!geo && skip !== 'city'    && state.city    && j.city !== state.city) return false;
+  if (skip !== 'disc' && state.disc && j.discipline !== state.disc) return false;
+  if (skip !== 'loc'  && state.loc  && j[locKind()] !== locValue()) return false;
   if (skip !== 'work' && state.work.length && !state.work.includes(j.workplace)) return false;
   if (skip !== 'type' && state.type && j.type !== state.type) return false;
   return true;
@@ -232,12 +218,6 @@ function drawTabs(){
 }
 
 function drawControls(){
-  const countries = tally('geo', 'country')
-    .sort((a,b) => a[0] === 'Other' ? 1 : b[0] === 'Other' ? -1 : a[0].localeCompare(b[0]));
-  $('#country').innerHTML = '<option value="">All countries</option>' +
-    countries.map(([v,c]) =>
-      `<option value="${esc(v)}"${v === state.country ? ' selected' : ''}>${esc(v)} (${c})</option>`).join('');
-
   const types = tally('type', 'type').sort((a,b) => a[0].localeCompare(b[0]));
   $('#type').innerHTML = '<option value="">All types</option>' +
     types.map(([v,c]) =>
@@ -249,102 +229,62 @@ function drawControls(){
        ${esc(w)}<span class="n">${works[w] || 0}</span></button>`).join('');
 }
 
-/* ---- Typeahead: type to narrow, arrow keys or click to pick ---- */
-function makeCombo({ input, list, clear, key, field, sortBy }){
-  const el = { input: $(input), list: $(list), clear: $(clear) };
-  const c = { open: false, items: [], active: -1 };
+/* ---- Location typeahead: one box for cities and countries alike ---- */
+const combo = { open: false, items: [], active: -1 };
 
-  const options = () => {
-    const typed = el.input.value.trim().toLowerCase();
-    const all = tally(key, field).sort(sortBy || ((a,b) => a[0].localeCompare(b[0])));
-    return typed && typed !== state[key].toLowerCase()
-      ? all.filter(([v]) => v.toLowerCase().includes(typed))
-      : all;
-  };
-  const draw = () => {
-    c.items = options();
-    if (c.active >= c.items.length) c.active = c.items.length - 1;
-    el.list.innerHTML = c.items.length
-      ? c.items.map(([v,n], i) =>
-          `<li id="${key}-${i}" role="option" data-v="${esc(v)}"
-               aria-selected="${i === c.active}">${esc(v)}<span class="n">${n}</span></li>`).join('')
-      : '<li class="none">Nothing matches</li>';
-  };
-  const open = () => {
-    c.open = true; draw();
-    el.list.hidden = false;
-    el.input.setAttribute('aria-expanded', 'true');
-  };
-  const close = () => {
-    c.open = false; c.active = -1;
-    el.list.hidden = true;
-    el.input.setAttribute('aria-expanded', 'false');
-    el.input.removeAttribute('aria-activedescendant');
-    el.input.value = state[key];   // typing without choosing changes nothing
-  };
-  const pick = v => {
-    set({ [key]: v });             // state first: close() restores the input from it
-    el.input.value = v;
-    close();
-  };
-
-  el.input.addEventListener('focus', open);
-  el.input.addEventListener('input', () => {
-    c.active = -1;
-    if (!c.open) open(); else draw();
-    el.clear.hidden = !el.input.value;
-    if (!el.input.value && state[key]) set({ [key]: '' });
-  });
-  el.input.addEventListener('keydown', e => {
-    if (e.key === 'ArrowDown' || e.key === 'ArrowUp'){
-      e.preventDefault();
-      if (!c.open) return open();
-      const n = c.items.length; if (!n) return;
-      c.active = (c.active + (e.key === 'ArrowDown' ? 1 : -1) + n + 1) % n;
-      draw();
-      el.input.setAttribute('aria-activedescendant', key + '-' + c.active);
-      el.list.children[c.active].scrollIntoView({ block: 'nearest' });
-    } else if (e.key === 'Enter'){
-      e.preventDefault();
-      const hit = c.items[c.active] || (c.items.length === 1 ? c.items[0] : null);
-      if (hit) pick(hit[0]);
-    } else if (e.key === 'Escape'){
-      close();
-    }
-  });
-  el.list.addEventListener('mousedown', e => {
-    const li = e.target.closest('li[data-v]'); if (!li) return;
-    e.preventDefault(); pick(li.dataset.v);
-  });
-  el.input.addEventListener('blur', () => setTimeout(close, 0));
-  el.clear.addEventListener('click', () => {
-    el.input.value = ''; el.input.focus(); set({ [key]: '' });
-  });
-
-  return {
-    refresh(){ if (c.open) draw(); el.clear.hidden = !el.input.value; },
-    reset(){ el.input.value = ''; el.clear.hidden = true; },
-  };
+/* Countries and cities in one list, biggest first, each labelled so you can
+   tell London the city from the United Kingdom the country. */
+function locOptions(){
+  const typed = $('#locInput').value.trim().toLowerCase();
+  const rows = [
+    ...tally('loc', 'country').map(([v,n]) => ({ id:'country:'+v, v, n, kind:'country' })),
+    ...tally('loc', 'city').map(([v,n])    => ({ id:'city:'+v,    v, n, kind:'city' })),
+  ].sort((a,b) => b.n - a.n || a.v.localeCompare(b.v));
+  return typed && typed !== locValue().toLowerCase()
+    ? rows.filter(r => r.v.toLowerCase().includes(typed))
+    : rows;
 }
-
-/* Companies are listed most-hiring first — that is the useful order here. */
-const coCombo = makeCombo({ input:'#coInput', list:'#coList', clear:'#coClear',
-  key:'company', field:'company', sortBy:(a,b) => b[1] - a[1] || a[0].localeCompare(b[0]) });
-const cityCombo = makeCombo({ input:'#cityInput', list:'#cityList', clear:'#cityClear',
-  key:'city', field:'city' });
+function drawList(){
+  combo.items = locOptions();
+  if (combo.active >= combo.items.length) combo.active = combo.items.length - 1;
+  $('#locList').innerHTML = combo.items.length
+    ? combo.items.map((r,i) =>
+        `<li id="loc-${i}" role="option" data-id="${esc(r.id)}" data-v="${esc(r.v)}"
+             aria-selected="${i === combo.active}"
+          ><span>${esc(r.v)}<span class="kind">${r.kind}</span></span
+          ><span class="n">${r.n}</span></li>`).join('')
+    : '<li class="none">Nowhere matches that</li>';
+}
+function openCombo(){
+  combo.open = true; drawList();
+  $('#locList').hidden = false;
+  $('#locInput').setAttribute('aria-expanded', 'true');
+}
+function closeCombo(){
+  combo.open = false; combo.active = -1;
+  $('#locList').hidden = true;
+  $('#locInput').setAttribute('aria-expanded', 'false');
+  $('#locInput').removeAttribute('aria-activedescendant');
+  $('#locInput').value = locValue();   // typing without choosing changes nothing
+}
+function pickLoc(id, v){
+  set({ loc: id });            // state first: closeCombo restores the input from it
+  $('#locInput').value = v;
+  closeCombo();
+}
 
 function render(){
   const list = match();
   drawTabs(); drawControls();
-  coCombo.refresh(); cityCombo.refresh();
+  if (combo.open) drawList();
+  $('#locClear').hidden = !$('#locInput').value;
 
   const firms = new Set(list.map(j => j.company)).size;
   $('#count').textContent = list.length
     ? `${list.length} ${list.length === 1 ? 'job' : 'jobs'} at ` +
       `${firms} ${firms === 1 ? 'company' : 'companies'}`
     : '';
-  $('#clear').hidden = !(state.disc || state.company || state.country ||
-                         state.city || state.work.length || state.type);
+  $('#clear').hidden = !(state.disc || state.loc || state.work.length || state.type);
 
   const page = list.slice(0, state.shown);
   $('#list').innerHTML = list.length ? page.map(j => `
@@ -385,15 +325,6 @@ $('#tabs').addEventListener('click', e => {
 $('#list').addEventListener('click', e => {
   if (e.target.id === 'more'){ state.shown += PAGE; render(); }
 });
-
-/* Changing country drops a city that no longer belongs to it. */
-$('#country').addEventListener('change', e => {
-  const c = e.target.value;
-  const keep = !state.city ||
-    state.jobs.some(j => j.city === state.city && (!c || j.country === c));
-  if (!keep) cityCombo.reset();
-  set({ country: c, city: keep ? state.city : '' });
-});
 $('#type').addEventListener('change', e => set({ type: e.target.value }));
 $('#sort').addEventListener('change', e => set({ sort: e.target.value }));
 
@@ -403,9 +334,42 @@ $('#work').addEventListener('click', e => {
   set({ work: state.work.includes(w) ? state.work.filter(x => x !== w) : [...state.work, w] });
 });
 
+$('#locInput').addEventListener('focus', openCombo);
+$('#locInput').addEventListener('input', () => {
+  combo.active = -1;
+  if (!combo.open) openCombo(); else drawList();
+  $('#locClear').hidden = !$('#locInput').value;
+  if (!$('#locInput').value && state.loc) set({ loc: '' });
+});
+$('#locInput').addEventListener('keydown', e => {
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+    e.preventDefault();
+    if (!combo.open) return openCombo();
+    const n = combo.items.length; if (!n) return;
+    combo.active = (combo.active + (e.key === 'ArrowDown' ? 1 : -1) + n + 1) % n;
+    drawList();
+    $('#locInput').setAttribute('aria-activedescendant', 'loc-' + combo.active);
+    $('#locList').children[combo.active].scrollIntoView({ block: 'nearest' });
+  } else if (e.key === 'Enter'){
+    e.preventDefault();
+    const hit = combo.items[combo.active] || (combo.items.length === 1 ? combo.items[0] : null);
+    if (hit) pickLoc(hit.id, hit.v);
+  } else if (e.key === 'Escape'){
+    closeCombo();
+  }
+});
+$('#locList').addEventListener('mousedown', e => {
+  const li = e.target.closest('li[data-id]'); if (!li) return;
+  e.preventDefault(); pickLoc(li.dataset.id, li.dataset.v);
+});
+$('#locInput').addEventListener('blur', () => setTimeout(closeCombo, 0));
+$('#locClear').addEventListener('click', () => {
+  $('#locInput').value = ''; $('#locInput').focus(); set({ loc: '' });
+});
+
 $('#clear').addEventListener('click', () => {
-  coCombo.reset(); cityCombo.reset();
-  set({ disc: '', company: '', country: '', city: '', work: [], type: '' });
+  $('#locInput').value = '';
+  set({ disc: '', loc: '', work: [], type: '' });
 });
 </script>
 </body>
