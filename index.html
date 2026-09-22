@@ -8,12 +8,12 @@
 <style>
 :root{
   --bg:#f3f4f6; --card:#fff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af;
-  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb; --sel:#111827;
+  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb; --sel:#111827; --sel-ink:#fff;
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{
   --bg:#0f1114; --card:#171a1f; --ink:#e7e9ec; --muted:#9aa2ad; --faint:#6b7280;
-  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026; --sel:#e7e9ec;
+  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026; --sel:#e7e9ec; --sel-ink:#12151a;
 }}
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -22,13 +22,12 @@ a{color:var(--link)}
 :focus-visible{outline:2px solid var(--link);outline-offset:2px}
 .in{max-width:920px;margin:0 auto;padding:0 20px}
 
-header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header{background:var(--card);border-bottom:1px solid var(--line)}
 h1{font-size:1.05rem;font-weight:600;margin:0;padding:14px 0 12px}
 .search{padding-bottom:12px}
-input[type=search],select{
-  background:var(--card);border:1px solid var(--line);border-radius:6px;
+input,select{background:var(--card);border:1px solid var(--line);border-radius:6px;
   padding:8px 11px;font:inherit;color:inherit;min-width:0;max-width:100%}
-input[type=search]{width:100%;font-size:15px}
+#q{width:100%;font-size:15px}
 
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabs::-webkit-scrollbar{display:none}
@@ -38,15 +37,40 @@ input[type=search]{width:100%;font-size:15px}
 .tab[aria-selected=true]{color:var(--ink);font-weight:600;border-bottom-color:var(--sel)}
 .tab .n{color:var(--faint);font-size:.82em;margin-left:5px;font-variant-numeric:tabular-nums}
 
-.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:14px 0 0}
-.filters select{font-size:.9rem;padding:6px 9px}
-.filters select:disabled{opacity:.5}
-.clear{background:none;border:0;padding:6px 4px;font:inherit;font-size:.88rem;
+/* Filters */
+.filters{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;padding:16px 0 0}
+.f{display:flex;flex-direction:column;gap:5px;min-width:0}
+.f > label,.f > .lbl{font-size:.74rem;font-weight:600;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--muted)}
+.f select{font-size:.92rem;padding:7px 10px;min-width:170px}
+
+.combo{position:relative}
+.combo input{width:190px;font-size:.92rem;padding:7px 28px 7px 10px}
+.combo .x{position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  background:none;border:0;padding:4px 6px;line-height:1;color:var(--muted);cursor:pointer;font-size:1rem}
+.combo ul{position:absolute;z-index:20;top:calc(100% + 4px);left:0;min-width:100%;
+  max-height:240px;overflow-y:auto;margin:0;padding:4px;list-style:none;
+  background:var(--card);border:1px solid var(--line);border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.combo li{display:flex;justify-content:space-between;gap:14px;white-space:nowrap;
+  padding:6px 9px;border-radius:5px;cursor:pointer;font-size:.92rem}
+.combo li[aria-selected=true],.combo li:hover{background:var(--chip)}
+.combo li .n{color:var(--faint);font-variant-numeric:tabular-nums}
+.combo li.none{color:var(--muted);cursor:default}
+
+.pills{display:flex;gap:6px;flex-wrap:wrap}
+.pill{background:var(--card);border:1px solid var(--line);border-radius:99px;
+  padding:6px 13px;font:inherit;font-size:.9rem;color:inherit;cursor:pointer}
+.pill:hover{background:var(--hover)}
+.pill[aria-pressed=true]{background:var(--sel);color:var(--sel-ink);border-color:var(--sel)}
+.pill .n{opacity:.6;font-size:.86em;margin-left:5px;font-variant-numeric:tabular-nums}
+.clear{background:none;border:0;padding:8px 2px;font:inherit;font-size:.88rem;
   color:var(--link);cursor:pointer;text-decoration:underline}
 
 .head{display:flex;justify-content:space-between;align-items:center;gap:12px;
-  flex-wrap:wrap;padding:16px 0 10px}
+  flex-wrap:wrap;padding:18px 0 10px}
 .count{color:var(--muted);font-size:.9rem}
+.head select{font-size:.9rem;padding:6px 9px}
 
 .job{background:var(--card);border:1px solid var(--line);border-radius:8px;
   padding:13px 16px;margin-bottom:8px}
@@ -67,7 +91,11 @@ input[type=search]{width:100%;font-size:15px}
 .more:hover{background:var(--hover)}
 footer{color:var(--faint);font-size:.82rem;padding:24px 0 40px}
 footer p{margin:4px 0}
-@media(max-width:560px){.date{margin-left:0;width:100%}.filters select{flex:1 1 44%}}
+@media(max-width:560px){
+  .date{margin-left:0;width:100%}
+  .f{flex:1 1 100%}
+  .f select,.combo input{width:100%;min-width:0}
+}
 </style>
 </head>
 <body>
@@ -84,10 +112,31 @@ footer p{margin:4px 0}
 
 <div class="in">
   <div class="filters">
-    <select id="country" aria-label="Country"><option value="">All countries</option></select>
-    <select id="city" aria-label="City"><option value="">All cities</option></select>
-    <select id="work" aria-label="Work setting"><option value="">Any setting</option></select>
-    <select id="type" aria-label="Job type"><option value="">Any type</option></select>
+    <div class="f">
+      <label for="cityInput">City</label>
+      <div class="combo">
+        <input id="cityInput" type="text" placeholder="Any city" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-controls="cityList" aria-autocomplete="list">
+        <button class="x" id="cityClear" hidden aria-label="Clear city">&times;</button>
+        <ul id="cityList" role="listbox" aria-label="City" hidden></ul>
+      </div>
+    </div>
+
+    <div class="f">
+      <label for="country">Country</label>
+      <select id="country"><option value="">All countries</option></select>
+    </div>
+
+    <div class="f">
+      <label for="type">Employment type</label>
+      <select id="type"><option value="">All types</option></select>
+    </div>
+
+    <div class="f">
+      <span class="lbl" id="workLbl">Workplace</span>
+      <div class="pills" id="work" role="group" aria-labelledby="workLbl"></div>
+    </div>
+
     <button class="clear" id="clear" hidden>Clear filters</button>
   </div>
 
@@ -111,7 +160,7 @@ footer p{margin:4px 0}
 <script>
 const $ = s => document.querySelector(s);
 const PAGE = 40;
-const state = { jobs: [], disc: '', q: '', country: '', city: '', work: '', type: '', sort: 'new', shown: PAGE };
+const state = { jobs: [], disc: '', q: '', country: '', city: '', work: [], type: '', sort: 'new', shown: PAGE };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
@@ -132,16 +181,16 @@ function ago(d){
   return Math.floor(n / 30) + ' months ago';
 }
 
-/* One filter at a time can be skipped, so each dropdown can be populated
-   from what the OTHER filters leave — that is what keeps its options live. */
+/* A filter can be skipped, so each control can be populated from what the
+   OTHER filters leave — that is what keeps its options and counts live. */
 function pass(j, skip){
-  if (skip !== 'disc'    && state.disc    && j.discipline !== state.disc) return false;
   const geo = skip === 'geo';   // country is the parent of city, so the country
                                 // list ignores both, or you could never switch
+  if (skip !== 'disc' && state.disc && j.discipline !== state.disc) return false;
   if (!geo && skip !== 'country' && state.country && j.country !== state.country) return false;
   if (!geo && skip !== 'city'    && state.city    && j.city !== state.city) return false;
-  if (skip !== 'work'    && state.work    && j.workplace !== state.work) return false;
-  if (skip !== 'type'    && state.type    && j.type !== state.type) return false;
+  if (skip !== 'work' && state.work.length && !state.work.includes(j.workplace)) return false;
+  if (skip !== 'type' && state.type && j.type !== state.type) return false;
   if (state.q){
     const q = state.q.toLowerCase();
     if (!(j.title + ' ' + j.company).toLowerCase().includes(q)) return false;
@@ -154,51 +203,96 @@ function match(skip){
   if (state.sort === 'title')   out.sort((a,b) => a.title.localeCompare(b.title));
   return out;
 }
+/* [value, count] pairs for one field, from the pool that ignores that field. */
+function tally(skip, key){
+  const n = {};
+  match(skip).forEach(j => { if (j[key]) n[j[key]] = (n[j[key]] || 0) + 1; });
+  return Object.entries(n);
+}
 
 const ORDER = ['Product & UX','Brand','Motion','Content','Research','Design ops','Leadership','Other'];
-const WORK_ORDER = ['Remote','Hybrid','On-site'];
+const WORK_ORDER = ['On-site','Hybrid','Remote'];
+const byOrder = list => (a,b) => {
+  const i = list.indexOf(a[0]), k = list.indexOf(b[0]);
+  return (i < 0 ? 99 : i) - (k < 0 ? 99 : k);
+};
 
 function drawTabs(){
   const pool = match('disc');
   const n = {}; pool.forEach(j => n[j.discipline] = (n[j.discipline] || 0) + 1);
-  const names = Object.keys(n).sort((a,b) => {
-    const i = ORDER.indexOf(a), k = ORDER.indexOf(b);
-    return (i < 0 ? 99 : i) - (k < 0 ? 99 : k);
-  });
-  $('#tabs').innerHTML = [['All', '', pool.length], ...names.map(d => [d, d, n[d]])]
-    .map(([label, val, c]) =>
-      `<button class="tab" role="tab" data-d="${esc(val)}" aria-selected="${val === state.disc}">
+  const rows = Object.entries(n).sort(byOrder(ORDER));
+  $('#tabs').innerHTML = [['All', pool.length], ...rows]
+    .map(([label, c], i) =>
+      `<button class="tab" role="tab" data-d="${i ? esc(label) : ''}"
+         aria-selected="${(i ? label : '') === state.disc}">
          ${esc(label)}<span class="n">${c}</span></button>`).join('');
 }
 
-function fillSelect(el, values, allLabel, current){
-  el.innerHTML = `<option value="">${allLabel}</option>` +
-    values.map(v => `<option value="${esc(v)}"${v === current ? ' selected' : ''}>${esc(v)}</option>`).join('');
-  el.disabled = values.length === 0;
+function drawControls(){
+  const countries = tally('geo', 'country')
+    .sort((a,b) => a[0] === 'Other' ? 1 : b[0] === 'Other' ? -1 : a[0].localeCompare(b[0]));
+  $('#country').innerHTML = '<option value="">All countries</option>' +
+    countries.map(([v,c]) =>
+      `<option value="${esc(v)}"${v === state.country ? ' selected' : ''}>${esc(v)} (${c})</option>`).join('');
+
+  const types = tally('type', 'type').sort((a,b) => a[0].localeCompare(b[0]));
+  $('#type').innerHTML = '<option value="">All types</option>' +
+    types.map(([v,c]) =>
+      `<option value="${esc(v)}"${v === state.type ? ' selected' : ''}>${esc(v)} (${c})</option>`).join('');
+
+  const works = Object.fromEntries(tally('work', 'workplace'));
+  $('#work').innerHTML = WORK_ORDER.map(w =>
+    `<button class="pill" data-w="${esc(w)}" aria-pressed="${state.work.includes(w)}">
+       ${esc(w)}<span class="n">${works[w] || 0}</span></button>`).join('');
 }
 
-const uniq = (list, key) => [...new Set(list.map(j => j[key]).filter(Boolean))];
+/* ---- City combobox: type to narrow, click or Enter to pick ---- */
+const combo = { open: false, items: [], active: -1 };
 
-function drawSelects(){
-  const countries = uniq(match('geo'), 'country')
-    .sort((a,b) => a === 'Other' ? 1 : b === 'Other' ? -1 : a.localeCompare(b));
-  const cities = uniq(match('city'), 'city').sort((a,b) => a.localeCompare(b));
-  const works  = uniq(match('work'), 'workplace')
-    .sort((a,b) => WORK_ORDER.indexOf(a) - WORK_ORDER.indexOf(b));
-  const types  = uniq(match('type'), 'type').sort();
-
-  fillSelect($('#country'), countries, 'All countries', state.country);
-  fillSelect($('#city'),    cities,    'All cities',    state.city);
-  fillSelect($('#work'),    works,     'Any setting',   state.work);
-  fillSelect($('#type'),    types,     'Any type',      state.type);
+function cityOptions(){
+  const typed = $('#cityInput').value.trim().toLowerCase();
+  const all = tally('city', 'city').sort((a,b) => a[0].localeCompare(b[0]));
+  return typed && typed !== state.city.toLowerCase()
+    ? all.filter(([v]) => v.toLowerCase().includes(typed))
+    : all;
+}
+function drawCityList(){
+  combo.items = cityOptions();
+  if (combo.active >= combo.items.length) combo.active = combo.items.length - 1;
+  $('#cityList').innerHTML = combo.items.length
+    ? combo.items.map(([v,c], i) =>
+        `<li id="city-${i}" role="option" data-v="${esc(v)}"
+             aria-selected="${i === combo.active}">${esc(v)}<span class="n">${c}</span></li>`).join('')
+    : '<li class="none">No city matches</li>';
+}
+function openCombo(){
+  combo.open = true; drawCityList();
+  $('#cityList').hidden = false;
+  $('#cityInput').setAttribute('aria-expanded', 'true');
+}
+function closeCombo(){
+  combo.open = false; combo.active = -1;
+  $('#cityList').hidden = true;
+  $('#cityInput').setAttribute('aria-expanded', 'false');
+  $('#cityInput').removeAttribute('aria-activedescendant');
+  /* Typing without choosing leaves the filter as it was. */
+  $('#cityInput').value = state.city;
+}
+function pickCity(v){
+  $('#cityInput').value = v;
+  closeCombo();
+  set({ city: v });
 }
 
 function render(){
   const list = match();
-  drawTabs(); drawSelects();
+  drawTabs(); drawControls();
+  if (combo.open) drawCityList();
 
+  $('#cityClear').hidden = !$('#cityInput').value;
   $('#count').textContent = list.length === 1 ? '1 job' : list.length + ' jobs';
-  $('#clear').hidden = !(state.disc || state.country || state.city || state.work || state.type || state.q);
+  $('#clear').hidden = !(state.disc || state.country || state.city ||
+                         state.work.length || state.type || state.q);
 
   const page = list.slice(0, state.shown);
   $('#list').innerHTML = list.length ? page.map(j => `
@@ -237,20 +331,60 @@ $('#list').addEventListener('click', e => {
   if (e.target.id === 'more'){ state.shown += PAGE; render(); }
 });
 $('#q').addEventListener('input', e => set({ q: e.target.value }));
-/* Changing country clears a city that no longer belongs to it. */
+
+/* Changing country drops a city that no longer belongs to it. */
 $('#country').addEventListener('change', e => {
   const c = e.target.value;
-  const stillThere = !state.city ||
+  const keep = !state.city ||
     state.jobs.some(j => j.city === state.city && (!c || j.country === c));
-  set({ country: c, city: stillThere ? state.city : '' });
+  if (!keep) $('#cityInput').value = '';
+  set({ country: c, city: keep ? state.city : '' });
 });
-$('#city').addEventListener('change', e => set({ city: e.target.value }));
-$('#work').addEventListener('change', e => set({ work: e.target.value }));
 $('#type').addEventListener('change', e => set({ type: e.target.value }));
 $('#sort').addEventListener('change', e => set({ sort: e.target.value }));
+
+$('#work').addEventListener('click', e => {
+  const b = e.target.closest('.pill'); if (!b) return;
+  const w = b.dataset.w;
+  set({ work: state.work.includes(w) ? state.work.filter(x => x !== w) : [...state.work, w] });
+});
+
+$('#cityInput').addEventListener('focus', openCombo);
+$('#cityInput').addEventListener('input', () => {
+  combo.active = -1;
+  if (!combo.open) openCombo(); else drawCityList();
+  $('#cityClear').hidden = !$('#cityInput').value;
+  if (!$('#cityInput').value && state.city) set({ city: '' });
+});
+$('#cityInput').addEventListener('keydown', e => {
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+    e.preventDefault();
+    if (!combo.open) return openCombo();
+    const n = combo.items.length; if (!n) return;
+    combo.active = (combo.active + (e.key === 'ArrowDown' ? 1 : -1) + n + 1) % n;
+    drawCityList();
+    $('#cityInput').setAttribute('aria-activedescendant', 'city-' + combo.active);
+    $('#cityList').children[combo.active].scrollIntoView({ block: 'nearest' });
+  } else if (e.key === 'Enter'){
+    e.preventDefault();
+    const hit = combo.items[combo.active] || (combo.items.length === 1 ? combo.items[0] : null);
+    if (hit) pickCity(hit[0]);
+  } else if (e.key === 'Escape'){
+    closeCombo();
+  }
+});
+$('#cityList').addEventListener('mousedown', e => {
+  const li = e.target.closest('li[data-v]'); if (!li) return;
+  e.preventDefault(); pickCity(li.dataset.v);
+});
+$('#cityInput').addEventListener('blur', () => setTimeout(closeCombo, 0));
+$('#cityClear').addEventListener('click', () => {
+  $('#cityInput').value = ''; $('#cityInput').focus(); set({ city: '' });
+});
+
 $('#clear').addEventListener('click', () => {
-  $('#q').value = '';
-  set({ disc: '', country: '', city: '', work: '', type: '', q: '' });
+  $('#q').value = ''; $('#cityInput').value = '';
+  set({ disc: '', country: '', city: '', work: [], type: '', q: '' });
 });
 </script>
 </body>
