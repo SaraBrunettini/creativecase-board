@@ -23,8 +23,7 @@ a{color:var(--link)}
 .in{max-width:920px;margin:0 auto;padding:0 20px}
 
 header{background:var(--card);border-bottom:1px solid var(--line)}
-h1{font-size:1.05rem;font-weight:600;margin:0;padding:14px 0 4px}
-.sub{color:var(--muted);font-size:.9rem;margin:0;padding-bottom:12px}
+h1{font-size:1.05rem;font-weight:600;margin:0;padding:14px 0 12px}
 input,select{background:var(--card);border:1px solid var(--line);border-radius:6px;
   padding:8px 11px;font:inherit;color:inherit;min-width:0;max-width:100%}
 
@@ -34,7 +33,6 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
   padding:9px 12px;font:inherit;font-size:.93rem;color:var(--muted);cursor:pointer;white-space:nowrap}
 .tab:hover{color:var(--ink)}
 .tab[aria-selected=true]{color:var(--ink);font-weight:600;border-bottom-color:var(--sel)}
-.tab .n{color:var(--faint);font-size:.82em;margin-left:5px;font-variant-numeric:tabular-nums}
 
 /* Filters */
 .filters{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;padding:16px 0 0}
@@ -57,8 +55,6 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
 .combo li.grp{display:block;padding:9px 9px 3px;font-size:.7rem;font-weight:600;
   letter-spacing:.06em;text-transform:uppercase;color:var(--faint);cursor:default}
 .combo li.grp:hover{background:none}
-.combo li .rem{color:var(--faint)}
-.combo li .n{color:var(--faint);font-variant-numeric:tabular-nums}
 .combo li.none{color:var(--muted);cursor:default}
 
 .pills{display:flex;gap:6px;flex-wrap:wrap}
@@ -66,14 +62,10 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
   padding:6px 13px;font:inherit;font-size:.9rem;color:inherit;cursor:pointer}
 .pill:hover{background:var(--hover)}
 .pill[aria-pressed=true]{background:var(--sel);color:var(--sel-ink);border-color:var(--sel)}
-.pill .n{opacity:.6;font-size:.86em;margin-left:5px;font-variant-numeric:tabular-nums}
 .clear{background:none;border:0;padding:8px 2px;font:inherit;font-size:.88rem;
   color:var(--link);cursor:pointer;text-decoration:underline}
 
-.head{display:flex;justify-content:space-between;align-items:center;gap:12px;
-  flex-wrap:wrap;padding:18px 0 10px}
-.count{color:var(--muted);font-size:.9rem}
-.head select{font-size:.9rem;padding:6px 9px}
+.count{color:var(--muted);font-size:.9rem;margin:0;padding:18px 0 10px}
 
 .job{background:var(--card);border:1px solid var(--line);border-radius:8px;
   padding:13px 16px;margin-bottom:8px}
@@ -106,7 +98,6 @@ footer p{margin:4px 0}
 <header>
   <div class="in">
     <h1>Creative jobs</h1>
-    <p class="sub" id="sub"></p>
     <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
   </div>
 </header>
@@ -136,20 +127,13 @@ footer p{margin:4px 0}
     <button class="clear" id="clear" hidden>Clear filters</button>
   </div>
 
-  <div class="head">
-    <span class="count" id="count"></span>
-    <select id="sort" aria-label="Sort by">
-      <option value="new">Most recent</option>
-      <option value="company">Company A-Z</option>
-      <option value="title">Job title A-Z</option>
-    </select>
-  </div>
+  <p class="count" id="count"></p>
 
   <div id="list"><p class="note">Loading...</p></div>
 
   <footer>
     <p id="updated"></p>
-    <p>Roles are read from each company's own careers feed and link to the original posting. No account, no tracking.</p>
+    <p>Read from each company's own careers page. No account, no tracking.</p>
   </footer>
 </div>
 
@@ -157,7 +141,7 @@ footer p{margin:4px 0}
 const $ = s => document.querySelector(s);
 const PAGE = 40;
 /* loc is one field holding either a city or a country, as "city:London". */
-const state = { jobs: [], disc: '', loc: '', work: [], type: '', sort: 'new', shown: PAGE };
+const state = { jobs: [], disc: '', loc: '', work: [], type: '', shown: PAGE };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
@@ -190,12 +174,8 @@ function pass(j, skip){
   if (skip !== 'type' && state.type && j.type !== state.type) return false;
   return true;
 }
-function match(skip){
-  const out = state.jobs.filter(j => pass(j, skip));
-  if (state.sort === 'company') out.sort((a,b) => a.company.localeCompare(b.company));
-  if (state.sort === 'title')   out.sort((a,b) => a.title.localeCompare(b.title));
-  return out;
-}
+/* jobs.json arrives newest first, so the order is already right. */
+function match(skip){ return state.jobs.filter(j => pass(j, skip)); }
 /* [value, count] pairs for one field, from the pool that ignores that field. */
 function tally(skip, key){
   const n = {};
@@ -213,23 +193,21 @@ function drawTabs(){
     const i = ORDER.indexOf(a[0]), k = ORDER.indexOf(b[0]);
     return (i < 0 ? 99 : i) - (k < 0 ? 99 : k);
   });
-  $('#tabs').innerHTML = [['All', pool.length], ...rows]
-    .map(([label, c], i) =>
+  $('#tabs').innerHTML = ['All', ...rows.map(r => r[0])]
+    .map((label, i) =>
       `<button class="tab" role="tab" data-d="${i ? esc(label) : ''}"
-         aria-selected="${(i ? label : '') === state.disc}">
-         ${esc(label)}<span class="n">${c}</span></button>`).join('');
+         aria-selected="${(i ? label : '') === state.disc}">${esc(label)}</button>`).join('');
 }
 
 function drawControls(){
   const types = tally('type', 'type').sort((a,b) => a[0].localeCompare(b[0]));
   $('#type').innerHTML = '<option value="">All types</option>' +
-    types.map(([v,c]) =>
-      `<option value="${esc(v)}"${v === state.type ? ' selected' : ''}>${esc(v)} (${c})</option>`).join('');
+    types.map(([v]) =>
+      `<option value="${esc(v)}"${v === state.type ? ' selected' : ''}>${esc(v)}</option>`).join('');
 
-  const works = Object.fromEntries(tally('work', 'workplace'));
   $('#work').innerHTML = WORK_ORDER.map(w =>
-    `<button class="pill" data-w="${esc(w)}" aria-pressed="${state.work.includes(w)}">
-       ${esc(w)}<span class="n">${works[w] || 0}</span></button>`).join('');
+    `<button class="pill" data-w="${esc(w)}" aria-pressed="${state.work.includes(w)}"
+      >${esc(w)}</button>`).join('');
 }
 
 /* ---- Location typeahead: one box for cities and countries alike ---- */
@@ -241,18 +219,13 @@ const combo = { open: false, items: [], active: -1 };
    remote, since a country with no city usually means remote in that country. */
 function locGroups(){
   const typed = $('#locInput').value.trim().toLowerCase();
-  const remoteBy = {};
-  match('loc').forEach(j => {
-    if (j.workplace === 'Remote' && j.country) remoteBy[j.country] = (remoteBy[j.country] || 0) + 1;
-  });
-
   const keep = r => !typed || typed === locValue().toLowerCase() || r.v.toLowerCase().includes(typed);
   const bySize = (a,b) => b.n - a.n || a.v.localeCompare(b.v);
 
   const cities = tally('loc', 'city').map(([v,n]) => ({ id:'city:'+v, v, n }));
   /* "Other" holds roles whose location we could not place - not worth offering. */
   const countries = tally('loc', 'country').filter(([v]) => v !== 'Other')
-    .map(([v,n]) => ({ id:'country:'+v, v, n, remote: remoteBy[v] || 0 }));
+    .map(([v,n]) => ({ id:'country:'+v, v, n }));
 
   return [['Cities', cities.filter(keep).sort(bySize)],
           ['Countries', countries.filter(keep).sort(bySize)]]
@@ -269,9 +242,7 @@ function drawList(){
         rows.map(r => {
           i++;
           return `<li id="loc-${i}" role="option" data-id="${esc(r.id)}" data-v="${esc(r.v)}"
-                       aria-selected="${i === combo.active}"
-                    ><span>${esc(r.v)}</span><span class="n">${r.n}${
-                      r.remote ? ` <span class="rem">&middot; ${r.remote} remote</span>` : ''}</span></li>`;
+                       aria-selected="${i === combo.active}">${esc(r.v)}</li>`;
         }).join('')).join('')
     : '<li class="none">Nowhere matches that</li>';
 }
@@ -299,11 +270,8 @@ function render(){
   if (combo.open) drawList();
   $('#locClear').hidden = !$('#locInput').value;
 
-  const firms = new Set(list.map(j => j.company)).size;
   $('#count').textContent = list.length
-    ? `${list.length} ${list.length === 1 ? 'job' : 'jobs'} at ` +
-      `${firms} ${firms === 1 ? 'company' : 'companies'}`
-    : '';
+    ? `${list.length} ${list.length === 1 ? 'job' : 'jobs'}` : '';
   $('#clear').hidden = !(state.disc || state.loc || state.work.length || state.type);
 
   const page = list.slice(0, state.shown);
@@ -314,8 +282,8 @@ function render(){
       <p class="loc">${esc(j.location)}</p>
       <div class="tags">
         <span class="tag">${esc(j.discipline)}</span>
-        <span class="tag">${esc(j.type)}</span>
-        ${j.workplace && j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
+        ${j.type !== 'Full-time' ? `<span class="tag">${esc(j.type)}</span>` : ''}
+        ${j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
         ${ago(j.posted) ? `<span class="date">${esc(ago(j.posted))}</span>` : ''}
       </div>
     </article>`).join('') +
@@ -330,11 +298,7 @@ fetch('jobs.json?' + Date.now())
   .then(r => r.json())
   .then(d => {
     state.jobs = d.jobs || [];
-    const hiring = new Set(state.jobs.map(j => j.company)).size;
-    $('#sub').textContent =
-      `${d.count} open roles at ${hiring} companies, read from their own careers pages.`;
-    $('#updated').textContent =
-      `Last updated ${(ago(d.updated) || 'today').toLowerCase()}. ${d.companies} company feeds checked.`;
+    $('#updated').textContent = `Updated ${(ago(d.updated) || 'today').toLowerCase()}.`;
     render();
   })
   .catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs. Please try again later.</p>'; });
@@ -346,7 +310,6 @@ $('#list').addEventListener('click', e => {
   if (e.target.id === 'more'){ state.shown += PAGE; render(); }
 });
 $('#type').addEventListener('change', e => set({ type: e.target.value }));
-$('#sort').addEventListener('change', e => set({ sort: e.target.value }));
 
 $('#work').addEventListener('click', e => {
   const b = e.target.closest('.pill'); if (!b) return;
