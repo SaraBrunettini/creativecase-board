@@ -1,8 +1,56 @@
 {
- "updated": "2026-09-22T21:08:25.103Z",
+ "updated": "2026-09-22T21:25:55.477Z",
  "companies": 46,
  "count": 99,
  "jobs": [
+  {
+   "title": "Creative Project Manager (H/F)",
+   "company": "Deliveroo",
+   "location": "Paris, France",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Junior Designer - Kuwaiti National Only",
+   "company": "Deliveroo",
+   "location": "Kuwait, Kuwait",
+   "country": "Kuwait",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202562",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Staff Product Designer (12-Month FTC)",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
+   "posted": "2026-09-22"
+  },
   {
    "title": "Senior Manager, Product Design (f/m/d)",
    "company": "Contentful",
@@ -98,54 +146,6 @@
    "workplace": "On-site",
    "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
    "posted": "2026-09-22"
-  },
-  {
-   "title": "Creative Project Manager (H/F)",
-   "company": "Deliveroo",
-   "location": "Paris, France",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Junior Designer - Kuwaiti National Only",
-   "company": "Deliveroo",
-   "location": "Kuwait, Kuwait",
-   "country": "Kuwait",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202562",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Staff Product Designer (12-Month FTC)",
-   "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
-   "posted": "2026-09-21"
   },
   {
    "title": "Product Designer - Grow & Engage",
