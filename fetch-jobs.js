@@ -27,6 +27,8 @@ const ATS = {
       location: j.categories && j.categories.location,
       url: j.hostedUrl,
       posted: j.createdAt && new Date(j.createdAt).toISOString(),
+      type: j.categories && j.categories.commitment,
+      remote: j.workplaceType === 'remote',
     })),
   },
   ashby: {
@@ -36,12 +38,13 @@ const ATS = {
       location: j.location,
       url: j.jobUrl || j.applyUrl,
       posted: j.publishedAt,
+      type: j.employmentType,
       remote: j.isRemote,
     })),
   },
 };
 
-/* Which roles belong on a creative board, and what discipline each is.
+/* Which roles belong on the board, and what discipline each is.
    First match wins, so order matters. */
 const DISCIPLINES = [
   ['Research',   /\b(ux research|user research|design research|researcher)\b/i],
@@ -74,11 +77,27 @@ function discipline(title) {
   return null;
 }
 
-/* Europe only. */
-const EUROPE = /\b(uk|united kingdom|england|scotland|wales|london|manchester|bristol|edinburgh|glasgow|cambridge|oxford|leeds|brighton|reading|dublin|ireland|berlin|munich|münchen|hamburg|frankfurt|cologne|germany|deutschland|paris|france|lyon|amsterdam|rotterdam|utrecht|netherlands|madrid|barcelona|spain|lisbon|porto|portugal|milan|rome|italy|stockholm|sweden|copenhagen|denmark|oslo|norway|helsinki|finland|warsaw|krak|poland|prague|czech|zurich|zürich|geneva|switzerland|vienna|austria|brussels|belgium|europe|emea)\b/i;
+/* Employment type. Lever and Ashby publish it; Greenhouse does not, so for
+   those it is read off the title, defaulting to full-time. */
+const TYPE_WORDS = [
+  ['Internship', /\b(intern|internship|working student|werkstudent|placement|apprentice|graduate scheme|praktikum|stage)\b/i],
+  ['Contract',   /\b(contract|contractor|freelance|fixed[- ]term|\bftc\b|maternity cover|interim|temporary|temp\b)\b/i],
+  ['Part-time',  /\b(part[- ]time|teilzeit|0\.[1-9] fte|\d0% fte)\b/i],
+];
 
-const isEurope = (loc, remote) =>
-  !loc ? false : EUROPE.test(loc) || (remote && /remote/i.test(loc));
+function employmentType(raw, title) {
+  const r = String(raw || '').toLowerCase().replace(/[^a-z]/g, '');
+  if (r) {
+    if (r.startsWith('intern')) return 'Internship';
+    if (r.startsWith('parttime')) return 'Part-time';
+    if (r.startsWith('fulltime')) return 'Full-time';
+    if (r.startsWith('contract') || r.startsWith('temporary')) return 'Contract';
+  }
+  for (const [name, re] of TYPE_WORDS) if (re.test(title || '')) return name;
+  return 'Full-time';
+}
+
+const isRemote = (loc, flag) => !!flag || /\bremote\b|\bwork from home\b/i.test(loc || '');
 
 /* Guess the board name from the company name. */
 function slugsFor(name) {
@@ -108,9 +127,6 @@ async function pool(items, size, fn) {
   return out;
 }
 
-const prettyName = slug =>
-  slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-
 (async () => {
   if (typeof fetch !== 'function') {
     console.error('Needs Node 18+.'); process.exit(1);
@@ -133,7 +149,7 @@ const prettyName = slug =>
       for (const ats of Object.keys(ATS)) targets.push({ name, slug, ats });
   }
 
-  console.log(`${names.length} companies → ${targets.length} feed requests`);
+  console.log(`${names.length} companies -> ${targets.length} feed requests`);
   const feeds = (await pool(targets, 20, t =>
     fetchFeed(t.slug, t.ats).then(r => r && { ...r, name: t.name })
   )).filter(Boolean);
@@ -146,20 +162,22 @@ const prettyName = slug =>
   }
 
   const registry = {}, jobs = [];
+  let scanned = 0;
   for (const [name, f] of best) {
     registry[name] = { slug: f.slug, ats: f.ats, seen: new Date().toISOString().slice(0, 10) };
+    scanned += f.rows.length;
     for (const r of f.rows) {
       const disc = discipline(r.title);
       if (!disc) continue;
-      if (!isEurope(r.location, r.remote)) continue;
       jobs.push({
-        title: r.title,
+        title: r.title.trim(),
         company: name,
-        location: r.location || 'Not stated',
+        location: (r.location || 'Not stated').trim(),
         discipline: disc,
+        type: employmentType(r.type, r.title),
         url: r.url,
         posted: r.posted ? String(r.posted).slice(0, 10) : null,
-        remote: !!r.remote || /remote/i.test(r.location || ''),
+        remote: isRemote(r.location, r.remote),
       });
     }
   }
@@ -168,25 +186,26 @@ const prettyName = slug =>
   const seenUrl = new Set();
   const unique = jobs.filter(j => seenUrl.has(j.url) ? false : (seenUrl.add(j.url), true));
   unique.sort((a, b) => String(b.posted || '').localeCompare(String(a.posted || '')));
-  jobs.length = 0; jobs.push(...unique);
-
 
   const out = {
     updated: new Date().toISOString(),
     companies: Object.keys(registry).length,
-    count: jobs.length,
-    jobs,
+    count: unique.length,
+    jobs: unique,
   };
 
   fs.writeFileSync(`${__dirname}/jobs.json`, JSON.stringify(out, null, 1));
   fs.writeFileSync(`${__dirname}/companies.json`, JSON.stringify(registry, null, 1));
 
-  const byDisc = {};
-  jobs.forEach(j => { byDisc[j.discipline] = (byDisc[j.discipline] || 0) + 1; });
+  const tally = key => unique.reduce((m, j) => (m[j[key]] = (m[j[key]] || 0) + 1, m), {});
+  const show = obj => Object.entries(obj).sort((a, b) => b[1] - a[1])
+    .forEach(([k, n]) => console.log(`  ${String(k).padEnd(12)} ${n}`));
 
   console.log(`\n${best.size}/${names.length} boards live (${Math.round(best.size / names.length * 100)}%)`);
-  console.log(`${jobs.length} creative roles in Europe\n`);
-  Object.entries(byDisc).sort((a, b) => b[1] - a[1])
-    .forEach(([d, n]) => console.log(`  ${d.padEnd(12)} ${n}`));
-  console.log('\nWrote jobs.json');
+  console.log(`${scanned} open roles scanned, ${unique.length} creative\n`);
+  show(tally('discipline'));
+  console.log('');
+  show(tally('type'));
+  console.log(`\n${unique.filter(j => j.remote).length} remote`);
+  console.log('Wrote jobs.json');
 })();
