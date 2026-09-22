@@ -54,7 +54,10 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
 .combo li{display:flex;justify-content:space-between;gap:16px;white-space:nowrap;
   padding:6px 9px;border-radius:5px;cursor:pointer;font-size:.92rem}
 .combo li[aria-selected=true],.combo li:hover{background:var(--chip)}
-.combo li .kind{color:var(--faint);font-size:.82em;margin-left:7px;text-transform:uppercase;letter-spacing:.04em}
+.combo li.grp{display:block;padding:9px 9px 3px;font-size:.7rem;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--faint);cursor:default}
+.combo li.grp:hover{background:none}
+.combo li .rem{color:var(--faint)}
 .combo li .n{color:var(--faint);font-variant-numeric:tabular-nums}
 .combo li.none{color:var(--muted);cursor:default}
 
@@ -232,29 +235,44 @@ function drawControls(){
 /* ---- Location typeahead: one box for cities and countries alike ---- */
 const combo = { open: false, items: [], active: -1 };
 
-/* Countries and cities in one list, biggest first, each labelled so you can
-   tell London the city from the United Kingdom the country. */
-function locOptions(){
+/* Cities and countries in one box but in two labelled groups: a country
+   contains its cities, so listing them as siblings reads as a choice between
+   equals when it is not. Country rows also say how many of the roles are
+   remote, since a country with no city usually means remote in that country. */
+function locGroups(){
   const typed = $('#locInput').value.trim().toLowerCase();
-  const rows = [
-    /* "Other" holds roles whose location we could not place — not worth offering. */
-    ...tally('loc', 'country').filter(([v]) => v !== 'Other')
-        .map(([v,n]) => ({ id:'country:'+v, v, n, kind:'country' })),
-    ...tally('loc', 'city').map(([v,n])    => ({ id:'city:'+v,    v, n, kind:'city' })),
-  ].sort((a,b) => b.n - a.n || a.v.localeCompare(b.v));
-  return typed && typed !== locValue().toLowerCase()
-    ? rows.filter(r => r.v.toLowerCase().includes(typed))
-    : rows;
+  const remoteBy = {};
+  match('loc').forEach(j => {
+    if (j.workplace === 'Remote' && j.country) remoteBy[j.country] = (remoteBy[j.country] || 0) + 1;
+  });
+
+  const keep = r => !typed || typed === locValue().toLowerCase() || r.v.toLowerCase().includes(typed);
+  const bySize = (a,b) => b.n - a.n || a.v.localeCompare(b.v);
+
+  const cities = tally('loc', 'city').map(([v,n]) => ({ id:'city:'+v, v, n }));
+  /* "Other" holds roles whose location we could not place - not worth offering. */
+  const countries = tally('loc', 'country').filter(([v]) => v !== 'Other')
+    .map(([v,n]) => ({ id:'country:'+v, v, n, remote: remoteBy[v] || 0 }));
+
+  return [['Cities', cities.filter(keep).sort(bySize)],
+          ['Countries', countries.filter(keep).sort(bySize)]]
+    .filter(([, rows]) => rows.length);
 }
 function drawList(){
-  combo.items = locOptions();
+  const groups = locGroups();
+  combo.items = groups.flatMap(([, rows]) => rows);
   if (combo.active >= combo.items.length) combo.active = combo.items.length - 1;
+  let i = -1;
   $('#locList').innerHTML = combo.items.length
-    ? combo.items.map((r,i) =>
-        `<li id="loc-${i}" role="option" data-id="${esc(r.id)}" data-v="${esc(r.v)}"
-             aria-selected="${i === combo.active}"
-          ><span>${esc(r.v)}<span class="kind">${r.kind}</span></span
-          ><span class="n">${r.n}</span></li>`).join('')
+    ? groups.map(([name, rows]) =>
+        `<li class="grp" role="presentation">${name}</li>` +
+        rows.map(r => {
+          i++;
+          return `<li id="loc-${i}" role="option" data-id="${esc(r.id)}" data-v="${esc(r.v)}"
+                       aria-selected="${i === combo.active}"
+                    ><span>${esc(r.v)}</span><span class="n">${r.n}${
+                      r.remote ? ` <span class="rem">&middot; ${r.remote} remote</span>` : ''}</span></li>`;
+        }).join('')).join('')
     : '<li class="none">Nowhere matches that</li>';
 }
 function openCombo(){
@@ -351,7 +369,7 @@ $('#locInput').addEventListener('keydown', e => {
     combo.active = (combo.active + (e.key === 'ArrowDown' ? 1 : -1) + n + 1) % n;
     drawList();
     $('#locInput').setAttribute('aria-activedescendant', 'loc-' + combo.active);
-    $('#locList').children[combo.active].scrollIntoView({ block: 'nearest' });
+    document.getElementById('loc-' + combo.active).scrollIntoView({ block: 'nearest' });
   } else if (e.key === 'Enter'){
     e.preventDefault();
     const hit = combo.items[combo.active] || (combo.items.length === 1 ? combo.items[0] : null);
