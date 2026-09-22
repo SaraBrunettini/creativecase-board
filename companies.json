@@ -1,0 +1,232 @@
+{
+ "Monzo": {
+  "slug": "monzo",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Wise": {
+  "slug": "wise",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Deliveroo": {
+  "slug": "deliveroo",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Trainline": {
+  "slug": "trainline",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "GoCardless": {
+  "slug": "gocardless",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Multiverse": {
+  "slug": "multiverse",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Cleo": {
+  "slug": "cleo",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Primer": {
+  "slug": "primer",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Duffel": {
+  "slug": "duffel",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Tide": {
+  "slug": "tide",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Freetrade": {
+  "slug": "freetrade",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Moonpig": {
+  "slug": "moonpig",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Farfetch": {
+  "slug": "farfetch",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Zopa": {
+  "slug": "zopa",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Marshmallow": {
+  "slug": "marshmallow",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "N26": {
+  "slug": "n26",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "GetYourGuide": {
+  "slug": "getyourguide",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "HelloFresh": {
+  "slug": "hellofresh",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Contentful": {
+  "slug": "contentful",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Celonis": {
+  "slug": "celonis",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Raisin": {
+  "slug": "raisin",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Adyen": {
+  "slug": "adyen",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Mollie": {
+  "slug": "mollie",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Miro": {
+  "slug": "miro",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Qonto": {
+  "slug": "qonto",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Alan": {
+  "slug": "alan",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Doctolib": {
+  "slug": "doctolib",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Back Market": {
+  "slug": "backmarket",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Ledger": {
+  "slug": "ledger",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Swile": {
+  "slug": "swile",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Typeform": {
+  "slug": "typeform",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Cabify": {
+  "slug": "cabify",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Spotify": {
+  "slug": "spotify",
+  "ats": "lever",
+  "seen": "2026-09-22"
+ },
+ "Pleo": {
+  "slug": "pleo",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Intercom": {
+  "slug": "intercom",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Workhuman": {
+  "slug": "workhuman",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Linear": {
+  "slug": "linear",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Vercel": {
+  "slug": "vercel",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Remote": {
+  "slug": "remote",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "GitLab": {
+  "slug": "gitlab",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Elastic": {
+  "slug": "elastic",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "SumUp": {
+  "slug": "sumup",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Trustpilot": {
+  "slug": "trustpilot",
+  "ats": "greenhouse",
+  "seen": "2026-09-22"
+ },
+ "Synthesia": {
+  "slug": "synthesia",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "ElevenLabs": {
+  "slug": "elevenlabs",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ },
+ "Supabase": {
+  "slug": "supabase",
+  "ats": "ashby",
+  "seen": "2026-09-22"
+ }
+}

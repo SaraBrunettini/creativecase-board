@@ -1,0 +1,547 @@
+{
+ "updated": "2026-09-22T19:34:50.522Z",
+ "companies": 46,
+ "count": 60,
+ "jobs": [
+  {
+   "title": "Senior Manager, Product Design (f/m/d)",
+   "company": "Contentful",
+   "location": "London, England, United Kingdom",
+   "discipline": "Product",
+   "url": "https://job-boards.greenhouse.io/contentful/jobs/8223747",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Brand Marketing Designer - (Fixed Contract 12 months) ",
+   "company": "SumUp",
+   "location": "London, England, United Kingdom",
+   "discipline": "Brand",
+   "url": "https://sumup.com/careers/positions/8794667002?gh_jid=8794667002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Brand & Marketing Design Intern",
+   "company": "SumUp",
+   "location": "Berlin, Germany",
+   "discipline": "Brand",
+   "url": "https://sumup.com/careers/positions/8615894002?gh_jid=8615894002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Motion Design Intern - Brand & Marketing",
+   "company": "SumUp",
+   "location": "Berlin, Germany",
+   "discipline": "Motion",
+   "url": "https://sumup.com/careers/positions/8690943002?gh_jid=8690943002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "SumUp",
+   "location": "London, England, United Kingdom",
+   "discipline": "Design",
+   "url": "https://sumup.com/careers/positions/8427124002?gh_jid=8427124002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer - POS",
+   "company": "SumUp",
+   "location": "Berlin, Germany",
+   "discipline": "Design",
+   "url": "https://sumup.com/careers/positions/8637380002?gh_jid=8637380002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer - Sell Online",
+   "company": "SumUp",
+   "location": "Berlin, Germany",
+   "discipline": "Design",
+   "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer - Sell Online",
+   "company": "SumUp",
+   "location": "Warsaw, Poland",
+   "discipline": "Design",
+   "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
+   "posted": "2026-09-22",
+   "remote": false
+  },
+  {
+   "title": "Creative Project Manager (H/F)",
+   "company": "Deliveroo",
+   "location": "Paris, France",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
+   "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202562",
+   "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Staff Product Designer (12-Month FTC)",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom - Deliveroo",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
+   "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Product Designer - Grow & Engage",
+   "company": "N26",
+   "location": "Berlin, Barcelona",
+   "discipline": "Design",
+   "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
+   "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Senior UX Designer, Consumer (all genders)",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/8028091?gh_jid=8028091",
+   "posted": "2026-09-18",
+   "remote": false
+  },
+  {
+   "title": "UX Research Programs & Operations (Zurich)",
+   "company": "GetYourGuide",
+   "location": "Zurich",
+   "discipline": "Research",
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8129943",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Senior Digital Learning Experience Designer, Learning & Inclusion",
+   "company": "Spotify",
+   "location": "London",
+   "discipline": "Design",
+   "url": "https://jobs.lever.co/spotify/7cf725bb-99c8-4717-b7e5-4f4708fa4169",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Lead Product Designer, Growth",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK)",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8185694",
+   "posted": "2026-09-16",
+   "remote": true
+  },
+  {
+   "title": "Brand Proposition Lead",
+   "company": "Trainline",
+   "location": "London",
+   "discipline": "Brand",
+   "url": "https://jobs.ashbyhq.com/trainline/6543dbd5-062c-44f7-88cf-3275c2867c6a",
+   "posted": "2026-09-16",
+   "remote": true
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "discipline": "Design ops",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "discipline": "Design ops",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Design Engineer, Design System",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "discipline": "Product",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7799736003?gh_jid=7799736003",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Design Engineer, Design System ",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "discipline": "Product",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7799733003?gh_jid=7799733003",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "UX Content Designer Intern (UX copywriter - English speaker)",
+   "company": "Back Market",
+   "location": "Paris",
+   "discipline": "Content",
+   "url": "https://jobs.ashbyhq.com/backmarket/9cbdc249-81a5-476d-a365-4f457efc4a8c",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Intercom",
+   "location": "Dublin, Ireland",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7862050",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Intercom",
+   "location": "London, England",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7861866",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Staff/Principal Product Designer",
+   "company": "Intercom",
+   "location": "Dublin, Ireland",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7862038",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Staff/Principal Product Designer",
+   "company": "Intercom",
+   "location": "London, England",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7862042",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Farfetch",
+   "location": "Porto",
+   "discipline": "Design",
+   "url": "https://jobs.lever.co/farfetch/e75ebdfa-ea55-462a-9430-bfdd9365a938",
+   "posted": "2026-09-15",
+   "remote": false
+  },
+  {
+   "title": "Senior User Researcher",
+   "company": "Alan",
+   "location": "Paris, France",
+   "discipline": "Research",
+   "url": "https://jobs.ashbyhq.com/alan/dd132107-879f-44c5-844f-4abb6125934a",
+   "posted": "2026-09-15",
+   "remote": true
+  },
+  {
+   "title": "Design Engineer (Web & Brand)",
+   "company": "Linear",
+   "location": "Europe",
+   "discipline": "Brand",
+   "url": "https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
+   "posted": "2026-09-15",
+   "remote": true
+  },
+  {
+   "title": "Director of Product Design",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK)",
+   "discipline": "Product",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/7825424",
+   "posted": "2026-09-14",
+   "remote": true
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK)",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/6758088",
+   "posted": "2026-09-14",
+   "remote": true
+  },
+  {
+   "title": "Senior User Research Manager",
+   "company": "Monzo",
+   "location": "Cardiff, London or Remote (UK)",
+   "discipline": "Research",
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8015240",
+   "posted": "2026-09-14",
+   "remote": true
+  },
+  {
+   "title": "Senior UX Product Designer",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/8147119?gh_jid=8147119",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Senior UX Product Designer, Engagement",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "discipline": "Research",
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Edinburgh",
+   "discipline": "Research",
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "London",
+   "discipline": "Research",
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Copywriter, Global Creative [All genders]",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "discipline": "Content",
+   "url": "https://careers.hellofresh.com/global/en/job/8030063?gh_jid=8030063",
+   "posted": "2026-09-09",
+   "remote": false
+  },
+  {
+   "title": "Lead Copywriter, Global Creative Studio (m/f/x)",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "discipline": "Content",
+   "url": "https://careers.hellofresh.com/global/en/job/8113659?gh_jid=8113659",
+   "posted": "2026-09-09",
+   "remote": false
+  },
+  {
+   "title": "Design Engineer - Creative & Studio",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "discipline": "Product",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
+   "posted": "2026-09-09",
+   "remote": true
+  },
+  {
+   "title": "Full-Stack Engineer - Creative Studio",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/17c06970-0b47-43bc-beb7-ce34cc98f93c",
+   "posted": "2026-09-09",
+   "remote": true
+  },
+  {
+   "title": "Product Designer (m/f/d)",
+   "company": "Raisin",
+   "location": "Berlin, Berlin, Germany",
+   "discipline": "Design",
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4954101101",
+   "posted": "2026-09-08",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer - New Ventures & Consumer UX",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/7610098?gh_jid=7610098",
+   "posted": "2026-09-03",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer (B2C)",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "discipline": "Design",
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7559680",
+   "posted": "2026-09-02",
+   "remote": false
+  },
+  {
+   "title": "Director UX Design",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/8030038?gh_jid=8030038",
+   "posted": "2026-08-27",
+   "remote": false
+  },
+  {
+   "title": " (Senior) Director UX, Operations",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "discipline": "Product",
+   "url": "https://careers.hellofresh.com/global/en/job/8146772?gh_jid=8146772",
+   "posted": "2026-08-27",
+   "remote": false
+  },
+  {
+   "title": "Brand Strategy Lead",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "discipline": "Brand",
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8152695",
+   "posted": "2026-08-26",
+   "remote": false
+  },
+  {
+   "title": "Senior Brand Designer B2B",
+   "company": "GetYourGuide",
+   "location": "Berlin",
+   "discipline": "Brand",
+   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8158781",
+   "posted": "2026-08-26",
+   "remote": false
+  },
+  {
+   "title": "Product Designer, Enterprise (Staff-level / L6) ",
+   "company": "Synthesia",
+   "location": "London",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/synthesia/72144066-ff3f-4cdd-b648-743592e414ca",
+   "posted": "2026-08-19",
+   "remote": true
+  },
+  {
+   "title": "Head of Design System (x/f/m)",
+   "company": "Doctolib",
+   "location": "Berlin, Berlin, Germany; Paris, Paris, France",
+   "discipline": "Leadership",
+   "url": "https://job-boards.greenhouse.io/doctolib/jobs/7774771003",
+   "posted": "2026-08-13",
+   "remote": false
+  },
+  {
+   "title": "Production Designer",
+   "company": "Linear",
+   "location": "Europe",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/linear/5b9997fd-7507-4437-8fd7-14178c99ab5d",
+   "posted": "2026-08-06",
+   "remote": true
+  },
+  {
+   "title": "Product Designer",
+   "company": "Alan",
+   "location": "Paris, France; Bordeaux, France; Marseille, France; Lyon, France; Nantes, France; Brussels, Belgium; Barcelona, Spain; Madrid, Spain; Amsterdam, Netherlands;",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/alan/1bf22834-f85d-4581-95a8-0a0278ba9013",
+   "posted": "2026-07-20",
+   "remote": false
+  },
+  {
+   "title": "UI Engineer II",
+   "company": "Mollie",
+   "location": "Lisbon",
+   "discipline": "Product",
+   "url": "https://jobs.ashbyhq.com/mollie/c8e6f489-f1b5-4127-8d1f-28668e94fa99",
+   "posted": "2026-07-07",
+   "remote": true
+  },
+  {
+   "title": "Product Designer",
+   "company": "Alan",
+   "location": "Paris, France",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/alan/4cfa1d2f-c930-4ae5-90c6-96eb1c8ada7f",
+   "posted": "2026-05-21",
+   "remote": true
+  },
+  {
+   "title": "Principal Product Designer",
+   "company": "Linear",
+   "location": "Europe",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
+   "posted": "2026-04-29",
+   "remote": true
+  },
+  {
+   "title": "Senior Brand Designer, Experiential",
+   "company": "Synthesia",
+   "location": "Europe",
+   "discipline": "Brand",
+   "url": "https://jobs.ashbyhq.com/synthesia/75c90455-75c8-44e0-ab38-887120dbb1d0",
+   "posted": "2026-03-26",
+   "remote": true
+  },
+  {
+   "title": "Senior Brand Designer, Experiential",
+   "company": "Synthesia",
+   "location": "UK Remote",
+   "discipline": "Brand",
+   "url": "https://jobs.ashbyhq.com/synthesia/2bb161ef-7355-474c-a051-dc57322f8225",
+   "posted": "2026-03-13",
+   "remote": true
+  },
+  {
+   "title": "Brand Design ",
+   "company": "ElevenLabs",
+   "location": "London",
+   "discipline": "Brand",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/d5fb656f-a8ac-457a-ab26-07304791e097",
+   "posted": "2025-11-19",
+   "remote": true
+  },
+  {
+   "title": "AI Creative Producer",
+   "company": "ElevenLabs",
+   "location": "United Kingdom",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+   "posted": "2025-11-18",
+   "remote": true
+  },
+  {
+   "title": "Product Designer",
+   "company": "ElevenLabs",
+   "location": "London",
+   "discipline": "Design",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/89da00ec-11b0-4359-913b-c3a89c1013bc",
+   "posted": "2025-10-06",
+   "remote": true
+  }
+ ]
+}
