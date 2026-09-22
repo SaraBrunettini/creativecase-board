@@ -279,9 +279,9 @@ function closeCombo(){
   $('#cityInput').value = state.city;
 }
 function pickCity(v){
+  set({ city: v });            // state first: closeCombo restores the input from it
   $('#cityInput').value = v;
   closeCombo();
-  set({ city: v });
 }
 
 function render(){
