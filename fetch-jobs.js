@@ -44,37 +44,41 @@ const ATS = {
   },
 };
 
-/* Which roles belong on the board, and what discipline each is.
-   First match wins, so order matters. */
-const DISCIPLINES = [
-  ['Research',   /\b(ux research|user research|design research|researcher)\b/i],
-  ['Content',    /\b(content design|ux writ|content strateg|copywriter)\b/i],
-  ['Motion',     /\b(motion|animator|animation|3d artist)\b/i],
-  ['Brand',      /\b(brand|graphic|visual identity|communications design)\b/i],
-  ['Leadership', /\b(head of design|design director|creative director|art director|design manager|design lead|director of design)\b/i],
-  ['Design ops', /\b(design ops|design operations|design producer)\b/i],
-  ['Product',    /\b(product design|ux|ui|interaction design|design system|design engineer|design technologist)\b/i],
-  ['Design',     /\b(design|designer|creative|illustrat)\b/i],
-];
+/* What counts as a creative role at all. */
+const CREATIVE = /(\bdesign|\bcreative|\billustrat|\bbrand\b|\bgraphic|\bux\b|\bui\b|\buser experience|\buser interface|\bmotion|\banimat|\bcopywriter|\bart director|\buser research|\btypograph|\bvisual)/i;
 
-/* Words that look creative but aren't these jobs. */
+/* Titles that use those words but are not these jobs. */
 const NOT_CREATIVE = new RegExp([
-  /* not these jobs at all */
-  'sales|account executive|recruiter|talent partner|solutions architect',
-  'mechanical|electrical|civil|hardware|chip|silicon|wms|warehouse',
+  /* different profession entirely */
+  'sales|account executive|recruiter|talent partner|solutions architect|solutions manager',
+  'mechanical|electrical|civil|hardware|chip|silicon|wms|warehouse|architectural',
   /* engineering roles that only mention design in passing */
   'engineering manager',
-  '(ios|android|backend|back-end|frontend|front-end|full ?stack|software|data|platform|infrastructure|security|qa|test|mobile|web|systems?)\\s+engineer',
-  /* research that isn't design research */
+  '(ios|android|backend|back-end|frontend|front-end|full[- ]?stack|software|data|platform|infrastructure|security|qa|test|mobile|web|systems?)[- ]?\\s*engineer',
+  /* research that is not design research */
   'security research|market research',
   /* commercial roles that borrow the words brand and creative */
   'partnerships?|enablement|business development|transformation owner|event manager',
+  'creative strateg|performance creative|forward deployed',
 ].join('|'), 'i');
 
+/* Which bucket a role belongs in. First match wins, so order matters:
+   seniority beats craft, and the narrow crafts are tested before the wide
+   ones. Anything creative that fits none of them lands in Other. */
+const DISCIPLINES = [
+  ['Leadership',   /\b(head of (design|creative|brand|ux|product)|(design|creative|art|brand) director|director,? of (product |global )?(design|ux|creative|brand)|(vp|vice president),? (of )?(design|creative|ux)|design manager|design lead|creative lead|director,? ux|director ux design)\b/i],
+  ['Research',     /\b(ux research|uxr|user research|design research|user experience research|researcher)\b/i],
+  ['Content',      /\b(content design|content strateg|ux writ|ux copy|copywriter|content lead)\b/i],
+  ['Motion',       /(\bmotion|\banimator|\banimation|\b3d )/i],
+  ['Design ops',   /\b(design ops|design operations|design program|design producer|creative operations|production design)/i],
+  ['Brand',        /(\bbrand|\bgraphic design|\bvisual identity|\bvisual design|\bcommunications design|\bpackaging|\bmarketing design|\billustrat)/i],
+  ['Product & UX', /(\bproduct design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design)/i],
+];
+
 function discipline(title) {
-  if (!title || NOT_CREATIVE.test(title)) return null;
+  if (!title || !CREATIVE.test(title) || NOT_CREATIVE.test(title)) return null;
   for (const [name, re] of DISCIPLINES) if (re.test(title)) return name;
-  return null;
+  return 'Other';
 }
 
 /* Employment type. Lever and Ashby publish it; Greenhouse does not, so for
