@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T20:55:37.672Z",
+ "updated": "2026-09-22T20:56:46.926Z",
  "companies": 46,
  "count": 99,
  "jobs": [
@@ -174,18 +174,6 @@
   {
    "title": "Senior Product Designer",
    "company": "Tide",
-   "location": "Serbia",
-   "country": "Serbia",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7779785003",
-   "posted": "2026-09-18"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Tide",
    "location": "Lithuania",
    "country": "Lithuania",
    "city": null,
@@ -193,6 +181,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
+   "posted": "2026-09-18"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Serbia",
+   "country": "Serbia",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7779785003",
    "posted": "2026-09-18"
   },
   {
@@ -366,18 +366,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -385,6 +373,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -438,18 +438,6 @@
   {
    "title": "Senior Product Designer",
    "company": "Intercom",
-   "location": "Dublin, Ireland",
-   "country": "Ireland",
-   "city": "Dublin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/intercom/jobs/7862050",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Intercom",
    "location": "London, England",
    "country": "United Kingdom",
    "city": "London",
@@ -457,6 +445,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7861866",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Intercom",
+   "location": "Dublin, Ireland",
+   "country": "Ireland",
+   "city": "Dublin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7862050",
    "posted": "2026-09-16"
   },
   {
@@ -630,13 +630,13 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -654,13 +654,13 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
