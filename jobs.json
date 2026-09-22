@@ -1,22 +1,24 @@
 {
- "updated": "2026-09-22T20:02:14.663Z",
+ "updated": "2026-09-22T20:11:14.477Z",
  "companies": 46,
- "count": 60,
+ "count": 106,
  "jobs": [
   {
    "title": "Senior Manager, Product Design (f/m/d)",
    "company": "Contentful",
    "location": "London, England, United Kingdom",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/contentful/jobs/8223747",
    "posted": "2026-09-22",
    "remote": false
   },
   {
-   "title": "Brand Marketing Designer - (Fixed Contract 12 months) ",
+   "title": "Brand Marketing Designer - (Fixed Contract 12 months)",
    "company": "SumUp",
    "location": "London, England, United Kingdom",
    "discipline": "Brand",
+   "type": "Contract",
    "url": "https://sumup.com/careers/positions/8794667002?gh_jid=8794667002",
    "posted": "2026-09-22",
    "remote": false
@@ -26,6 +28,7 @@
    "company": "SumUp",
    "location": "Berlin, Germany",
    "discipline": "Brand",
+   "type": "Internship",
    "url": "https://sumup.com/careers/positions/8615894002?gh_jid=8615894002",
    "posted": "2026-09-22",
    "remote": false
@@ -35,6 +38,7 @@
    "company": "SumUp",
    "location": "Berlin, Germany",
    "discipline": "Motion",
+   "type": "Internship",
    "url": "https://sumup.com/careers/positions/8690943002?gh_jid=8690943002",
    "posted": "2026-09-22",
    "remote": false
@@ -44,6 +48,7 @@
    "company": "SumUp",
    "location": "London, England, United Kingdom",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://sumup.com/careers/positions/8427124002?gh_jid=8427124002",
    "posted": "2026-09-22",
    "remote": false
@@ -53,6 +58,7 @@
    "company": "SumUp",
    "location": "Berlin, Germany",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://sumup.com/careers/positions/8637380002?gh_jid=8637380002",
    "posted": "2026-09-22",
    "remote": false
@@ -62,6 +68,7 @@
    "company": "SumUp",
    "location": "Berlin, Germany",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
    "posted": "2026-09-22",
    "remote": false
@@ -71,6 +78,7 @@
    "company": "SumUp",
    "location": "Warsaw, Poland",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
    "posted": "2026-09-22",
    "remote": false
@@ -80,7 +88,18 @@
    "company": "Deliveroo",
    "location": "Paris, France",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
+   "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Junior Designer - Kuwaiti National Only",
+   "company": "Deliveroo",
+   "location": "Kuwait, Kuwait",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
    "posted": "2026-09-21",
    "remote": false
   },
@@ -89,6 +108,7 @@
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202562",
    "posted": "2026-09-21",
    "remote": false
@@ -98,6 +118,7 @@
    "company": "Deliveroo",
    "location": "London, United Kingdom - Deliveroo",
    "discipline": "Design",
+   "type": "Contract",
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
    "posted": "2026-09-21",
    "remote": false
@@ -107,8 +128,39 @@
    "company": "N26",
    "location": "Berlin, Barcelona",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
    "posted": "2026-09-21",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Bulgaria",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7731830003",
+   "posted": "2026-09-18",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Serbia",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7779785003",
+   "posted": "2026-09-18",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Lithuania",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
+   "posted": "2026-09-18",
    "remote": false
   },
   {
@@ -116,6 +168,7 @@
    "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8028091?gh_jid=8028091",
    "posted": "2026-09-18",
    "remote": false
@@ -125,7 +178,38 @@
    "company": "GetYourGuide",
    "location": "Zurich",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8129943",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Creative Operations Manager",
+   "company": "HelloFresh",
+   "location": "New York, NY, United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8171541?gh_jid=8171541",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "User Research UX Apprentice",
+   "company": "Back Market",
+   "location": "Bordeaux",
+   "discipline": "Research",
+   "type": "Internship",
+   "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
+   "posted": "2026-09-17",
+   "remote": true
+  },
+  {
+   "title": "Senior Digital Learning Experience Designer - Learning & Inclusion",
+   "company": "Spotify",
+   "location": "New York, NY",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.lever.co/spotify/9d1c90b5-a8a4-4218-b2f3-7bbaefae7fd1",
    "posted": "2026-09-17",
    "remote": false
   },
@@ -134,15 +218,77 @@
    "company": "Spotify",
    "location": "London",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.lever.co/spotify/7cf725bb-99c8-4717-b7e5-4f4708fa4169",
    "posted": "2026-09-17",
    "remote": false
+  },
+  {
+   "title": "Design Engineer",
+   "company": "Vercel",
+   "location": "Remote - United States",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6129441004",
+   "posted": "2026-09-17",
+   "remote": true
+  },
+  {
+   "title": "Presentation Designer",
+   "company": "Vercel",
+   "location": "Hybrid - San Francisco, New York City",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6128387004",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Product Designer, Marketplace",
+   "company": "Vercel",
+   "location": "Hybrid - San Francisco",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6160974004",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Senior Brand Designer",
+   "company": "Vercel",
+   "location": "Hybrid - San Francisco, New York City",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/5579560004",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Senior Product Designer, Growth",
+   "company": "Vercel",
+   "location": "Hybrid - San Francisco, New York City",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6131210004",
+   "posted": "2026-09-17",
+   "remote": false
+  },
+  {
+   "title": "Visual Designer, Web",
+   "company": "Vercel",
+   "location": "Remote - United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
+   "posted": "2026-09-17",
+   "remote": true
   },
   {
    "title": "Lead Product Designer, Growth",
    "company": "Monzo",
    "location": "Cardiff, London or Remote (UK)",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/monzo/jobs/8185694",
    "posted": "2026-09-16",
    "remote": true
@@ -152,6 +298,7 @@
    "company": "Trainline",
    "location": "London",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/trainline/6543dbd5-062c-44f7-88cf-3275c2867c6a",
    "posted": "2026-09-16",
    "remote": true
@@ -161,6 +308,7 @@
    "company": "Celonis",
    "location": "Madrid, Spain",
    "discipline": "Design ops",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16",
    "remote": false
@@ -170,6 +318,7 @@
    "company": "Celonis",
    "location": "Munich, Germany",
    "discipline": "Design ops",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16",
    "remote": false
@@ -179,15 +328,17 @@
    "company": "Celonis",
    "location": "Madrid, Spain",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7799736003?gh_jid=7799736003",
    "posted": "2026-09-16",
    "remote": false
   },
   {
-   "title": "Senior Design Engineer, Design System ",
+   "title": "Senior Design Engineer, Design System",
    "company": "Celonis",
    "location": "Munich, Germany",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7799733003?gh_jid=7799733003",
    "posted": "2026-09-16",
    "remote": false
@@ -197,7 +348,18 @@
    "company": "Back Market",
    "location": "Paris",
    "discipline": "Content",
+   "type": "Internship",
    "url": "https://jobs.ashbyhq.com/backmarket/9cbdc249-81a5-476d-a365-4f457efc4a8c",
+   "posted": "2026-09-16",
+   "remote": false
+  },
+  {
+   "title": "Brand Voice Lead - Systems",
+   "company": "Intercom",
+   "location": "San Francisco, California",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/intercom/jobs/7960889",
    "posted": "2026-09-16",
    "remote": false
   },
@@ -206,6 +368,7 @@
    "company": "Intercom",
    "location": "Dublin, Ireland",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7862050",
    "posted": "2026-09-16",
    "remote": false
@@ -215,6 +378,7 @@
    "company": "Intercom",
    "location": "London, England",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7861866",
    "posted": "2026-09-16",
    "remote": false
@@ -224,6 +388,7 @@
    "company": "Intercom",
    "location": "Dublin, Ireland",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7862038",
    "posted": "2026-09-16",
    "remote": false
@@ -233,6 +398,7 @@
    "company": "Intercom",
    "location": "London, England",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/intercom/jobs/7862042",
    "posted": "2026-09-16",
    "remote": false
@@ -242,6 +408,7 @@
    "company": "Farfetch",
    "location": "Porto",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.lever.co/farfetch/e75ebdfa-ea55-462a-9430-bfdd9365a938",
    "posted": "2026-09-15",
    "remote": false
@@ -251,7 +418,18 @@
    "company": "Alan",
    "location": "Paris, France",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/alan/dd132107-879f-44c5-844f-4abb6125934a",
+   "posted": "2026-09-15",
+   "remote": true
+  },
+  {
+   "title": "Design Engineer (Web & Brand)",
+   "company": "Linear",
+   "location": "North America",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
    "posted": "2026-09-15",
    "remote": true
   },
@@ -260,6 +438,7 @@
    "company": "Linear",
    "location": "Europe",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
    "posted": "2026-09-15",
    "remote": true
@@ -269,6 +448,7 @@
    "company": "Monzo",
    "location": "Cardiff, London or Remote (UK)",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/monzo/jobs/7825424",
    "posted": "2026-09-14",
    "remote": true
@@ -278,6 +458,7 @@
    "company": "Monzo",
    "location": "Cardiff, London or Remote (UK)",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/monzo/jobs/6758088",
    "posted": "2026-09-14",
    "remote": true
@@ -287,6 +468,7 @@
    "company": "Monzo",
    "location": "Cardiff, London or Remote (UK)",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/monzo/jobs/8015240",
    "posted": "2026-09-14",
    "remote": true
@@ -296,7 +478,18 @@
    "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8147119?gh_jid=8147119",
+   "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Senior UX Product Designer, Engagement",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario, Canada",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8167268?gh_jid=8167268",
    "posted": "2026-09-14",
    "remote": false
   },
@@ -305,15 +498,37 @@
    "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
    "posted": "2026-09-14",
    "remote": false
+  },
+  {
+   "title": "Senior Talent Brand Manager",
+   "company": "GitLab",
+   "location": "Remote; Remote, Canada; Remote, United States",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753656002",
+   "posted": "2026-09-14",
+   "remote": true
+  },
+  {
+   "title": "Talent Brand Manager",
+   "company": "GitLab",
+   "location": "Remote; Remote, Canada; Remote, United States",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753664002",
+   "posted": "2026-09-14",
+   "remote": true
   },
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
    "location": "Copenhagen",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14",
    "remote": false
@@ -323,6 +538,7 @@
    "company": "Trustpilot",
    "location": "Edinburgh",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14",
    "remote": false
@@ -332,8 +548,39 @@
    "company": "Trustpilot",
    "location": "London",
    "discipline": "Research",
+   "type": "Full-time",
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14",
+   "remote": false
+  },
+  {
+   "title": "Associate Creative Director",
+   "company": "Elastic",
+   "location": "United States",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
+   "posted": "2026-09-10",
+   "remote": false
+  },
+  {
+   "title": "UX & Front End Engineer, AI",
+   "company": "Elastic",
+   "location": "United States",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8154995&gh_jid=8154995",
+   "posted": "2026-09-10",
+   "remote": false
+  },
+  {
+   "title": "Video Creative Lead",
+   "company": "Elastic",
+   "location": "United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.elastic.co/jobs?gh_jid=8035675&gh_jid=8035675",
+   "posted": "2026-09-10",
    "remote": false
   },
   {
@@ -341,6 +588,7 @@
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
    "discipline": "Content",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8030063?gh_jid=8030063",
    "posted": "2026-09-09",
    "remote": false
@@ -350,7 +598,18 @@
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
    "discipline": "Content",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8113659?gh_jid=8113659",
+   "posted": "2026-09-09",
+   "remote": false
+  },
+  {
+   "title": "Manager, Product Experience Design",
+   "company": "Adyen",
+   "location": "Chicago",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8075050",
    "posted": "2026-09-09",
    "remote": false
   },
@@ -359,6 +618,7 @@
    "company": "ElevenLabs",
    "location": "United Kingdom",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
    "posted": "2026-09-09",
    "remote": true
@@ -368,17 +628,49 @@
    "company": "ElevenLabs",
    "location": "United Kingdom",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/elevenlabs/17c06970-0b47-43bc-beb7-ce34cc98f93c",
    "posted": "2026-09-09",
    "remote": true
+  },
+  {
+   "title": "Creative Operations Senior Manager",
+   "company": "HelloFresh",
+   "location": "New York, NY, United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8171496?gh_jid=8171496",
+   "posted": "2026-09-08",
+   "remote": false
+  },
+  {
+   "title": "Manager, Brand Strategy (Factor)",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario, Canada",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8135970?gh_jid=8135970",
+   "posted": "2026-09-08",
+   "remote": false
   },
   {
    "title": "Product Designer (m/f/d)",
    "company": "Raisin",
    "location": "Berlin, Berlin, Germany",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4954101101",
    "posted": "2026-09-08",
+   "remote": false
+  },
+  {
+   "title": "Senior UX Product Designer",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario, Canada",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8147115?gh_jid=8147115",
+   "posted": "2026-09-07",
    "remote": false
   },
   {
@@ -386,6 +678,7 @@
    "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/7610098?gh_jid=7610098",
    "posted": "2026-09-03",
    "remote": false
@@ -395,8 +688,29 @@
    "company": "GetYourGuide",
    "location": "Berlin",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/7559680",
    "posted": "2026-09-02",
+   "remote": false
+  },
+  {
+   "title": "Experiential Graphic Designer - Events",
+   "company": "ElevenLabs",
+   "location": "United States",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/18d52799-7b88-4516-9d8f-e9db312ad195",
+   "posted": "2026-08-28",
+   "remote": true
+  },
+  {
+   "title": "Creative Systems & Optimization Manager",
+   "company": "HelloFresh",
+   "location": "Brooklyn, New York, United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8155432?gh_jid=8155432",
+   "posted": "2026-08-27",
    "remote": false
   },
   {
@@ -404,15 +718,27 @@
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8030038?gh_jid=8030038",
    "posted": "2026-08-27",
    "remote": false
   },
   {
-   "title": " (Senior) Director UX, Operations",
+   "title": "[HELLOCONNECT] Print and Packaging Designer",
+   "company": "HelloFresh",
+   "location": "Manila, Manila, Philippines",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8152773?gh_jid=8152773",
+   "posted": "2026-08-27",
+   "remote": false
+  },
+  {
+   "title": "(Senior) Director UX, Operations",
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://careers.hellofresh.com/global/en/job/8146772?gh_jid=8146772",
    "posted": "2026-08-27",
    "remote": false
@@ -422,6 +748,7 @@
    "company": "GetYourGuide",
    "location": "Berlin",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8152695",
    "posted": "2026-08-26",
    "remote": false
@@ -431,15 +758,57 @@
    "company": "GetYourGuide",
    "location": "Berlin",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8158781",
    "posted": "2026-08-26",
    "remote": false
   },
   {
-   "title": "Product Designer, Enterprise (Staff-level / L6) ",
+   "title": "Manager, Performance Creative Strategy",
+   "company": "HelloFresh",
+   "location": "New York, NY, United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8144067?gh_jid=8144067",
+   "posted": "2026-08-24",
+   "remote": false
+  },
+  {
+   "title": "Senior Art Director, Performance Innovation",
+   "company": "HelloFresh",
+   "location": "New York, NY, United States",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8135998?gh_jid=8135998",
+   "posted": "2026-08-24",
+   "remote": false
+  },
+  {
+   "title": "Design Analyst",
+   "company": "Cabify",
+   "location": "Lima",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/cabify/jobs/8645249002",
+   "posted": "2026-08-20",
+   "remote": false
+  },
+  {
+   "title": "Director UX, Growth",
+   "company": "HelloFresh",
+   "location": "Toronto, Ontario, Canada",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://careers.hellofresh.com/global/en/job/8092455?gh_jid=8092455",
+   "posted": "2026-08-19",
+   "remote": false
+  },
+  {
+   "title": "Product Designer, Enterprise (Staff-level / L6)",
    "company": "Synthesia",
    "location": "London",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/synthesia/72144066-ff3f-4cdd-b648-743592e414ca",
    "posted": "2026-08-19",
    "remote": true
@@ -449,17 +818,79 @@
    "company": "Doctolib",
    "location": "Berlin, Berlin, Germany; Paris, Paris, France",
    "discipline": "Leadership",
+   "type": "Full-time",
    "url": "https://job-boards.greenhouse.io/doctolib/jobs/7774771003",
    "posted": "2026-08-13",
    "remote": false
+  },
+  {
+   "title": "Solutions Manager, Creative Design",
+   "company": "Synthesia",
+   "location": "Austin",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/synthesia/c511c8e2-a929-4b9c-af16-48f968fafc33",
+   "posted": "2026-08-07",
+   "remote": true
   },
   {
    "title": "Production Designer",
    "company": "Linear",
    "location": "Europe",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/linear/5b9997fd-7507-4437-8fd7-14178c99ab5d",
    "posted": "2026-08-06",
+   "remote": true
+  },
+  {
+   "title": "Production Designer",
+   "company": "Linear",
+   "location": "North America",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/linear/b32de590-06ce-47d4-8994-66b936df908d",
+   "posted": "2026-08-06",
+   "remote": true
+  },
+  {
+   "title": "Senior Instructional Designer",
+   "company": "Synthesia",
+   "location": "New York City",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/synthesia/a1f0d6c0-7a9a-483d-84a7-e8a4ffb8eee9",
+   "posted": "2026-08-04",
+   "remote": true
+  },
+  {
+   "title": "Mobile Product Designer",
+   "company": "Linear",
+   "location": "North America",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110",
+   "posted": "2026-08-03",
+   "remote": true
+  },
+  {
+   "title": "Creative Strategist,  Mobile",
+   "company": "ElevenLabs",
+   "location": "United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/5da4bb46-0bac-4e35-8731-9e182ad02bee",
+   "posted": "2026-07-23",
+   "remote": true
+  },
+  {
+   "title": "Product Designer",
+   "company": "Supabase",
+   "location": "Remote, Global",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/supabase/97fe8e68-28c5-42db-a763-60113f0b31fd",
+   "posted": "2026-07-22",
    "remote": true
   },
   {
@@ -467,6 +898,7 @@
    "company": "Alan",
    "location": "Paris, France; Bordeaux, France; Marseille, France; Lyon, France; Nantes, France; Brussels, Belgium; Barcelona, Spain; Madrid, Spain; Amsterdam, Netherlands;",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/alan/1bf22834-f85d-4581-95a8-0a0278ba9013",
    "posted": "2026-07-20",
    "remote": false
@@ -476,15 +908,87 @@
    "company": "Mollie",
    "location": "Lisbon",
    "discipline": "Product",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/mollie/c8e6f489-f1b5-4127-8d1f-28668e94fa99",
    "posted": "2026-07-07",
    "remote": true
+  },
+  {
+   "title": "Architectural Designer II",
+   "company": "Primer",
+   "location": "Remote",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/primer/fcc5c671-1048-46ef-83cb-41d5875565a0",
+   "posted": "2026-07-06",
+   "remote": true
+  },
+  {
+   "title": "Forward Deployed Creative",
+   "company": "ElevenLabs",
+   "location": "United States",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/1f668ed5-49e9-4726-881f-7818733103b1",
+   "posted": "2026-06-29",
+   "remote": true
+  },
+  {
+   "title": "Brand Designer",
+   "company": "Supabase",
+   "location": "Remote, Global",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/supabase/4a85c92b-1d0d-43ee-8dbc-0e45a58be208",
+   "posted": "2026-06-23",
+   "remote": true
+  },
+  {
+   "title": "Product Designer",
+   "company": "Primer",
+   "location": "San Francisco",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/primer/af6ad413-6e2f-4cb4-9e11-582b2d2e6c42",
+   "posted": "2026-06-16",
+   "remote": false
+  },
+  {
+   "title": "Brand Marketing",
+   "company": "ElevenLabs",
+   "location": "San Francisco",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/elevenlabs/31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
+   "posted": "2026-06-10",
+   "remote": true
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Cleo",
+   "location": "Remote",
+   "discipline": "Product",
+   "type": "Full-time",
+   "url": "https://job-boards.greenhouse.io/cleo/jobs/4698914005",
+   "posted": "2026-06-05",
+   "remote": true
+  },
+  {
+   "title": "Brand & Campaign Marketer (Dutch & English Speaking)",
+   "company": "Moonpig",
+   "location": "Almere",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "url": "https://jobs.lever.co/moonpig/60e3c6a8-51d1-412b-a945-46fe73edd474",
+   "posted": "2026-05-26",
+   "remote": false
   },
   {
    "title": "Product Designer",
    "company": "Alan",
    "location": "Paris, France",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/alan/4cfa1d2f-c930-4ae5-90c6-96eb1c8ada7f",
    "posted": "2026-05-21",
    "remote": true
@@ -494,8 +998,19 @@
    "company": "Linear",
    "location": "Europe",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
    "posted": "2026-04-29",
+   "remote": true
+  },
+  {
+   "title": "Senior / Staff Product Designer",
+   "company": "Linear",
+   "location": "North America",
+   "discipline": "Design",
+   "type": "Full-time",
+   "url": "https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c",
+   "posted": "2026-04-23",
    "remote": true
   },
   {
@@ -503,6 +1018,7 @@
    "company": "Synthesia",
    "location": "Europe",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/synthesia/75c90455-75c8-44e0-ab38-887120dbb1d0",
    "posted": "2026-03-26",
    "remote": true
@@ -512,15 +1028,17 @@
    "company": "Synthesia",
    "location": "UK Remote",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/synthesia/2bb161ef-7355-474c-a051-dc57322f8225",
    "posted": "2026-03-13",
    "remote": true
   },
   {
-   "title": "Brand Design ",
+   "title": "Brand Design",
    "company": "ElevenLabs",
    "location": "London",
    "discipline": "Brand",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/elevenlabs/d5fb656f-a8ac-457a-ab26-07304791e097",
    "posted": "2025-11-19",
    "remote": true
@@ -530,6 +1048,7 @@
    "company": "ElevenLabs",
    "location": "United Kingdom",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/elevenlabs/3178581d-ea70-4dee-b018-2ce2d2a18bbe",
    "posted": "2025-11-18",
    "remote": true
@@ -539,6 +1058,7 @@
    "company": "ElevenLabs",
    "location": "London",
    "discipline": "Design",
+   "type": "Full-time",
    "url": "https://jobs.ashbyhq.com/elevenlabs/89da00ec-11b0-4359-913b-c3a89c1013bc",
    "posted": "2025-10-06",
    "remote": true
