@@ -370,9 +370,11 @@ fetch('jobs.json?' + Date.now())
   .then(r => r.json())
   .then(d => {
     state.jobs = d.jobs || [];
+    const hiring = new Set(state.jobs.map(j => j.company)).size;
     $('#sub').textContent =
-      `${d.count} open roles at ${d.companies} companies, read from their own careers pages.`;
-    $('#updated').textContent = `Last updated ${(ago(d.updated) || 'today').toLowerCase()}.`;
+      `${d.count} open roles at ${hiring} companies, read from their own careers pages.`;
+    $('#updated').textContent =
+      `Last updated ${(ago(d.updated) || 'today').toLowerCase()}. ${d.companies} company feeds checked.`;
     render();
   })
   .catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs. Please try again later.</p>'; });
