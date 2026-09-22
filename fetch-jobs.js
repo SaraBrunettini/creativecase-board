@@ -175,7 +175,6 @@ const COUNTRIES = [
   ['South Africa',   /\b(south africa|cape town|johannesburg)\b/],
   ['Nigeria',        /\b(nigeria|lagos)\b/],
   ['Kenya',          /\b(kenya|nairobi)\b/],
-  ['Europe (wide)',  /\b(europe|emea)\b/],
 ];
 
 function country(loc) {
