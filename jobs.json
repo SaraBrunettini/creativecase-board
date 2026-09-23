@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T07:42:14.931Z",
+ "updated": "2026-09-23T07:42:45.191Z",
  "companies": 46,
  "count": 67,
  "jobs": [
@@ -150,18 +150,6 @@
   {
    "title": "Senior Product Designer - Sell Online",
    "company": "SumUp",
-   "location": "Warsaw, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Senior Product Designer - Sell Online",
-   "company": "SumUp",
    "location": "Berlin, Germany",
    "country": "Germany",
    "city": "Berlin",
@@ -169,6 +157,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Senior Product Designer - Sell Online",
+   "company": "SumUp",
+   "location": "Warsaw, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
    "posted": "2026-09-22"
   },
   {
