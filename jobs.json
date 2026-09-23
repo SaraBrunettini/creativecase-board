@@ -1,8 +1,44 @@
 {
- "updated": "2026-09-23T07:28:03.357Z",
+ "updated": "2026-09-23T07:42:14.931Z",
  "companies": 46,
- "count": 98,
+ "count": 67,
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Lithuania",
+   "country": "Lithuania",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
+   "posted": "2026-09-23"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Serbia",
+   "country": "Serbia",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7779785003",
+   "posted": "2026-09-23"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tide",
+   "location": "Bulgaria",
+   "country": "Bulgaria",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7731830003",
+   "posted": "2026-09-23"
+  },
   {
    "title": "Creative Project Manager (H/F)",
    "company": "Deliveroo",
@@ -13,18 +49,6 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Junior Designer - Kuwaiti National Only",
-   "company": "Deliveroo",
-   "location": "Kuwait, Kuwait",
-   "country": "Kuwait",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206037",
    "posted": "2026-09-22"
   },
   {
@@ -126,18 +150,6 @@
   {
    "title": "Senior Product Designer - Sell Online",
    "company": "SumUp",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Senior Product Designer - Sell Online",
-   "company": "SumUp",
    "location": "Warsaw, Poland",
    "country": "Poland",
    "city": "Warsaw",
@@ -145,6 +157,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Senior Product Designer - Sell Online",
+   "company": "SumUp",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
    "posted": "2026-09-22"
   },
   {
@@ -158,42 +182,6 @@
    "workplace": "On-site",
    "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
    "posted": "2026-09-21"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Tide",
-   "location": "Lithuania",
-   "country": "Lithuania",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
-   "posted": "2026-09-18"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Tide",
-   "location": "Serbia",
-   "country": "Serbia",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7779785003",
-   "posted": "2026-09-18"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Tide",
-   "location": "Bulgaria",
-   "country": "Bulgaria",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7731830003",
-   "posted": "2026-09-18"
   },
   {
    "title": "Senior UX Designer, Consumer (all genders)",
@@ -220,18 +208,6 @@
    "posted": "2026-09-17"
   },
   {
-   "title": "Creative Operations Manager",
-   "company": "HelloFresh",
-   "location": "New York, NY, United States",
-   "country": "United States",
-   "city": "New York",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8171541?gh_jid=8171541",
-   "posted": "2026-09-17"
-  },
-  {
    "title": "User Research UX Apprentice",
    "company": "Back Market",
    "location": "Bordeaux",
@@ -244,18 +220,6 @@
    "posted": "2026-09-17"
   },
   {
-   "title": "Senior Digital Learning Experience Designer - Learning & Inclusion",
-   "company": "Spotify",
-   "location": "New York, NY",
-   "country": "United States",
-   "city": "New York",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "url": "https://jobs.lever.co/spotify/9d1c90b5-a8a4-4218-b2f3-7bbaefae7fd1",
-   "posted": "2026-09-17"
-  },
-  {
    "title": "Senior Digital Learning Experience Designer, Learning & Inclusion",
    "company": "Spotify",
    "location": "London",
@@ -265,78 +229,6 @@
    "type": "Full-time",
    "workplace": "Hybrid",
    "url": "https://jobs.lever.co/spotify/7cf725bb-99c8-4717-b7e5-4f4708fa4169",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Design Engineer",
-   "company": "Vercel",
-   "location": "Remote - United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6129441004",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Presentation Designer",
-   "company": "Vercel",
-   "location": "Hybrid - San Francisco, New York City",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6128387004",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Product Designer, Marketplace",
-   "company": "Vercel",
-   "location": "Hybrid - San Francisco",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6160974004",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Brand Designer",
-   "company": "Vercel",
-   "location": "Hybrid - San Francisco, New York City",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/5579560004",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Senior Product Designer, Growth",
-   "company": "Vercel",
-   "location": "Hybrid - San Francisco, New York City",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6131210004",
-   "posted": "2026-09-17"
-  },
-  {
-   "title": "Visual Designer, Web",
-   "company": "Vercel",
-   "location": "Remote - United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6115991004",
    "posted": "2026-09-17"
   },
   {
@@ -424,18 +316,6 @@
    "posted": "2026-09-16"
   },
   {
-   "title": "Brand Voice Lead - Systems",
-   "company": "Intercom",
-   "location": "San Francisco, California",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/intercom/jobs/7960889",
-   "posted": "2026-09-16"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Intercom",
    "location": "Dublin, Ireland",
@@ -510,18 +390,6 @@
   {
    "title": "Design Engineer (Web & Brand)",
    "company": "Linear",
-   "location": "North America",
-   "country": "Other",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
-   "posted": "2026-09-15"
-  },
-  {
-   "title": "Design Engineer (Web & Brand)",
-   "company": "Linear",
    "location": "Europe",
    "country": "Other",
    "city": null,
@@ -582,18 +450,6 @@
   {
    "title": "Senior UX Product Designer, Engagement",
    "company": "HelloFresh",
-   "location": "Toronto, Ontario, Canada",
-   "country": "Canada",
-   "city": "Toronto",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8167268?gh_jid=8167268",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior UX Product Designer, Engagement",
-   "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
    "country": "Poland",
    "city": "Warsaw",
@@ -601,30 +457,6 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Talent Brand Manager",
-   "company": "GitLab",
-   "location": "Remote; Remote, Canada; Remote, United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753656002",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Talent Brand Manager",
-   "company": "GitLab",
-   "location": "Remote; Remote, Canada; Remote, United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8753664002",
    "posted": "2026-09-14"
   },
   {
@@ -664,30 +496,6 @@
    "posted": "2026-09-14"
   },
   {
-   "title": "Associate Creative Director",
-   "company": "Elastic",
-   "location": "United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8035673&gh_jid=8035673",
-   "posted": "2026-09-10"
-  },
-  {
-   "title": "Video Creative Lead",
-   "company": "Elastic",
-   "location": "United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://jobs.elastic.co/jobs?gh_jid=8035675&gh_jid=8035675",
-   "posted": "2026-09-10"
-  },
-  {
    "title": "Copywriter, Global Creative [All genders]",
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
@@ -712,18 +520,6 @@
    "posted": "2026-09-09"
   },
   {
-   "title": "Manager, Product Experience Design",
-   "company": "Adyen",
-   "location": "Chicago",
-   "country": "United States",
-   "city": "Chicago",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8075050",
-   "posted": "2026-09-09"
-  },
-  {
    "title": "Design Engineer - Creative & Studio",
    "company": "ElevenLabs",
    "location": "United Kingdom",
@@ -736,30 +532,6 @@
    "posted": "2026-09-09"
   },
   {
-   "title": "Creative Operations Senior Manager",
-   "company": "HelloFresh",
-   "location": "New York, NY, United States",
-   "country": "United States",
-   "city": "New York",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8171496?gh_jid=8171496",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Manager, Brand Strategy (Factor)",
-   "company": "HelloFresh",
-   "location": "Toronto, Ontario, Canada",
-   "country": "Canada",
-   "city": "Toronto",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8135970?gh_jid=8135970",
-   "posted": "2026-09-08"
-  },
-  {
    "title": "Product Designer (m/f/d)",
    "company": "Raisin",
    "location": "Berlin, Berlin, Germany",
@@ -770,18 +542,6 @@
    "workplace": "On-site",
    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4954101101",
    "posted": "2026-09-08"
-  },
-  {
-   "title": "Senior UX Product Designer",
-   "company": "HelloFresh",
-   "location": "Toronto, Ontario, Canada",
-   "country": "Canada",
-   "city": "Toronto",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8147115?gh_jid=8147115",
-   "posted": "2026-09-07"
   },
   {
    "title": "Senior Product Designer - New Ventures & Consumer UX",
@@ -808,30 +568,6 @@
    "posted": "2026-09-02"
   },
   {
-   "title": "Experiential Graphic Designer - Events",
-   "company": "ElevenLabs",
-   "location": "United States",
-   "country": "United States",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/18d52799-7b88-4516-9d8f-e9db312ad195",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Creative Systems & Optimization Manager",
-   "company": "HelloFresh",
-   "location": "Brooklyn, New York, United States",
-   "country": "United States",
-   "city": "Brooklyn",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8155432?gh_jid=8155432",
-   "posted": "2026-08-27"
-  },
-  {
    "title": "Director UX Design",
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
@@ -841,18 +577,6 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://careers.hellofresh.com/global/en/job/8030038?gh_jid=8030038",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "[HELLOCONNECT] Print and Packaging Designer",
-   "company": "HelloFresh",
-   "location": "Manila, Manila, Philippines",
-   "country": "Philippines",
-   "city": "Manila",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8152773?gh_jid=8152773",
    "posted": "2026-08-27"
   },
   {
@@ -892,30 +616,6 @@
    "posted": "2026-08-26"
   },
   {
-   "title": "Senior Art Director, Performance Innovation",
-   "company": "HelloFresh",
-   "location": "New York, NY, United States",
-   "country": "United States",
-   "city": "New York",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8135998?gh_jid=8135998",
-   "posted": "2026-08-24"
-  },
-  {
-   "title": "Director UX, Growth",
-   "company": "HelloFresh",
-   "location": "Toronto, Ontario, Canada",
-   "country": "Canada",
-   "city": "Toronto",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8092455?gh_jid=8092455",
-   "posted": "2026-08-19"
-  },
-  {
    "title": "Product Designer, Enterprise (Staff-level / L6)",
    "company": "Synthesia",
    "location": "London",
@@ -950,42 +650,6 @@
    "workplace": "Remote",
    "url": "https://jobs.ashbyhq.com/linear/5b9997fd-7507-4437-8fd7-14178c99ab5d",
    "posted": "2026-08-06"
-  },
-  {
-   "title": "Production Designer",
-   "company": "Linear",
-   "location": "North America",
-   "country": "Other",
-   "city": null,
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/linear/b32de590-06ce-47d4-8994-66b936df908d",
-   "posted": "2026-08-06"
-  },
-  {
-   "title": "Senior Instructional Designer",
-   "company": "Synthesia",
-   "location": "New York City",
-   "country": "United States",
-   "city": "New York",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/synthesia/a1f0d6c0-7a9a-483d-84a7-e8a4ffb8eee9",
-   "posted": "2026-08-04"
-  },
-  {
-   "title": "Mobile Product Designer",
-   "company": "Linear",
-   "location": "North America",
-   "country": "Other",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110",
-   "posted": "2026-08-03"
   },
   {
    "title": "Product Designer",
@@ -1036,30 +700,6 @@
    "posted": "2026-06-23"
   },
   {
-   "title": "Product Designer",
-   "company": "Primer",
-   "location": "San Francisco",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://jobs.ashbyhq.com/primer/af6ad413-6e2f-4cb4-9e11-582b2d2e6c42",
-   "posted": "2026-06-16"
-  },
-  {
-   "title": "Brand Marketing",
-   "company": "ElevenLabs",
-   "location": "San Francisco",
-   "country": "United States",
-   "city": "San Francisco",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
-   "posted": "2026-06-10"
-  },
-  {
    "title": "Senior UX Designer",
    "company": "Cleo",
    "location": "Remote",
@@ -1106,18 +746,6 @@
    "workplace": "Remote",
    "url": "https://jobs.ashbyhq.com/linear/ba8a41d2-4198-481a-a7f4-e09c5364ff7f",
    "posted": "2026-04-29"
-  },
-  {
-   "title": "Senior / Staff Product Designer",
-   "company": "Linear",
-   "location": "North America",
-   "country": "Other",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "url": "https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c",
-   "posted": "2026-04-23"
   },
   {
    "title": "Senior Brand Designer, Experiential",
