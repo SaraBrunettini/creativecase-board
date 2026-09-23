@@ -244,7 +244,8 @@ function drawList(){
           return `<li id="loc-${i}" role="option" data-id="${esc(r.id)}" data-v="${esc(r.v)}"
                        aria-selected="${i === combo.active}">${esc(r.v)}</li>`;
         }).join('')).join('')
-    : `<li class="none">No jobs in ${esc($('#locInput').value.trim())} right now</li>`;
+    : `<li class="none">No jobs in ${esc($('#locInput').value.trim()
+          .replace(/\b\w/g, c => c.toUpperCase()))} right now</li>`;
 }
 function openCombo(){
   combo.open = true; drawList();
