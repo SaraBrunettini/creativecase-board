@@ -1,76 +1,609 @@
-# One company per line. Lines starting with # are ignored.
-# Add any company you'd like on the board — if they publish a feed, it appears.
+# Companies whose careers pages this board reads.
+#
+# One company per line. A line may name its board outright:
+#     Fever | feverup | greenhouse
+# and otherwise the board name is guessed from the company name.
+# Lines starting with # are ignored.
+#
+# A company stays on this list whether or not it is hiring today. That is the
+# point: the run checks all of them every morning, so a role shows up here the
+# day it is posted rather than the week someone remembers to look.
 
-Monzo
-Starling Bank
-Wise
-Revolut
-Deliveroo
-Depop
-Trainline
-GoCardless
-Onfido
-Multiverse
-Cleo
-Primer
-Duffel
-Tide
-Curve
-Freetrade
-Moonpig
-Bumble
-Farfetch
-Octopus Energy
-Snyk
-Skyscanner
-Zopa
-Marshmallow
-N26
-Personio
-Zalando
-GetYourGuide
-HelloFresh
-Contentful
-Sennder
-Celonis
-Raisin
-Adyen
-Mollie
-Miro
-MessageBird
+# --- Already on the board ---
+Adyen | adyen | greenhouse
+Alan | alan | ashby
+Back Market | backmarket | ashby
+Cabify | cabify | greenhouse
+Celonis | celonis | greenhouse
+Cleo | cleo | greenhouse
+Contentful | contentful | greenhouse
+Deliveroo | deliveroo | greenhouse
+Doctolib | doctolib | greenhouse
+Duffel | duffel | ashby
+Elastic | elastic | greenhouse
+ElevenLabs | elevenlabs | ashby
+Farfetch | farfetch | lever
+Freetrade | freetrade | ashby
+GetYourGuide | getyourguide | greenhouse
+GitLab | gitlab | greenhouse
+GoCardless | gocardless | greenhouse
+HelloFresh | hellofresh | greenhouse
+Intercom | intercom | greenhouse
+Ledger | ledger | ashby
+Linear | linear | ashby
+Marshmallow | marshmallow | ashby
+Miro | miro | ashby
+Mollie | mollie | ashby
+Monzo | monzo | greenhouse
+Moonpig | moonpig | lever
+Multiverse | multiverse | ashby
+N26 | n26 | greenhouse
+Pleo | pleo | ashby
+Primer | primer | ashby
+Qonto | qonto | lever
+Raisin | raisin | greenhouse
+Remote | remote | greenhouse
+Spotify | spotify | lever
+SumUp | sumup | greenhouse
+Supabase | supabase | ashby
+Swile | swile | lever
+Synthesia | synthesia | ashby
+Tide | tide | greenhouse
+Trainline | trainline | ashby
+Trustpilot | trustpilot | greenhouse
+Typeform | typeform | greenhouse
+Vercel | vercel | greenhouse
+Wise | wise | greenhouse
+Workhuman | workhuman | ashby
+Zopa | zopa | lever
+
+# --- United Kingdom & Ireland ---
+Beam | beam | greenhouse
+Birdie | birdie | ashby
+Blockchain.com | blockchain | greenhouse
+Butternut Box | butternutbox | greenhouse
+Capital on Tap | capitalontap | greenhouse
+Carwow | carwow | ashby
+ClearBank | clearbank | ashby
+Codat | codat | ashby
+Cognism | cognism | greenhouse
+ComplyAdvantage | complyadvantage | greenhouse
+Copper | copperco | greenhouse
+Ebury | ebury | greenhouse
+Elliptic | elliptic | ashby
+Faculty | faculty | ashby
+Flagstone | flagstone | ashby
+Flipdish | flipdish | greenhouse
+Flo Health | flohealth | greenhouse
+Form3 | form3 | greenhouse
+Funding Circle | fundingcircle | ashby
+Goodlord | goodlord | ashby
+Graphcore | graphcore | greenhouse
+Griffin | griffin | ashby
+Gymshark | gymshark | greenhouse
+Healx | healx | lever
+Improbable | improbable | ashby
+Kitman Labs | kitmanlabs | lever
+Lendable | lendable | ashby
+Luno | luno | greenhouse
+Moneybox | moneybox | ashby
+Motorway | motorway | ashby
+OVO Energy | ovoenergy | greenhouse
+Paddle | paddle | ashby
+Pave | pave | ashby
+Peak | peak | greenhouse
+PolyAI | polyai | greenhouse
+Quantexa | quantexa | ashby
+Sona | sona | ashby
+Spendesk | spendesk | ashby
+Stability AI | stabilityai | greenhouse
+Tines | tines | greenhouse
+Too Good To Go | toogoodtogo | ashby
+Tractable | tractable | ashby
+TrueLayer | truelayer | greenhouse
+Unmind | unmind | ashby
+Wayflyer | wayflyer | ashby
+Wayve | wayve | greenhouse
+Zego | zego | ashby
+Zoe | zoe | ashby
+
+# --- Germany, Austria, Switzerland & the Nordics ---
+Ada Health | adahealth | greenhouse
+Aleph Alpha | alephalpha | ashby
+Avi Medical | avimedical | greenhouse
+Babbel | babbel | ashby
+Bitpanda | bitpanda | greenhouse
+Bolt | bolt | ashby
+Camunda | camunda | ashby
+Choco | choco | ashby
+Circ | circ | greenhouse
+Clark | clark | ashby
+Cognite | cognite | greenhouse
+Contentsquare | contentsquare | lever
+Corti | corti | ashby
+DeepL | deepl | ashby
+Dune Analytics | dune | ashby
+Enpal | enpal | ashby
+Flink | flink | ashby
+Flix | flix | greenhouse
+Forto | forto | ashby
+Free Now | freenow | greenhouse
+Frontify | frontify | lever
+Gelato | gelato | ashby
+GoodNotes | goodnotes | greenhouse
+GoStudent | gostudent | greenhouse
+Grover | grover | greenhouse
+Helsing | helsing | greenhouse
+Kognity | kognity | ashby
+Langdock | langdock | ashby
+Lovable | lovable | greenhouse
+Lunar | lunar | ashby
+Mentimeter | mentimeter | greenhouse
+N8n | n8n | ashby
+Ostrom | ostrom | ashby
+Oura | oura | greenhouse
+Parloa | parloa | greenhouse
+Preply | preply | ashby
+Refurbed | refurbed | greenhouse
+Relex | relex | greenhouse
+Smartly.io | smartlyio | greenhouse
+Solaris | solarisbank | greenhouse
+Staffbase | staffbase | greenhouse
+Storyblok | storyblok | greenhouse
+Supercell | supercell | ashby
+Trade Republic | traderepublic | greenhouse
+Trivago | trivago | greenhouse
+Truecaller | truecaller | greenhouse
+Trustly | trustly | lever
+Wolt | wolt | greenhouse
+
+# --- France, Benelux, Iberia, Italy & central Europe ---
+Agicap | agicap | lever
+Aircall | aircall | lever
+Algolia | algolia | greenhouse
+Anchorage | anchorage | lever
+Ankorstore | ankorstore | ashby
+Bitvavo | bitvavo | ashby
+BlaBlaCar | blablacar | lever
+Bol.com | bolcom | greenhouse
+Brainly | brainly | ashby
+Bynder | bynder | ashby
+Cardiologs | cardiologs | lever
+Catawiki | catawiki | greenhouse
+Collibra | collibra | greenhouse
+Dataiku | dataiku | greenhouse
+Deliverect | deliverect | lever
+Docebo | docebo | lever
+DocPlanner | docplanner | ashby
+Dust | dust | ashby
+Emag | emag | greenhouse
+Feedzai | feedzai | greenhouse
+Fever | feverup | greenhouse
+Flow Traders | flowtraders | greenhouse
+Glia | glia | ashby
+Gympass | gympass | greenhouse
+Hex | hex | ashby
+Jobandtalent | jobandtalent | lever
+Katana | katana | ashby
+Kiwi.com | kiwi | ashby
+Lighthouse | lighthouse | greenhouse
+Malt | malt | lever
+Messagebird | bird | greenhouse
+Mistral AI | mistral | lever
+Musixmatch | musixmatch | lever
+Nabla | nabla | ashby
+Omnisend | omnisend | lever
+Optiver | optiver | greenhouse
+Owkin | owkin | ashby
+Pennylane | pennylane | ashby
+Photoroom | photoroom | ashby
+Pipedrive | pipedrive | lever
+Poolside | poolside | ashby
+Ramp Network | rampnetwork | greenhouse
+Recharge | recharge | ashby
+Satispay | satispay | lever
+Sendcloud | sendcloud | greenhouse
+Sensei | sensei | greenhouse
+Showpad | showpad | greenhouse
+Sorare | sorare | ashby
+Sunday | sunday | ashby
+Sword Health | swordhealth | greenhouse
+Talkdesk | talkdesk | ashby
+UiPath | uipath | ashby
+Veepee | veepee | lever
+Veriff | veriff | greenhouse
+Verkor | verkor | lever
+Vestiaire Collective | vestiairecollective | lever
+Voodoo | voodoo | ashby
+Wallapop | wallapop | greenhouse
+Younited | younited | lever
+
+# --- Products, developer tools and AI ---
+Abacum | abacum | ashby
+Affinity | affinity | ashby
+Airbyte | airbyte | ashby
+Attio | attio | ashby
+Baseten | baseten | ashby
+Beautiful.ai | beautifulai | greenhouse
+Bubble | bubble | ashby
+Castle | castle | ashby
+Causal | causal | ashby
+Clerk | clerk | ashby
+Clickhouse | clickhouse | ashby
+Coder | coder | ashby
+CodeRabbit | coderabbit | ashby
+Craft | craftdocs | ashby
+Cube | cube | ashby
+Descript | descript | greenhouse
+Doppler | doppler | ashby
+Dovetail | dovetail | ashby
+Fathom | fathom | ashby
+Fivetran | fivetran | greenhouse
+Fly.io | fly | lever
+Front | frontapp | ashby
+Gamma | gamma | lever
+Ghost | ghost | greenhouse
+Glide | glide | greenhouse
+Grafana | grafanalabs | greenhouse
+Graphite | graphite | ashby
+Ideogram | ideogram | ashby
+Infisical | infisical | ashby
+Ivalua | ivalua | greenhouse
+Kapwing | kapwing | lever
+Knock | knock | greenhouse
+Krea | krea | ashby
+LangChain | langchain | ashby
+Lightdash | lightdash | ashby
+Luma AI | lumaai | ashby
+Maze | mazedesign | ashby
+Metabase | metabase | lever
+Modal | modal | ashby
+Neon | neon | lever
+Netlify | netlify | greenhouse
+Nium | nium | lever
+Notion | notion | ashby
+Opus Clip | opusclip | ashby
+Pigment | pigment | lever
+Pika | pika | ashby
+Pinecone | pinecone | ashby
+PlanetScale | planetscale | greenhouse
+PostHog | posthog | ashby
+Prismic | prismic | lever
+Railway | railway | ashby
+Raycast | raycast | ashby
+Recraft | recraft | ashby
+Render | render | ashby
+Resend | resend | ashby
+Runway | runway | ashby
+Sanity | sanity | ashby
+Sentry | sentry | ashby
+Sequence | sequence | ashby
+Standard Metrics | standardmetrics | greenhouse
+Tinybird | tinybird | lever
+Tldraw | tldraw | ashby
+Trunk | trunk | ashby
+Twenty | twenty | ashby
+Typeface | typeface | greenhouse
+Weaviate | weaviate | ashby
+Webflow | webflow | greenhouse
+WorkOS | workos | ashby
+Writer | writer | ashby
+
+# --- Watchlist ---
+# No open feed found yet. They are checked anyway, so the day one of them
+# opens a public board it starts appearing without anyone editing this file.
+1Komma5
+About You
+Adevinta
+Ageras
+Airplane
+Aiven
+Anna Money
+Anyfin
+Appwrite
+Arc
+Arcjet
+Attest
+Autenti
 Backbase
-Picnic
-Qonto
-Alan
-Doctolib
-Back Market
-PayFit
-Ledger
-Swile
-Typeform
-Glovo
-Cabify
-Factorial
-Klarna
-Spotify
-Tink
-Voi
+Baserow
+Bear
+Beauty Pie
+Bending Spoons
+BenevolentAI
+Bibliu
+Bizay
+Black Forest Labs
+Blinkist
+Bloom & Wild
+Booksy
+Bpifrance
+Budbee
+Budibase
+Busuu
+Cal.com
+Canva
+Captions
+Cardlay
+Cargo
+Carrd
+Casavo
+Castor
+Castore
+Cera
+Charlotte Tilbury
+Checkout.com
+Chip
+Cobee
+Coda
+Codeium
+Coolblue
+Copy.ai
+Coverflex
+Cron
+Culture Trip
+Curve
+Cushon
+Cuvva
+Dailymotion
+Darktrace
+Dashmote
+dbt Labs
+Deezer
+Defined.ai
+Delivery Hero
+Depop
+Descartes Underwriting
+Detectify
+Dext
+Dixa
+Doctorly
+Documenso
+Doktor.se
+Dynatrace
 Einride
-Pleo
-Templafy
-Zendesk
-Bolt
-Intercom
-Workhuman
-Linear
-Vercel
-Remote
-Deel
+Elvie
+Epidemic Sound
+Equals
+Excalidraw
+Exotec
+Exoticca
+Exscientia
+Factorial
+Famly
+Farewill
+Featurespace
+Fenergo
+FintechOS
+Folk
+Framer
+Framery
+FreeAgent
+Freepik
+Frichti
+Fronted
+Funnel
+Getaround
+Getsafe
+Gitpod
+Glorify
+Glovo
+Gorillas
+Gousto
+Gradio
+Grammarly
+Habito
+Hasura
+Height
+Henchman
+Holded
+Home24
+Hopin
 Hotjar
-GitLab
-Elastic
-SumUp
-Trustpilot
-Synthesia
-ElevenLabs
-Supabase
+Huel
+Hugging Face
+Humanloop
+Idealista
+Incident.io
+Infarm
+Infermedica
+Instabee
+IQM
+iwoca
+Jasper
+Jellysmack
+Jimdo
+June
+Juni
+Just Eat Takeaway
+Kahoot
+Kilo Health
+Kittl
+Klarna
+Kroo
+Kry
+Landbot
+Learnerbly
+Leboncoin
+Leonardo AI
+LetsGetChecked
+Lightyear
+Lilium
+Loops
+Lottiefiles
+Luko
+Lydia
+Lyssna
+Magnific
+Manna
+ManoMano
+Meero
+Mem
+Memrise
+Mention Me
+Mews
+Missive
+Modulr
+Monese
+Monta
+Montonio
+Nedap
+Nested
+Nhost
+NocoDB
+Nord Security
+Northvolt
+Numan
+Nutmeg
+Obsidian
+Ocado
+Octopus Energy
+Oda
+Oddbox
+Odoo
+Olio
+Omio
+Onfido
+Optimal Workshop
+Ornikar
+Otrium
+OutSystems
+Paack
+Packhelp
+Papercup
+Papier
+PayFit
+Payflow
+Payhawk
+Peakon
+Penpot
+PensionBee
+Peppy
+Perlego
+Personio
+Phase
+Picnic
+Pitch
+Pixelmator
+Planday
+Plausible
+Plum
+Podimo
+Productboard
+Pulumi
+Qdrant
+Quantum Systems
+Quinyx
+Red Points
+Reepay
+Reflect
+Remarkable
+Replicate
+Retool
+Revolut
+Rituals
+Rive
+Rootly
+Rossum
+Rovio
+Rows
+Runtastic
+Runway Financial
+Salv
+Scalable Capital
+Scalapay
+Screen Studio
+Secret Escapes
+Seedtag
+Sennder
+Sensat
+Sentiance
+Shine
+Shortwave
+Silverfin
+Simple Analytics
+Sinch
+Sipgate
+Siteimprove
+Skeleton
+Sketch
+Skyscanner
+Smart Pension
+Snowplow
+Snyk
+Softr
+Soldo
+Sourcegraph
+Spacelift
+Spendbase
+Spline
+Starling Bank
+Starship
+Strapi
+STRV
+Studocu
+Superhuman
+Supernova
+Swapfiets
+Swappie
+Tabnine
+Tado
+Tails.com
+Tana
+Taxfix
+Teamleader
+Teamwork
+Tella
+Templafy
+Tessian
+Thought Machine
+Thriva
+Tibber
+Tier Mobility
+Tikkie
+Tink
+Tome
+Translated
+Twisto
+Tylko
+Tymit
+Typedream
+Ubisoft
+Uizard
+Unbabel
+Unifiedpost
+Unity
+Urban Jungle
+Userlane
+Ustwo
+Varjo
+Veed
+Vic.ai
+Vinted
+Vipps
+Vivino
+Voi
+Volocopter
+Volt
+Wagestream
+Wallbox
+Wefox
+Weights & Biases
+Welcome to the Jungle
+Westwing
+WeTransfer
+Whimsical
+Withings
+Y42
+Yapily
+Ynsect
+Yonder
+Young Platform
+Zalando
+Zalaris
+Zava
+Zendesk
+Zeplin
+Zettle
+Zolar
+Zoopla
