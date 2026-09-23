@@ -1749,6 +1749,26 @@
   "ats": "recruitee",
   "seen": "2026-09-23"
  },
+ "Droptica": {
+  "slug": "droptica",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Espeo": {
+  "slug": "espeo",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Famly": {
+  "slug": "famly",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Holded": {
+  "slug": "holded",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
  "Landbot": {
   "slug": "landbot",
   "ats": "recruitee",
@@ -1819,23 +1839,18 @@
   "ats": "recruitee",
   "seen": "2026-09-23"
  },
- "Droptica": {
-  "slug": "droptica",
+ "Bibliu": {
+  "slug": "bibliu",
   "ats": "recruitee",
   "seen": "2026-09-23"
  },
- "Espeo": {
-  "slug": "espeo",
+ "Bloober Team": {
+  "slug": "blooberteam",
   "ats": "recruitee",
   "seen": "2026-09-23"
  },
- "Famly": {
-  "slug": "famly",
-  "ats": "recruitee",
-  "seen": "2026-09-23"
- },
- "Holded": {
-  "slug": "holded",
+ "Xebia": {
+  "slug": "xebia",
   "ats": "recruitee",
   "seen": "2026-09-23"
  }
