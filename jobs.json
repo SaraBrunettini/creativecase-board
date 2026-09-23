@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T08:05:28.403Z",
+ "updated": "2026-09-23T08:09:44.688Z",
  "companies": 274,
  "count": 81,
  "jobs": [
@@ -234,18 +234,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -253,6 +241,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -330,13 +330,13 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -354,13 +354,13 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -822,18 +822,6 @@
   {
    "title": "Graphic Designer",
    "company": "Flo Health",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
    "location": "Poland",
    "country": "Poland",
    "city": null,
@@ -841,6 +829,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
    "posted": "2026-08-28"
   },
   {
