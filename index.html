@@ -24,6 +24,8 @@ a{color:var(--link)}
 
 header{background:var(--card);border-bottom:1px solid var(--line)}
 h1{font-size:1.05rem;font-weight:600;margin:0;padding:14px 0 12px}
+h1 button{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
+h1 button:hover{opacity:.7}
 input,select{background:var(--card);border:1px solid var(--line);border-radius:6px;
   padding:8px 11px;font:inherit;color:inherit;min-width:0;max-width:100%}
 
@@ -98,7 +100,7 @@ footer p{margin:4px 0}
 
 <header>
   <div class="in">
-    <h1>Creative jobs in Europe</h1>
+    <h1><button id="home" type="button">Creative jobs in Europe</button></h1>
     <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
   </div>
 </header>
@@ -349,6 +351,13 @@ $('#locList').addEventListener('mousedown', e => {
   e.preventDefault(); pickLoc(li.dataset.id, li.dataset.v);
 });
 $('#locInput').addEventListener('blur', () => setTimeout(closeCombo, 0));
+/* The title is the way back to everything, the way a logo is elsewhere. */
+$('#home').addEventListener('click', () => {
+  $('#locInput').value = '';
+  set({ disc: '', loc: '', work: [], type: '' });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 $('#locClear').addEventListener('click', () => {
   $('#locInput').value = ''; $('#locInput').focus(); set({ loc: '' });
 });
