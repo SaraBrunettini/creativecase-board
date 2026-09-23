@@ -65,6 +65,17 @@ const ashbyPay = (c) => {
     interval: String(p.interval || '').trim().split(' ').pop() };
 };
 
+const ISO = {
+  GB: 'United Kingdom', UK: 'United Kingdom', IE: 'Ireland', DE: 'Germany',
+  FR: 'France', NL: 'Netherlands', BE: 'Belgium', ES: 'Spain', PT: 'Portugal',
+  IT: 'Italy', PL: 'Poland', DK: 'Denmark', SE: 'Sweden', NO: 'Norway',
+  FI: 'Finland', CH: 'Switzerland', AT: 'Austria', CZ: 'Czechia', HU: 'Hungary',
+  RO: 'Romania', BG: 'Bulgaria', RS: 'Serbia', HR: 'Croatia', GR: 'Greece',
+  LT: 'Lithuania', LV: 'Latvia', EE: 'Estonia', UA: 'Ukraine', LU: 'Luxembourg',
+  IS: 'Iceland', SI: 'Slovenia', SK: 'Slovakia', MT: 'Malta', CY: 'Cyprus',
+  TR: 'Turkey', US: 'United States', CA: 'Canada', IN: 'India', SG: 'Singapore',
+};
+
 const ATS = {
   greenhouse: {
     url: s => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs?pay_transparency=true`,
@@ -88,6 +99,21 @@ const ATS = {
       pay: leverPay(j.salaryRange),
     })),
   },
+  /* Recruitee localises the country name - "Nederland", "Zweden" - so the
+     ISO code is the only reliable read. */
+  recruitee: {
+    url: s => `https://${s}.recruitee.com/api/offers/`,
+    rows: d => (d.offers || []).map(j => ({
+      title: j.title,
+      location: [j.city, ISO[j.country_code] || j.country].filter(Boolean).join(', '),
+      url: j.careers_url || j.careers_apply_url,
+      posted: j.published_at && String(j.published_at).replace(' UTC', 'Z').replace(' ', 'T'),
+      type: j.employment_type_code,
+      work: j.remote ? 'remote' : j.hybrid ? 'hybrid' : '',
+      pay: j.salary && { min: j.salary.min, max: j.salary.max,
+        currency: j.salary.currency, interval: String(j.salary.period || '').toUpperCase() },
+    })),
+  },
   ashby: {
     url: s => `https://api.ashbyhq.com/posting-api/job-board/${s}?includeCompensation=true`,
     rows: d => (d.jobs || []).map(j => ({
@@ -103,7 +129,7 @@ const ATS = {
 };
 
 /* What counts as a creative role at all. */
-const CREATIVE = /(\bdesign|\bcreative|\billustrat|\bbrand\b|\bgraphic|\bux\b|\bui\b|\buser experience|\buser interface|\bmotion|\banimat|\bcopywriter|\bcontent design|\bcontent strateg|\bux writ|\bart director|\buser research|\btypograph|\bvisual)/i;
+const CREATIVE = /(\bdesign|\bcreative|\billustrat|\bbrand\b|\bgraphic|\bux\b|\bui\b|\buser experience|\buser interface|\bmotion|\banimat|\bcopywriter|\bcontent design|\bcontent strateg|\bux writ|\bart director|\buser research|\btypograph|\bvisual|\bvideo editor|\bvideo artist|\bvideographer|\bcontent producer|\bsocial producer|\bstudio producer)/i;
 
 /* Titles that use those words but are not these jobs. */
 const NOT_CREATIVE = new RegExp([
@@ -117,7 +143,8 @@ const NOT_CREATIVE = new RegExp([
   'security research|market research',
   /* commercial roles that borrow the words brand and creative */
   'partnerships?|enablement|business development|transformation owner|event manager',
-  'creative strateg|performance creative|forward deployed|brand ambassador',
+  'creative strateg|performance creative(?! designer)|forward deployed|brand ambassador',
+  'account manager|account director|client partner',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -126,8 +153,8 @@ const NOT_CREATIVE = new RegExp([
 const DISCIPLINES = [
   ['Leadership',   /\b(head of (design|creative|brand|ux|product)|(design|creative|art|brand) director|director,? of (product |global )?(design|ux|creative|brand)|(vp|vice president),? (of )?(design|creative|ux)|design manager|design lead|creative lead|director,? ux|director ux design)\b/i],
   ['Research',     /\b(ux research|uxr|user research|design research|user experience research|researcher)/i],
-  ['Content',      /\b(content design|content strateg|ux writ|ux copy|copywriter|content lead)/i],
-  ['Motion',       /(\bmotion|\banimator|\banimation|\b3d )/i],
+  ['Content',      /\b(content design|content strateg|ux writ|ux copy|copywriter|content lead|content producer)/i],
+  ['Motion',       /(\bmotion|\banimator|\banimation|\b3d |\bvideo editor|\bvideo artist|\bvideographer)/i],
   ['Design ops',   /\b(design ops|design operations|design program|design producer|creative operations|production design)/i],
   ['Brand',        /(\bbrand|\bgraphic design|\bvisual identity|\bvisual design|\bcommunications design|\bpackaging|\bmarketing design|\billustrat)/i],
   ['Product & UX', /(\bproduct design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design)/i],
@@ -154,6 +181,7 @@ function employmentType(raw, title) {
     if (r.startsWith('parttime')) return 'Part-time';
     if (r.startsWith('fulltime')) return 'Full-time';
     if (r.startsWith('contract') || r.startsWith('temporary')) return 'Contract';
+    if (r.includes('freelance') || r.includes('fixedterm')) return 'Contract';
   }
   for (const [name, re] of TYPE_WORDS) if (re.test(title || '')) return name;
   return 'Full-time';
