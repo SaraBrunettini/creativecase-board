@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-22T21:54:50.536Z",
+ "updated": "2026-09-23T07:28:03.357Z",
  "companies": 46,
- "count": 99,
+ "count": 98,
  "jobs": [
   {
    "title": "Creative Project Manager (H/F)",
@@ -162,13 +162,13 @@
   {
    "title": "Senior Product Designer",
    "company": "Tide",
-   "location": "Bulgaria",
-   "country": "Bulgaria",
+   "location": "Lithuania",
+   "country": "Lithuania",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7731830003",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
    "posted": "2026-09-18"
   },
   {
@@ -186,13 +186,13 @@
   {
    "title": "Senior Product Designer",
    "company": "Tide",
-   "location": "Lithuania",
-   "country": "Lithuania",
+   "location": "Bulgaria",
+   "country": "Bulgaria",
    "city": null,
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/tide/jobs/7788378003",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/7731830003",
    "posted": "2026-09-18"
   },
   {
@@ -582,18 +582,6 @@
   {
    "title": "Senior UX Product Designer, Engagement",
    "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior UX Product Designer, Engagement",
-   "company": "HelloFresh",
    "location": "Toronto, Ontario, Canada",
    "country": "Canada",
    "city": "Toronto",
@@ -601,6 +589,18 @@
    "type": "Full-time",
    "workplace": "On-site",
    "url": "https://careers.hellofresh.com/global/en/job/8167268?gh_jid=8167268",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior UX Product Designer, Engagement",
+   "company": "HelloFresh",
+   "location": "Warszawa, Masovian Voivodeship, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
    "posted": "2026-09-14"
   },
   {
@@ -902,18 +902,6 @@
    "workplace": "On-site",
    "url": "https://careers.hellofresh.com/global/en/job/8135998?gh_jid=8135998",
    "posted": "2026-08-24"
-  },
-  {
-   "title": "Design Analyst",
-   "company": "Cabify",
-   "location": "Lima",
-   "country": "Peru",
-   "city": "Lima",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/cabify/jobs/8645249002",
-   "posted": "2026-08-20"
   },
   {
    "title": "Director UX, Growth",
