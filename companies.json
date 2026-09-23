@@ -9,6 +9,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "AKQA": {
+  "slug": "akqa",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Algolia": {
   "slug": "algolia",
   "ats": "greenhouse",
@@ -24,8 +29,18 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Bearing Point": {
+  "slug": "bearingpoint",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Beautiful.ai": {
   "slug": "beautifulai",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Beyond": {
+  "slug": "beyond",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -39,8 +54,18 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Bloomreach": {
+  "slug": "bloomreach",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Bol.com": {
   "slug": "bolcom",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Brandwatch": {
+  "slug": "brandwatch",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -79,6 +104,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Code and Theory": {
+  "slug": "codeandtheory",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Cognism": {
   "slug": "cognism",
   "ats": "greenhouse",
@@ -94,6 +124,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Commercetools": {
+  "slug": "commercetools",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "ComplyAdvantage": {
   "slug": "complyadvantage",
   "ats": "greenhouse",
@@ -104,8 +139,18 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Contentstack": {
+  "slug": "contentstack",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Copper": {
   "slug": "copperco",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Critical Mass": {
+  "slug": "criticalmass",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -119,6 +164,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "DEPT": {
+  "slug": "dept",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Descript": {
   "slug": "descript",
   "ats": "greenhouse",
@@ -126,6 +176,11 @@
  },
  "Doctolib": {
   "slug": "doctolib",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Dream Games": {
+  "slug": "dreamgames",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -141,6 +196,11 @@
  },
  "Emag": {
   "slug": "emag",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Equal Experts": {
+  "slug": "equalexperts",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -249,6 +309,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Hello Monday": {
+  "slug": "hellomonday",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "HelloFresh": {
   "slug": "hellofresh",
   "ats": "greenhouse",
@@ -256,6 +321,26 @@
  },
  "Helsing": {
   "slug": "helsing",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Housemarque": {
+  "slug": "housemarque",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Huge": {
+  "slug": "hugeinc",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "In The Pocket": {
+  "slug": "inthepocket",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Indeed Flex": {
+  "slug": "indeedflex",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -274,6 +359,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Landor": {
+  "slug": "landor",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Lighthouse": {
   "slug": "lighthouse",
   "ats": "greenhouse",
@@ -289,6 +379,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Magnolia": {
+  "slug": "magnolia",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Mentimeter": {
   "slug": "mentimeter",
   "ats": "greenhouse",
@@ -299,8 +394,23 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Mews Systems": {
+  "slug": "mewssystems",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Monks": {
+  "slug": "monks",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Monzo": {
   "slug": "monzo",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "N-iX": {
+  "slug": "nix",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -309,13 +419,33 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Nansen": {
+  "slug": "nansen",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Netlify": {
   "slug": "netlify",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Ogilvy": {
+  "slug": "ogilvy",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "On Running": {
+  "slug": "onrunning",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Optiver": {
   "slug": "optiver",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Oscar": {
+  "slug": "oscar",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -349,6 +479,16 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Proton": {
+  "slug": "proton",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "R/GA": {
+  "slug": "rga",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Raisin": {
   "slug": "raisin",
   "ats": "greenhouse",
@@ -359,6 +499,16 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Rapp": {
+  "slug": "rapp",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Red Badger": {
+  "slug": "redbadger",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Refurbed": {
   "slug": "refurbed",
   "ats": "greenhouse",
@@ -366,6 +516,11 @@
  },
  "Relex": {
   "slug": "relex",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Remedy": {
+  "slug": "remedy",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -399,6 +554,16 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Solita": {
+  "slug": "solita",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Spryker": {
+  "slug": "spryker",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Stability AI": {
   "slug": "stabilityai",
   "ats": "greenhouse",
@@ -414,6 +579,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Stepstone": {
+  "slug": "stepstone",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Storyblok": {
   "slug": "storyblok",
   "ats": "greenhouse",
@@ -426,6 +596,21 @@
  },
  "Sword Health": {
   "slug": "swordhealth",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Tactile Games": {
+  "slug": "tactilegames",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "ThoughtWorks": {
+  "slug": "thoughtworks",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
+ "Thunes": {
+  "slug": "thunes",
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
@@ -474,6 +659,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Valtech": {
+  "slug": "valtech",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Vercel": {
   "slug": "vercel",
   "ats": "greenhouse",
@@ -499,6 +689,11 @@
   "ats": "greenhouse",
   "seen": "2026-09-23"
  },
+ "Wieden Kennedy": {
+  "slug": "wk",
+  "ats": "greenhouse",
+  "seen": "2026-09-23"
+ },
  "Wise": {
   "slug": "wise",
   "ats": "greenhouse",
@@ -514,6 +709,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Adapt": {
+  "slug": "adapt",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Affinity": {
   "slug": "affinity",
   "ats": "ashby",
@@ -521,6 +721,11 @@
  },
  "Airbyte": {
   "slug": "airbyte",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Airwallex": {
+  "slug": "airwallex",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -536,6 +741,11 @@
  },
  "Ankorstore": {
   "slug": "ankorstore",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Assemble": {
+  "slug": "assemble",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -669,6 +879,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Deel": {
+  "slug": "deel",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "DeepL": {
   "slug": "deepl",
   "ats": "ashby",
@@ -794,6 +1009,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "HeyJobs": {
+  "slug": "heyjobs",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Ideogram": {
   "slug": "ideogram",
   "ats": "ashby",
@@ -809,6 +1029,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Jellyfish": {
+  "slug": "jellyfish",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Katana": {
   "slug": "katana",
   "ats": "ashby",
@@ -821,6 +1046,11 @@
  },
  "Kognity": {
   "slug": "kognity",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Kombo": {
+  "slug": "kombo",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -851,6 +1081,11 @@
  },
  "Lightdash": {
   "slug": "lightdash",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Lightspeed": {
+  "slug": "lightspeed",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -919,6 +1154,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Nomad": {
+  "slug": "nomad",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Nord Security": {
   "slug": "nord-security",
   "ats": "ashby",
@@ -929,6 +1169,11 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Oaknorth": {
+  "slug": "oaknorth",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Opus Clip": {
   "slug": "opusclip",
   "ats": "ashby",
@@ -936,6 +1181,11 @@
  },
  "Ostrom": {
   "slug": "ostrom",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Output": {
+  "slug": "output",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -1009,8 +1259,18 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Ravio": {
+  "slug": "ravio",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Raycast": {
   "slug": "raycast",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Reaktor": {
+  "slug": "reaktor",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -1051,6 +1311,11 @@
  },
  "Sequence": {
   "slug": "sequence",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Sitecore": {
+  "slug": "sitecore",
   "ats": "ashby",
   "seen": "2026-09-23"
  },
@@ -1174,9 +1439,19 @@
   "ats": "ashby",
   "seen": "2026-09-23"
  },
+ "Zilch": {
+  "slug": "zilch",
+  "ats": "ashby",
+  "seen": "2026-09-23"
+ },
  "Zoe": {
   "slug": "zoe",
   "ats": "ashby",
+  "seen": "2026-09-23"
+ },
+ "Active Theory": {
+  "slug": "activetheory",
+  "ats": "lever",
   "seen": "2026-09-23"
  },
  "Agicap": {
@@ -1189,8 +1464,23 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
+ "AnalogFolk": {
+  "slug": "analogfolk",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
  "Anchorage": {
   "slug": "anchorage",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Avalanche Studios": {
+  "slug": "avalanchestudios",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Bekk": {
+  "slug": "bekk",
   "ats": "lever",
   "seen": "2026-09-23"
  },
@@ -1244,6 +1534,16 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
+ "Instrument": {
+  "slug": "instrument",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Jagex": {
+  "slug": "jagex",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
  "Jobandtalent": {
   "slug": "jobandtalent",
   "ats": "lever",
@@ -1289,6 +1589,11 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
+ "Netlight": {
+  "slug": "netlight",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
  "Nium": {
   "slug": "nium",
   "ats": "lever",
@@ -1296,6 +1601,11 @@
  },
  "Omnisend": {
   "slug": "omnisend",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Peak Games": {
+  "slug": "peakgames",
   "ats": "lever",
   "seen": "2026-09-23"
  },
@@ -1324,8 +1634,23 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
+ "Scott Logic": {
+  "slug": "scottlogic",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Signal": {
+  "slug": "signal",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
  "Spotify": {
   "slug": "spotify",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Superside": {
+  "slug": "superside",
   "ats": "lever",
   "seen": "2026-09-23"
  },
@@ -1339,6 +1664,11 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
+ "Toptal": {
+  "slug": "toptal",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
  "Trustly": {
   "slug": "trustly",
   "ats": "lever",
@@ -1346,6 +1676,11 @@
  },
  "Veepee": {
   "slug": "veepee",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Velocity Global": {
+  "slug": "velocityglobal",
   "ats": "lever",
   "seen": "2026-09-23"
  },
@@ -1364,348 +1699,13 @@
   "ats": "lever",
   "seen": "2026-09-23"
  },
- "Zopa": {
-  "slug": "zopa",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "AKQA": {
-  "slug": "akqa",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Bearing Point": {
-  "slug": "bearingpoint",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Beyond": {
-  "slug": "beyond",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Bloomreach": {
-  "slug": "bloomreach",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Brandwatch": {
-  "slug": "brandwatch",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Code and Theory": {
-  "slug": "codeandtheory",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Commercetools": {
-  "slug": "commercetools",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Contentstack": {
-  "slug": "contentstack",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Critical Mass": {
-  "slug": "criticalmass",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "DEPT": {
-  "slug": "dept",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Dream Games": {
-  "slug": "dreamgames",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Equal Experts": {
-  "slug": "equalexperts",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Hello Monday": {
-  "slug": "hellomonday",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Housemarque": {
-  "slug": "housemarque",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Huge": {
-  "slug": "hugeinc",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "In The Pocket": {
-  "slug": "inthepocket",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Indeed Flex": {
-  "slug": "indeedflex",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Landor": {
-  "slug": "landor",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Magnolia": {
-  "slug": "magnolia",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Mews Systems": {
-  "slug": "mewssystems",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Monks": {
-  "slug": "monks",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "N-iX": {
-  "slug": "nix",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Nansen": {
-  "slug": "nansen",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Ogilvy": {
-  "slug": "ogilvy",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "On Running": {
-  "slug": "onrunning",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Oscar": {
-  "slug": "oscar",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Proton": {
-  "slug": "proton",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "R/GA": {
-  "slug": "rga",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Rapp": {
-  "slug": "rapp",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Red Badger": {
-  "slug": "redbadger",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Remedy": {
-  "slug": "remedy",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Solita": {
-  "slug": "solita",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Spryker": {
-  "slug": "spryker",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Stepstone": {
-  "slug": "stepstone",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Tactile Games": {
-  "slug": "tactilegames",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "ThoughtWorks": {
-  "slug": "thoughtworks",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Thunes": {
-  "slug": "thunes",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Valtech": {
-  "slug": "valtech",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Wieden Kennedy": {
-  "slug": "wk",
-  "ats": "greenhouse",
-  "seen": "2026-09-23"
- },
- "Adapt": {
-  "slug": "adapt",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Airwallex": {
-  "slug": "airwallex",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Assemble": {
-  "slug": "assemble",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Deel": {
-  "slug": "deel",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "HeyJobs": {
-  "slug": "heyjobs",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Jellyfish": {
-  "slug": "jellyfish",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Kombo": {
-  "slug": "kombo",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Lightspeed": {
-  "slug": "lightspeed",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Nomad": {
-  "slug": "nomad",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Oaknorth": {
-  "slug": "oaknorth",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Output": {
-  "slug": "output",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Ravio": {
-  "slug": "ravio",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Reaktor": {
-  "slug": "reaktor",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Sitecore": {
-  "slug": "sitecore",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Zilch": {
-  "slug": "zilch",
-  "ats": "ashby",
-  "seen": "2026-09-23"
- },
- "Active Theory": {
-  "slug": "activetheory",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "AnalogFolk": {
-  "slug": "analogfolk",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Avalanche Studios": {
-  "slug": "avalanchestudios",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Bekk": {
-  "slug": "bekk",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Instrument": {
-  "slug": "instrument",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Jagex": {
-  "slug": "jagex",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Netlight": {
-  "slug": "netlight",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Peak Games": {
-  "slug": "peakgames",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Scott Logic": {
-  "slug": "scottlogic",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Signal": {
-  "slug": "signal",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Superside": {
-  "slug": "superside",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Toptal": {
-  "slug": "toptal",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
- "Velocity Global": {
-  "slug": "velocityglobal",
-  "ats": "lever",
-  "seen": "2026-09-23"
- },
  "Zeta": {
   "slug": "zeta",
+  "ats": "lever",
+  "seen": "2026-09-23"
+ },
+ "Zopa": {
+  "slug": "zopa",
   "ats": "lever",
   "seen": "2026-09-23"
  },
@@ -1816,6 +1816,26 @@
  },
  "Virtual Identity": {
   "slug": "virtualidentity",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Droptica": {
+  "slug": "droptica",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Espeo": {
+  "slug": "espeo",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Famly": {
+  "slug": "famly",
+  "ats": "recruitee",
+  "seen": "2026-09-23"
+ },
+ "Holded": {
+  "slug": "holded",
   "ats": "recruitee",
   "seen": "2026-09-23"
  }
