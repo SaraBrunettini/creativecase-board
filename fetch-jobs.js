@@ -10,14 +10,70 @@ const fs = require('fs');
 
 /* Companies publish these feeds openly so their careers page can display
    them. We read the same feed their own website does. */
+/* Pay, where a company chooses to publish it. Greenhouse and Ashby both hold
+   it back unless the request asks for it, and roughly one role in six carries
+   a figure - so this is a line the card shows when it can and leaves out when
+   it cannot, never an empty "Salary: not specified". */
+const CURRENCY = {
+  GBP: '\u00a3', EUR: '\u20ac', USD: '$', CHF: 'CHF ', PLN: 'PLN ', SEK: 'SEK ',
+  NOK: 'NOK ', DKK: 'DKK ', CZK: 'CZK ', HUF: 'HUF ', RON: 'RON ', BGN: 'BGN ',
+  UAH: 'UAH ', TRY: 'TRY ',
+};
+const PER = { MONTH: ' a month', WEEK: ' a week', DAY: ' a day', HOUR: ' an hour' };
+
+const amount = (n) => {
+  if (!(n > 0)) return null;
+  if (n < 1000) return String(Math.round(n));
+  const k = n / 1000;
+  return (Number.isInteger(k) ? k : k.toFixed(1).replace(/[.]0$/, '')) + 'K';
+};
+
+/* Takes { min, max, currency, interval } and returns \u00a365K \u2013 \u00a372K. */
+function salary(pay) {
+  if (!pay) return null;
+  const lo = amount(pay.min), hi = amount(pay.max);
+  if (!lo && !hi) return null;
+  const sym = CURRENCY[pay.currency] || (pay.currency ? pay.currency + ' ' : '');
+  const per = PER[pay.interval] || '';
+  return lo && hi && lo !== hi
+    ? sym + lo + ' \u2013 ' + sym + hi + per
+    : sym + (lo || hi) + per;
+}
+
+/* Each board states pay in its own shape. */
+const ghPay = (ranges) => {
+  const r = (ranges || []).find((x) => x && (x.min_cents || x.max_cents));
+  return r && { min: r.min_cents / 100, max: r.max_cents / 100,
+    currency: r.currency_type, interval: /hour/i.test(r.title || '') ? 'HOUR' : 'YEAR' };
+};
+
+const leverPay = (r) => {
+  if (!r || !(r.min || r.max)) return null;
+  const i = String(r.interval || '');
+  return { min: r.min, max: r.max, currency: r.currency,
+    interval: /hour/i.test(i) ? 'HOUR' : /month/i.test(i) ? 'MONTH'
+            : /week/i.test(i) ? 'WEEK' : /day/i.test(i) ? 'DAY' : 'YEAR' };
+};
+
+const ashbyPay = (c) => {
+  const parts = [].concat(
+    (c && c.summaryComponents) || [],
+    (((c && c.compensationTiers) || [])[0] || {}).components || []);
+  const p = parts.find((x) =>
+    x && x.compensationType === 'Salary' && (x.minValue || x.maxValue));
+  return p && { min: p.minValue, max: p.maxValue, currency: p.currencyCode,
+    interval: String(p.interval || '').trim().split(' ').pop() };
+};
+
 const ATS = {
   greenhouse: {
-    url: s => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs`,
+    url: s => `https://boards-api.greenhouse.io/v1/boards/${s}/jobs?pay_transparency=true`,
     rows: d => (d.jobs || []).map(j => ({
       title: j.title,
       location: j.location && j.location.name,
       url: j.absolute_url,
       posted: j.first_published || j.updated_at,
+      pay: ghPay(j.pay_input_ranges),
     })),
   },
   lever: {
@@ -29,10 +85,11 @@ const ATS = {
       posted: j.createdAt && new Date(j.createdAt).toISOString(),
       type: j.categories && j.categories.commitment,
       work: j.workplaceType,
+      pay: leverPay(j.salaryRange),
     })),
   },
   ashby: {
-    url: s => `https://api.ashbyhq.com/posting-api/job-board/${s}`,
+    url: s => `https://api.ashbyhq.com/posting-api/job-board/${s}?includeCompensation=true`,
     rows: d => (d.jobs || []).map(j => ({
       title: j.title,
       location: j.location,
@@ -40,6 +97,7 @@ const ATS = {
       posted: j.publishedAt,
       type: j.employmentType,
       work: j.isRemote ? 'remote' : '',
+      pay: ashbyPay(j.compensation),
     })),
   },
 };
@@ -394,6 +452,7 @@ async function pool(items, size, fn) {
         discipline: disc,
         type: employmentType(r.type, r.title),
         workplace: work,
+        salary: salary(r.pay),
         url: r.url,
         posted: r.posted ? String(r.posted).slice(0, 10) : null,
       });
