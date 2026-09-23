@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-23T08:09:44.688Z",
+ "updated": "2026-09-23T08:32:55.964Z",
  "companies": 274,
- "count": 81,
+ "count": 80,
  "jobs": [
   {
    "title": "Senior Manager, Product Design (f/m/d)",
@@ -12,6 +12,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/contentful/jobs/8223747",
    "posted": "2026-09-22"
   },
@@ -24,6 +25,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/butternutbox/jobs/8826916002",
    "posted": "2026-09-22"
   },
@@ -36,6 +38,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/motorway/26a9a866-4c21-44ce-b5ac-75a8d4325e3a",
    "posted": "2026-09-22"
   },
@@ -48,19 +51,8 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Product Designer - Grow & Engage",
-   "company": "N26",
-   "location": "Berlin, Barcelona",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
    "posted": "2026-09-21"
   },
   {
@@ -72,6 +64,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/goodlord/f55c121b-5687-4f7b-9e8e-b59142ab8b4b",
    "posted": "2026-09-21"
   },
@@ -84,6 +77,7 @@
    "discipline": "Content",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4932337101",
    "posted": "2026-09-21"
   },
@@ -96,6 +90,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "PLN 17.6K – PLN 29.5K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/34d6d437-6d8a-4ea9-bf66-9a1a9d85fcc6",
    "posted": "2026-09-21"
   },
@@ -108,6 +103,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "€3.1K – €6K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/e971355c-5e41-4567-94d7-18a9f3e9a5b6",
    "posted": "2026-09-21"
   },
@@ -120,6 +116,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202562",
    "posted": "2026-09-18"
   },
@@ -132,6 +129,7 @@
    "discipline": "Product & UX",
    "type": "Contract",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202607",
    "posted": "2026-09-18"
   },
@@ -144,6 +142,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/dataiku/jobs/6184876004",
    "posted": "2026-09-18"
   },
@@ -156,6 +155,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/katana/98d97b55-151e-4d9d-923b-6fe3d86eb023",
    "posted": "2026-09-18"
   },
@@ -168,6 +168,7 @@
    "discipline": "Research",
    "type": "Internship",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
    "posted": "2026-09-17"
   },
@@ -180,6 +181,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "Hybrid",
+   "salary": null,
    "url": "https://jobs.lever.co/spotify/7cf725bb-99c8-4717-b7e5-4f4708fa4169",
    "posted": "2026-09-17"
   },
@@ -192,6 +194,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Hybrid",
+   "salary": null,
    "url": "https://jobs.lever.co/deliverect/964659ab-95fd-4ed0-bb7e-2377593b9063",
    "posted": "2026-09-17"
   },
@@ -204,6 +207,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/pennylane/ec92cb34-4490-499d-8b79-3adcf58dbf9a",
    "posted": "2026-09-17"
   },
@@ -216,6 +220,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/5fde7220-fd3d-4df6-ab8c-cca21a313b39",
    "posted": "2026-09-17"
   },
@@ -228,19 +233,8 @@
    "discipline": "Content",
    "type": "Internship",
    "workplace": "On-site",
+   "salary": "€1.2K – €1.4K a month",
    "url": "https://jobs.ashbyhq.com/backmarket/9cbdc249-81a5-476d-a365-4f457efc4a8c",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16"
   },
   {
@@ -252,7 +246,21 @@
    "discipline": "Design ops",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16"
   },
   {
@@ -264,6 +272,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "£65K – £72K",
    "url": "https://jobs.ashbyhq.com/trainline/6543dbd5-062c-44f7-88cf-3275c2867c6a",
    "posted": "2026-09-16"
   },
@@ -276,6 +285,7 @@
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/alan/dd132107-879f-44c5-844f-4abb6125934a",
    "posted": "2026-09-15"
   },
@@ -288,6 +298,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Hybrid",
+   "salary": null,
    "url": "https://jobs.lever.co/farfetch/e75ebdfa-ea55-462a-9430-bfdd9365a938",
    "posted": "2026-09-15"
   },
@@ -300,6 +311,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
    "posted": "2026-09-15"
   },
@@ -312,6 +324,7 @@
    "discipline": "Other",
    "type": "Contract",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
    "posted": "2026-09-15"
   },
@@ -324,6 +337,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8167272?gh_jid=8167272",
    "posted": "2026-09-14"
   },
@@ -336,19 +350,8 @@
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
-   "location": "Edinburgh",
-   "country": "United Kingdom",
-   "city": "Edinburgh",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -360,7 +363,21 @@
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Edinburgh",
+   "country": "United Kingdom",
+   "city": "Edinburgh",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -372,6 +389,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4975330101",
    "posted": "2026-09-14"
   },
@@ -384,6 +402,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4975326101",
    "posted": "2026-09-14"
   },
@@ -396,6 +415,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4975325101",
    "posted": "2026-09-14"
   },
@@ -408,6 +428,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/nabla/d3f336e9-bf79-4ab8-918c-36b143066234",
    "posted": "2026-09-14"
   },
@@ -420,6 +441,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/nabla/97679de0-52bd-49e8-8c92-25bd21c10e21",
    "posted": "2026-09-14"
   },
@@ -432,6 +454,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.lever.co/pigment/c8fad9d3-4424-4a40-b1ce-2a4cb68c8421",
    "posted": "2026-09-14"
   },
@@ -444,6 +467,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "€3.6K – €4.8K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/5fa183a5-7bfd-402e-a42f-5ab927d9e513",
    "posted": "2026-09-14"
   },
@@ -456,6 +480,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/butternutbox/jobs/8798671002",
    "posted": "2026-09-11"
   },
@@ -468,6 +493,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
    "posted": "2026-09-11"
   },
@@ -480,6 +506,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974462101",
    "posted": "2026-09-11"
   },
@@ -492,6 +519,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "€2.6K – €4.2K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/86cfd5dc-c075-4efa-a9dc-d420ec452003",
    "posted": "2026-09-11"
   },
@@ -504,6 +532,7 @@
    "discipline": "Brand",
    "type": "Contract",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://sumup.com/careers/positions/8794667002?gh_jid=8794667002",
    "posted": "2026-09-10"
   },
@@ -516,6 +545,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/carwow/19504c63-effb-4df7-8c0b-8440e2c0ec69",
    "posted": "2026-09-10"
   },
@@ -528,6 +558,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/elevenlabs/5494be31-7899-4f7a-b10f-4c49378b44ef",
    "posted": "2026-09-09"
   },
@@ -540,6 +571,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/monzo/jobs/8185694",
    "posted": "2026-09-09"
   },
@@ -552,6 +584,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/supercell/d0b5451c-4d57-4d4b-81da-7330c83f90e7",
    "posted": "2026-09-09"
   },
@@ -564,6 +597,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/supercell/76e56d65-9884-4c86-b616-f9c70c4a7a34",
    "posted": "2026-09-09"
   },
@@ -576,6 +610,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6184938004",
    "posted": "2026-09-08"
   },
@@ -588,6 +623,7 @@
    "discipline": "Motion",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/dataiku/jobs/6181952004",
    "posted": "2026-09-08"
   },
@@ -600,6 +636,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
    "posted": "2026-09-08"
   },
@@ -612,6 +649,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/nord-security/f9ef0692-bd3e-4c4a-b13f-f1f3d5bcb731",
    "posted": "2026-09-08"
   },
@@ -624,6 +662,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "PLN 17.6K – PLN 29.5K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/d9da600d-43b4-43f3-af47-d854c5eb508c",
    "posted": "2026-09-08"
   },
@@ -636,6 +675,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8147119?gh_jid=8147119",
    "posted": "2026-09-07"
   },
@@ -648,6 +688,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4954101101",
    "posted": "2026-09-07"
   },
@@ -660,6 +701,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "€3.1K – €6K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/0ac04922-cc35-46a1-9388-09eb0650a1b7",
    "posted": "2026-09-07"
   },
@@ -672,6 +714,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "PLN 17.6K – PLN 29.5K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/74727e71-5ac2-4588-92a6-b345c3bb7a39",
    "posted": "2026-09-07"
   },
@@ -684,6 +727,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/preply/1eb77040-a99d-4e16-8603-defc917eece8",
    "posted": "2026-09-04"
   },
@@ -696,6 +740,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/preply/5c1f915d-f2f1-4add-a345-4ee39762a3ff",
    "posted": "2026-09-04"
   },
@@ -708,6 +753,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/7610098?gh_jid=7610098",
    "posted": "2026-09-03"
   },
@@ -720,6 +766,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4968191101",
    "posted": "2026-09-03"
   },
@@ -732,6 +779,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
    "posted": "2026-09-03"
   },
@@ -744,6 +792,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
    "posted": "2026-09-03"
   },
@@ -756,6 +805,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/carwow/2b0f3536-e584-4111-9d70-5c290881434d",
    "posted": "2026-09-02"
   },
@@ -768,6 +818,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/resend/b4d679e8-f41b-4c59-b091-dc5581345fcb",
    "posted": "2026-09-02"
   },
@@ -780,6 +831,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/tldraw/c52007ee-bac0-4176-a5f0-48fe6e1fe854",
    "posted": "2026-09-02"
   },
@@ -792,6 +844,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "PLN 29.5K – PLN 35K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/3b81f583-2e0f-41f7-b93e-401265ed62a0",
    "posted": "2026-09-02"
   },
@@ -804,6 +857,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
    "posted": "2026-09-01"
   },
@@ -816,20 +870,9 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4965445101",
    "posted": "2026-09-01"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
-   "posted": "2026-08-28"
   },
   {
    "title": "Graphic Designer",
@@ -840,7 +883,21 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
    "posted": "2026-08-28"
   },
   {
@@ -852,6 +909,7 @@
    "discipline": "Other",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": null,
    "url": "https://jobs.ashbyhq.com/recraft/64655615-7a15-4e41-bd92-d2c91201b7a8",
    "posted": "2026-08-28"
   },
@@ -864,6 +922,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8146772?gh_jid=8146772",
    "posted": "2026-08-27"
   },
@@ -876,6 +935,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959179101",
    "posted": "2026-08-27"
   },
@@ -888,6 +948,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://helsing.ai/jobs/4961544101?gh_jid=4961544101",
    "posted": "2026-08-27"
   },
@@ -900,6 +961,7 @@
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
+   "salary": "€4.7K – €6.5K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/f2e8b050-a467-4c28-b598-aaef65cfd6cd",
    "posted": "2026-08-27"
   },
@@ -912,6 +974,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8158781",
    "posted": "2026-08-26"
   },
@@ -924,6 +987,7 @@
    "discipline": "Motion",
    "type": "Internship",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://sumup.com/careers/positions/8690943002?gh_jid=8690943002",
    "posted": "2026-08-26"
   },
@@ -936,6 +1000,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "Hybrid",
+   "salary": null,
    "url": "https://jobs.lever.co/malt/910560d4-80ce-41c7-9a5b-b3e714ce0f78",
    "posted": "2026-08-26"
   },
@@ -948,6 +1013,7 @@
    "discipline": "Brand",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8152695",
    "posted": "2026-08-25"
   },
@@ -960,6 +1026,7 @@
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": null,
    "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8129943",
    "posted": "2026-08-25"
   },
@@ -972,6 +1039,7 @@
    "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
+   "salary": "£125K – £150K",
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7962934003",
    "posted": "2026-08-24"
   }
