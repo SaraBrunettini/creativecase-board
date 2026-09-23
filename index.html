@@ -77,6 +77,7 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
 .loc{margin:1px 0 0;color:var(--muted);font-size:.9rem}
 .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px;align-items:center}
 .tag{background:var(--chip);border-radius:4px;padding:2px 8px;font-size:.78rem;color:var(--muted)}
+.tag.pay{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
 .date{color:var(--faint);font-size:.8rem;margin-left:auto}
 
 .note{background:var(--card);border:1px solid var(--line);border-radius:8px;
@@ -282,6 +283,7 @@ function render(){
       <p class="co">${esc(j.company)}</p>
       <p class="loc">${esc(j.location)}</p>
       <div class="tags">
+        ${j.salary ? `<span class="tag pay">${esc(j.salary)}</span>` : ''}
         <span class="tag">${esc(j.discipline)}</span>
         ${j.type !== 'Full-time' ? `<span class="tag">${esc(j.type)}</span>` : ''}
         ${j.workplace !== 'On-site' ? `<span class="tag">${esc(j.workplace)}</span>` : ''}
