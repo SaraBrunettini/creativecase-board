@@ -9,268 +9,265 @@
 # point: the run checks all of them every morning, so a role shows up here the
 # day it is posted rather than the week someone remembers to look.
 
-# --- Already on the board ---
-Adyen | adyen | greenhouse
-Alan | alan | ashby
-Back Market | backmarket | ashby
-Cabify | cabify | greenhouse
-Celonis | celonis | greenhouse
-Cleo | cleo | greenhouse
-Contentful | contentful | greenhouse
-Deliveroo | deliveroo | greenhouse
-Doctolib | doctolib | greenhouse
-Duffel | duffel | ashby
-Elastic | elastic | greenhouse
-ElevenLabs | elevenlabs | ashby
-Farfetch | farfetch | lever
-Freetrade | freetrade | ashby
-GetYourGuide | getyourguide | greenhouse
-GitLab | gitlab | greenhouse
-GoCardless | gocardless | greenhouse
-HelloFresh | hellofresh | greenhouse
-Intercom | intercom | greenhouse
-Ledger | ledger | ashby
-Linear | linear | ashby
-Marshmallow | marshmallow | ashby
-Miro | miro | ashby
-Mollie | mollie | ashby
-Monzo | monzo | greenhouse
-Moonpig | moonpig | lever
-Multiverse | multiverse | ashby
-N26 | n26 | greenhouse
-Pleo | pleo | ashby
-Primer | primer | ashby
-Qonto | qonto | lever
-Raisin | raisin | greenhouse
-Remote | remote | greenhouse
-Spotify | spotify | lever
-SumUp | sumup | greenhouse
-Supabase | supabase | ashby
-Swile | swile | lever
-Synthesia | synthesia | ashby
-Tide | tide | greenhouse
-Trainline | trainline | ashby
-Trustpilot | trustpilot | greenhouse
-Typeform | typeform | greenhouse
-Vercel | vercel | greenhouse
-Wise | wise | greenhouse
-Workhuman | workhuman | ashby
-Zopa | zopa | lever
-
-# --- United Kingdom & Ireland ---
-Beam | beam | greenhouse
-Birdie | birdie | ashby
-Blockchain.com | blockchain | greenhouse
-Butternut Box | butternutbox | greenhouse
-Capital on Tap | capitalontap | greenhouse
-Carwow | carwow | ashby
-ClearBank | clearbank | ashby
-Codat | codat | ashby
-Cognism | cognism | greenhouse
-ComplyAdvantage | complyadvantage | greenhouse
-Copper | copperco | greenhouse
-Ebury | ebury | greenhouse
-Elliptic | elliptic | ashby
-Faculty | faculty | ashby
-Flagstone | flagstone | ashby
-Flipdish | flipdish | greenhouse
-Flo Health | flohealth | greenhouse
-Form3 | form3 | greenhouse
-Funding Circle | fundingcircle | ashby
-Goodlord | goodlord | ashby
-Graphcore | graphcore | greenhouse
-Griffin | griffin | ashby
-Gymshark | gymshark | greenhouse
-Healx | healx | lever
-Improbable | improbable | ashby
-Kitman Labs | kitmanlabs | lever
-Lendable | lendable | ashby
-Luno | luno | greenhouse
-Moneybox | moneybox | ashby
-Motorway | motorway | ashby
-OVO Energy | ovoenergy | greenhouse
-Paddle | paddle | ashby
-Pave | pave | ashby
-Peak | peak | greenhouse
-PolyAI | polyai | greenhouse
-Quantexa | quantexa | ashby
-Sona | sona | ashby
-Spendesk | spendesk | ashby
-Stability AI | stabilityai | greenhouse
-Tines | tines | greenhouse
-Too Good To Go | toogoodtogo | ashby
-Tractable | tractable | ashby
-TrueLayer | truelayer | greenhouse
-Unmind | unmind | ashby
-Wayflyer | wayflyer | ashby
-Wayve | wayve | greenhouse
-Zego | zego | ashby
-Zoe | zoe | ashby
-
-# --- Germany, Austria, Switzerland & the Nordics ---
+# --- Greenhouse ---
 Ada Health | adahealth | greenhouse
-Aleph Alpha | alephalpha | ashby
-Avi Medical | avimedical | greenhouse
-Babbel | babbel | ashby
-Bitpanda | bitpanda | greenhouse
-Bolt | bolt | ashby
-Camunda | camunda | ashby
-Choco | choco | ashby
-Circ | circ | greenhouse
-Clark | clark | ashby
-Cognite | cognite | greenhouse
-Contentsquare | contentsquare | lever
-Corti | corti | ashby
-DeepL | deepl | ashby
-Dune Analytics | dune | ashby
-Enpal | enpal | ashby
-Flink | flink | ashby
-Flix | flix | greenhouse
-Forto | forto | ashby
-Free Now | freenow | greenhouse
-Frontify | frontify | lever
-Gelato | gelato | ashby
-GoodNotes | goodnotes | greenhouse
-GoStudent | gostudent | greenhouse
-Grover | grover | greenhouse
-Helsing | helsing | greenhouse
-Kognity | kognity | ashby
-Langdock | langdock | ashby
-Lovable | lovable | greenhouse
-Lunar | lunar | ashby
-Mentimeter | mentimeter | greenhouse
-N8n | n8n | ashby
-Ostrom | ostrom | ashby
-Oura | oura | greenhouse
-Parloa | parloa | greenhouse
-Preply | preply | ashby
-Refurbed | refurbed | greenhouse
-Relex | relex | greenhouse
-Smartly.io | smartlyio | greenhouse
-Solaris | solarisbank | greenhouse
-Staffbase | staffbase | greenhouse
-Storyblok | storyblok | greenhouse
-Supercell | supercell | ashby
-Trade Republic | traderepublic | greenhouse
-Trivago | trivago | greenhouse
-Truecaller | truecaller | greenhouse
-Trustly | trustly | lever
-Wolt | wolt | greenhouse
-
-# --- France, Benelux, Iberia, Italy & central Europe ---
-Agicap | agicap | lever
-Aircall | aircall | lever
+Adyen | adyen | greenhouse
+AKQA | akqa | greenhouse
 Algolia | algolia | greenhouse
-Anchorage | anchorage | lever
-Ankorstore | ankorstore | ashby
-Bitvavo | bitvavo | ashby
-BlaBlaCar | blablacar | lever
+Avi Medical | avimedical | greenhouse
+Beam | beam | greenhouse
+Bearing Point | bearingpoint | greenhouse
+Beautiful.ai | beautifulai | greenhouse
+Beyond | beyond | greenhouse
+Bitpanda | bitpanda | greenhouse
+Blockchain.com | blockchain | greenhouse
+Bloomreach | bloomreach | greenhouse
 Bol.com | bolcom | greenhouse
-Brainly | brainly | ashby
-Bynder | bynder | ashby
-Cardiologs | cardiologs | lever
+Brandwatch | brandwatch | greenhouse
+Butternut Box | butternutbox | greenhouse
+Cabify | cabify | greenhouse
+Capital on Tap | capitalontap | greenhouse
 Catawiki | catawiki | greenhouse
+Celonis | celonis | greenhouse
+Circ | circ | greenhouse
+Cleo | cleo | greenhouse
+Code and Theory | codeandtheory | greenhouse
+Cognism | cognism | greenhouse
+Cognite | cognite | greenhouse
 Collibra | collibra | greenhouse
+Commercetools | commercetools | greenhouse
+ComplyAdvantage | complyadvantage | greenhouse
+Contentful | contentful | greenhouse
+Contentstack | contentstack | greenhouse
+Copper | copperco | greenhouse
+Critical Mass | criticalmass | greenhouse
 Dataiku | dataiku | greenhouse
-Deliverect | deliverect | lever
-Docebo | docebo | lever
-DocPlanner | docplanner | ashby
-Dust | dust | ashby
+Deliveroo | deliveroo | greenhouse
+DEPT | dept | greenhouse
+Descript | descript | greenhouse
+Doctolib | doctolib | greenhouse
+Dream Games | dreamgames | greenhouse
+Ebury | ebury | greenhouse
+Elastic | elastic | greenhouse
 Emag | emag | greenhouse
+Equal Experts | equalexperts | greenhouse
 Feedzai | feedzai | greenhouse
 Fever | feverup | greenhouse
+Fivetran | fivetran | greenhouse
+Flipdish | flipdish | greenhouse
+Flix | flix | greenhouse
+Flo Health | flohealth | greenhouse
 Flow Traders | flowtraders | greenhouse
-Glia | glia | ashby
+Form3 | form3 | greenhouse
+Free Now | freenow | greenhouse
+GetYourGuide | getyourguide | greenhouse
+Ghost | ghost | greenhouse
+GitLab | gitlab | greenhouse
+Glide | glide | greenhouse
+GoCardless | gocardless | greenhouse
+GoodNotes | goodnotes | greenhouse
+GoStudent | gostudent | greenhouse
+Grafana | grafanalabs | greenhouse
+Graphcore | graphcore | greenhouse
+Grover | grover | greenhouse
 Gympass | gympass | greenhouse
-Hex | hex | ashby
-Jobandtalent | jobandtalent | lever
-Katana | katana | ashby
-Kiwi.com | kiwi | ashby
+Gymshark | gymshark | greenhouse
+Hello Monday | hellomonday | greenhouse
+HelloFresh | hellofresh | greenhouse
+Helsing | helsing | greenhouse
+Housemarque | housemarque | greenhouse
+Huge | hugeinc | greenhouse
+In The Pocket | inthepocket | greenhouse
+Indeed Flex | indeedflex | greenhouse
+Intercom | intercom | greenhouse
+Ivalua | ivalua | greenhouse
+Knock | knock | greenhouse
+Landor | landor | greenhouse
 Lighthouse | lighthouse | greenhouse
-Malt | malt | lever
+Lovable | lovable | greenhouse
+Luno | luno | greenhouse
+Magnolia | magnolia | greenhouse
+Mentimeter | mentimeter | greenhouse
 Messagebird | bird | greenhouse
-Mistral AI | mistral | lever
-Musixmatch | musixmatch | lever
-Nabla | nabla | ashby
-Omnisend | omnisend | lever
+Mews Systems | mewssystems | greenhouse
+Monks | monks | greenhouse
+Monzo | monzo | greenhouse
+N-iX | nix | greenhouse
+N26 | n26 | greenhouse
+Nansen | nansen | greenhouse
+Netlify | netlify | greenhouse
+Ogilvy | ogilvy | greenhouse
+On Running | onrunning | greenhouse
 Optiver | optiver | greenhouse
-Owkin | owkin | ashby
-Pennylane | pennylane | ashby
-Photoroom | photoroom | ashby
-Pipedrive | pipedrive | lever
-Poolside | poolside | ashby
+Oscar | oscar | greenhouse
+Oura | oura | greenhouse
+OVO Energy | ovoenergy | greenhouse
+Parloa | parloa | greenhouse
+Peak | peak | greenhouse
+PlanetScale | planetscale | greenhouse
+PolyAI | polyai | greenhouse
+Proton | proton | greenhouse
+R/GA | rga | greenhouse
+Raisin | raisin | greenhouse
 Ramp Network | rampnetwork | greenhouse
-Recharge | recharge | ashby
-Satispay | satispay | lever
+Rapp | rapp | greenhouse
+Red Badger | redbadger | greenhouse
+Refurbed | refurbed | greenhouse
+Relex | relex | greenhouse
+Remedy | remedy | greenhouse
+Remote | remote | greenhouse
 Sendcloud | sendcloud | greenhouse
 Sensei | sensei | greenhouse
 Showpad | showpad | greenhouse
-Sorare | sorare | ashby
-Sunday | sunday | ashby
+Smartly.io | smartlyio | greenhouse
+Solaris | solarisbank | greenhouse
+Solita | solita | greenhouse
+Spryker | spryker | greenhouse
+Stability AI | stabilityai | greenhouse
+Staffbase | staffbase | greenhouse
+Standard Metrics | standardmetrics | greenhouse
+Stepstone | stepstone | greenhouse
+Storyblok | storyblok | greenhouse
+SumUp | sumup | greenhouse
 Sword Health | swordhealth | greenhouse
-Talkdesk | talkdesk | ashby
-UiPath | uipath | ashby
-Veepee | veepee | lever
+Tactile Games | tactilegames | greenhouse
+ThoughtWorks | thoughtworks | greenhouse
+Thunes | thunes | greenhouse
+Tide | tide | greenhouse
+Tines | tines | greenhouse
+Trade Republic | traderepublic | greenhouse
+Trivago | trivago | greenhouse
+Truecaller | truecaller | greenhouse
+TrueLayer | truelayer | greenhouse
+Trustpilot | trustpilot | greenhouse
+Typeface | typeface | greenhouse
+Typeform | typeform | greenhouse
+Valtech | valtech | greenhouse
+Vercel | vercel | greenhouse
 Veriff | veriff | greenhouse
-Verkor | verkor | lever
-Vestiaire Collective | vestiairecollective | lever
-Voodoo | voodoo | ashby
 Wallapop | wallapop | greenhouse
-Younited | younited | lever
+Wayve | wayve | greenhouse
+Webflow | webflow | greenhouse
+Wieden Kennedy | wk | greenhouse
+Wise | wise | greenhouse
+Wolt | wolt | greenhouse
 
-# --- Products, developer tools and AI ---
+# --- Ashby ---
 Abacum | abacum | ashby
+Adapt | adapt | ashby
 Affinity | affinity | ashby
 Airbyte | airbyte | ashby
+Airwallex | airwallex | ashby
+Alan | alan | ashby
+Aleph Alpha | alephalpha | ashby
+Ankorstore | ankorstore | ashby
+Assemble | assemble | ashby
 Attio | attio | ashby
+Babbel | babbel | ashby
+Back Market | backmarket | ashby
 Baseten | baseten | ashby
-Beautiful.ai | beautifulai | greenhouse
+Birdie | birdie | ashby
+Bitvavo | bitvavo | ashby
+Black Forest Labs | black-forest-labs | ashby
+Bolt | bolt | ashby
+Brainly | brainly | ashby
 Bubble | bubble | ashby
+Bynder | bynder | ashby
+Camunda | camunda | ashby
+Carwow | carwow | ashby
 Castle | castle | ashby
 Causal | causal | ashby
+Choco | choco | ashby
+Clark | clark | ashby
+ClearBank | clearbank | ashby
 Clerk | clerk | ashby
 Clickhouse | clickhouse | ashby
+Codat | codat | ashby
 Coder | coder | ashby
 CodeRabbit | coderabbit | ashby
+Corti | corti | ashby
 Craft | craftdocs | ashby
 Cube | cube | ashby
-Descript | descript | greenhouse
+Deel | deel | ashby
+DeepL | deepl | ashby
+DocPlanner | docplanner | ashby
 Doppler | doppler | ashby
 Dovetail | dovetail | ashby
+Duffel | duffel | ashby
+Dune Analytics | dune | ashby
+Dust | dust | ashby
+ElevenLabs | elevenlabs | ashby
+Elliptic | elliptic | ashby
+Enpal | enpal | ashby
+Epidemic Sound | epidemic-sound | ashby
+Faculty | faculty | ashby
 Fathom | fathom | ashby
-Fivetran | fivetran | greenhouse
-Fly.io | fly | lever
+Flagstone | flagstone | ashby
+Flink | flink | ashby
+Forto | forto | ashby
+Freetrade | freetrade | ashby
 Front | frontapp | ashby
-Gamma | gamma | lever
-Ghost | ghost | greenhouse
-Glide | glide | greenhouse
-Grafana | grafanalabs | greenhouse
+Funding Circle | fundingcircle | ashby
+Gelato | gelato | ashby
+Glia | glia | ashby
+Goodlord | goodlord | ashby
 Graphite | graphite | ashby
+Griffin | griffin | ashby
+Hex | hex | ashby
+HeyJobs | heyjobs | ashby
 Ideogram | ideogram | ashby
+Improbable | improbable | ashby
 Infisical | infisical | ashby
-Ivalua | ivalua | greenhouse
-Kapwing | kapwing | lever
-Knock | knock | greenhouse
+Jellyfish | jellyfish | ashby
+Katana | katana | ashby
+Kiwi.com | kiwi | ashby
+Kognity | kognity | ashby
+Kombo | kombo | ashby
 Krea | krea | ashby
 LangChain | langchain | ashby
+Langdock | langdock | ashby
+Ledger | ledger | ashby
+Lendable | lendable | ashby
 Lightdash | lightdash | ashby
+Lightspeed | lightspeed | ashby
+Linear | linear | ashby
 Luma AI | lumaai | ashby
+Lunar | lunar | ashby
+Marshmallow | marshmallow | ashby
 Maze | mazedesign | ashby
-Metabase | metabase | lever
+Miro | miro | ashby
 Modal | modal | ashby
-Neon | neon | lever
-Netlify | netlify | greenhouse
-Nium | nium | lever
+Mollie | mollie | ashby
+Moneybox | moneybox | ashby
+Motorway | motorway | ashby
+Multiverse | multiverse | ashby
+N8n | n8n | ashby
+Nabla | nabla | ashby
+Nomad | nomad | ashby
+Nord Security | nord-security | ashby
 Notion | notion | ashby
+Oaknorth | oaknorth | ashby
 Opus Clip | opusclip | ashby
-Pigment | pigment | lever
+Ostrom | ostrom | ashby
+Output | output | ashby
+Owkin | owkin | ashby
+Paddle | paddle | ashby
+Pave | pave | ashby
+Pennylane | pennylane | ashby
+Photoroom | photoroom | ashby
 Pika | pika | ashby
 Pinecone | pinecone | ashby
-PlanetScale | planetscale | greenhouse
+Pleo | pleo | ashby
+Poolside | poolside | ashby
 PostHog | posthog | ashby
-Prismic | prismic | lever
+Preply | preply | ashby
+Primer | primer | ashby
+Quantexa | quantexa | ashby
 Railway | railway | ashby
+Ravio | ravio | ashby
 Raycast | raycast | ashby
+Reaktor | reaktor | ashby
+Recharge | recharge | ashby
 Recraft | recraft | ashby
 Render | render | ashby
 Resend | resend | ashby
@@ -278,51 +275,167 @@ Runway | runway | ashby
 Sanity | sanity | ashby
 Sentry | sentry | ashby
 Sequence | sequence | ashby
-Standard Metrics | standardmetrics | greenhouse
-Tinybird | tinybird | lever
+Sitecore | sitecore | ashby
+Sona | sona | ashby
+Sorare | sorare | ashby
+Spendesk | spendesk | ashby
+Sunday | sunday | ashby
+Supabase | supabase | ashby
+Supercell | supercell | ashby
+Synthesia | synthesia | ashby
+Talkdesk | talkdesk | ashby
+Thought Machine | thought-machine | ashby
 Tldraw | tldraw | ashby
+Too Good To Go | toogoodtogo | ashby
+Tractable | tractable | ashby
+Trainline | trainline | ashby
 Trunk | trunk | ashby
 Twenty | twenty | ashby
-Typeface | typeface | greenhouse
+UiPath | uipath | ashby
+Unmind | unmind | ashby
+Voodoo | voodoo | ashby
+Wayflyer | wayflyer | ashby
 Weaviate | weaviate | ashby
-Webflow | webflow | greenhouse
+Workhuman | workhuman | ashby
 WorkOS | workos | ashby
 Writer | writer | ashby
+Zego | zego | ashby
+Zilch | zilch | ashby
+Zoe | zoe | ashby
+
+# --- Lever ---
+Active Theory | activetheory | lever
+Agicap | agicap | lever
+Aircall | aircall | lever
+AnalogFolk | analogfolk | lever
+Anchorage | anchorage | lever
+Avalanche Studios | avalanchestudios | lever
+Bekk | bekk | lever
+BlaBlaCar | blablacar | lever
+Cardiologs | cardiologs | lever
+Contentsquare | contentsquare | lever
+Deliverect | deliverect | lever
+Docebo | docebo | lever
+Farfetch | farfetch | lever
+Fly.io | fly | lever
+Frontify | frontify | lever
+Gamma | gamma | lever
+Healx | healx | lever
+Instrument | instrument | lever
+Jagex | jagex | lever
+Jobandtalent | jobandtalent | lever
+Kapwing | kapwing | lever
+Kitman Labs | kitmanlabs | lever
+Malt | malt | lever
+Metabase | metabase | lever
+Mistral AI | mistral | lever
+Moonpig | moonpig | lever
+Musixmatch | musixmatch | lever
+Neon | neon | lever
+Netlight | netlight | lever
+Nium | nium | lever
+Omnisend | omnisend | lever
+Peak Games | peakgames | lever
+Pigment | pigment | lever
+Pipedrive | pipedrive | lever
+Prismic | prismic | lever
+Qonto | qonto | lever
+Satispay | satispay | lever
+Scott Logic | scottlogic | lever
+Signal | signal | lever
+Spotify | spotify | lever
+Superside | superside | lever
+Swile | swile | lever
+Tinybird | tinybird | lever
+Toptal | toptal | lever
+Trustly | trustly | lever
+Veepee | veepee | lever
+Velocity Global | velocityglobal | lever
+Verkor | verkor | lever
+Vestiaire Collective | vestiairecollective | lever
+Younited | younited | lever
+Zeta | zeta | lever
+Zopa | zopa | lever
+
+# --- Recruitee ---
+11 bit studios | 11bitstudios | recruitee
+iO Digital | iodigital | recruitee
+Ten Square Games | tensquaregames | recruitee
 
 # --- Watchlist ---
 # No open feed found yet. They are checked anyway, so the day one of them
 # opens a public board it starts appearing without anyone editing this file.
+10Clouds
+10x Banking
 1Komma5
 About You
+Acast
+Accenture Song
+Achilles
+Ackee
+Acne Studios
+Adesso
 Adevinta
+Adidas
+AFAS
 Ageras
 Airplane
 Aiven
+Akkodis
+Allica
+Alten
+Amplience
 Anna Money
+Antrop
 Anyfin
+Aperto
+Applause
 Appwrite
 Arc
 Arcjet
+Arket
+Asos
+Atom Bank
+Atos
 Attest
+Audible
 Autenti
+Axel Springer
+Babylon
 Backbase
+Bandcamp
+Bang Olufsen
 Baserow
 Bear
 Beauty Pie
+Believe
 Bending Spoons
 BenevolentAI
 Bibliu
+Big Spaceship
+Bird
 Bizay
-Black Forest Labs
 Blinkist
+Bloober Team
 Bloom & Wild
+Bohemia Interactive
+Boldare
+Bonnier
+Bontouch
+Boohoo
+BookBeat
 Booksy
+Bothrs
+Boundless
 Bpifrance
 Budbee
 Budibase
+Build in Amsterdam
 Busuu
+Bytes
 Cal.com
 Canva
+Capgemini
 Captions
 Cardlay
 Cargo
@@ -330,129 +443,253 @@ Carrd
 Casavo
 Castor
 Castore
+CD Projekt
 Cera
+Channable
+Channel 4
+Charlie Tango
 Charlotte Tilbury
 Checkout.com
 Chip
+Ciklum
+Clever Franke
+Cleverlance
 Cobee
 Coda
+Codecentric
 Codeium
+Cognizant
+Computas
+Consid
 Coolblue
 Copy.ai
 Coverflex
+Craftware
+Craftzing
+Creative Assembly
 Cron
 Culture Trip
 Curve
 Cushon
 Cuvva
+Cybercom
 Dailymotion
 Darktrace
 Dashmote
+Dazn
 dbt Labs
+Decathlon
 Deezer
 Defined.ai
 Delivery Hero
+Dentsu
 Depop
 Descartes Underwriting
 Detectify
+Devoteam
 Dext
+Diconium
+Digia
 Dixa
+Doberman
 Doctorly
 Documenso
 Doktor.se
+Droptica
+Duval Union
 Dynatrace
+Economist
+Ecosia
+Edenspiekermann
+Eficode
 Einride
+Elaboratum
 Elvie
-Epidemic Sound
+Emakina
+Embark
+Emerline
+Endava
+Enrise
+EPAM
+Episerver
 Equals
+Espeo
+Essence
+Etnetera
+Exact
 Excalidraw
 Exotec
 Exoticca
 Exscientia
+Exxeta
+Fabrique
 Factorial
 Famly
 Farewill
+Fatshark
 Featurespace
 Fenergo
+Figures
+Filippa K
+Financial Times
 FintechOS
+Flyt
+Fnality
 Folk
+Fork Unstable Media
+Fortnox
 Framer
 Framery
 FreeAgent
 Freepik
 Frichti
 Fronted
+Frontier Developments
+Frontmen
 Funnel
+Futurice
+Ganni
 Getaround
 Getsafe
 Gitpod
+Globant
 Glorify
 Glovo
 Gorillas
 Gousto
 Gradio
 Grammarly
+Grid Dynamics
+Guardian
 Habito
 Hasura
+Havas
 Height
 Henchman
+Hibob
+HiQ
+HM Group
+Hoka
 Holded
 Home24
 Hopin
 Hotjar
 Huel
 Hugging Face
+Huma
 Humanloop
+Huuuge Games
+Hyperloop
 Idealista
+Ikea
+Immeo
+Incentro
 Incident.io
+Inetum
 Infarm
 Infermedica
+Infinity Works
+Info Support
+Initiative
 Instabee
+Intellias
+Inter Ikea
+Intracto
+IO Interactive
+iProspect
 IQM
+Iteam
+Itera
+ITV
 iwoca
 Jasper
+Jayway
 Jellysmack
 Jimdo
+Jitsi
+Jobteaser
+Jobvalley
+Jortt
 June
 Juni
 Just Eat Takeaway
+Kabisa
 Kahoot
+Kaia Health
+Kainos
 Kilo Health
+Kin and Carta
+King
 Kittl
 Klarna
+Knowit
+Kodemaker
 Kroo
 Kry
+Label A
 Landbot
 Learnerbly
 Leboncoin
+Lego
 Leonardo AI
 LetsGetChecked
 Lightyear
 Lilium
+Little Miss Robot
 Loops
 Lottiefiles
 Luko
+Luminis
+Lunar Logic
+Luxoft
 Lydia
 Lyssna
+Made Tech
 Magnific
+MaibornWolff
+Making Waves
+Mambu
 Manna
 ManoMano
+Matches
+Medbelle
 Meero
+Meilisearch
 Mem
 Memrise
 Mention Me
+Merkle
 Mews
+Min Doktor
+Mindshare
+Miniclip
+Miquido
+Mirabeau
 Missive
 Modulr
+Momkai
 Monese
+Moneybird
 Monta
+Monterail
 Montonio
+MRM
+Multiplier
+Mytheresa
 Nedap
 Nested
+Net a Porter
+Netcentric
+Netguru
+Netlife
+Nexer
+Nextcloud
 Nhost
 NocoDB
-Nord Security
+Nomtek
+Nordcloud
 Northvolt
+Nudie Jeans
 Numan
 Nutmeg
 Obsidian
@@ -463,21 +700,32 @@ Oddbox
 Odoo
 Olio
 Omio
+Omnipresent
 Onfido
+Onlyfy
 Optimal Workshop
+Optimizely
+Ordina
 Ornikar
 Otrium
+Otta
 OutSystems
+Oyster
 Paack
 Packhelp
+Pandora
+Panenco
+Papaya
 Papercup
 Papier
+Paradox Interactive
 PayFit
 Payflow
 Payhawk
 Peakon
 Penpot
 PensionBee
+People Can Fly
 Peppy
 Perlego
 Personio
@@ -487,14 +735,30 @@ Pitch
 Pixelmator
 Planday
 Plausible
+Playdead
+Playtika
 Plum
 Podimo
+Pragmatic Coders
 Productboard
+Prototyp
+Publicis Sapient
 Pulumi
+Puma
+Q42
 Qdrant
 Quantum Systems
 Quinyx
+Qvik
+Qwant
+Raccoons
+Railsr
+Random Studio
+Rapyd
+Rasmussen
+Rebellion
 Red Points
+Reebok
 Reepay
 Reflect
 Remarkable
@@ -503,6 +767,7 @@ Retool
 Revolut
 Rituals
 Rive
+Rollic
 Rootly
 Rossum
 Rovio
@@ -510,16 +775,28 @@ Rows
 Runtastic
 Runway Financial
 Salv
+Sapient
 Scalable Capital
 Scalapay
+Schibsted
 Screen Studio
 Secret Escapes
 Seedtag
+Selfapy
+Selleo
+Senacor
 Sennder
 Sensat
 Sentiance
+Sezane
+Sharkmob
 Shine
+Shopware
+Shortcut
 Shortwave
+Sigma Software
+Signifly
+Siili
 Silverfin
 Simple Analytics
 Sinch
@@ -527,21 +804,38 @@ Sipgate
 Siteimprove
 Skeleton
 Sketch
+Sky
 Skyscanner
+Slalom
 Smart Pension
 Snowplow
 Snyk
+Softgarden
+SoftKraft
 Softr
+Softserve
+Softwire
+Sogeti
 Soldo
+Sonos
+Sopra
+Sopra Steria
+SoundCloud
 Sourcegraph
 Spacelift
 Spendbase
+Splash Damage
 Spline
+Spott
+Spyke Games
+Star Stable
 Starling Bank
 Starship
+Storytel
 Strapi
 STRV
 Studocu
+Sumo Digital
 Superhuman
 Supernova
 Swapfiets
@@ -549,57 +843,85 @@ Swappie
 Tabnine
 Tado
 Tails.com
+Tallence
 Tana
 Taxfix
 Teamleader
 Teamwork
+Techland
 Tella
 Templafy
 Tessian
-Thought Machine
+The Reference
+Threema
 Thriva
 Tibber
 Tier Mobility
+Tietoevry
 Tikkie
 Tink
 Tome
 Translated
+Tresorit
+Tretton37
+Trifork
+Triple
+Tripledot
 Twisto
 Tylko
 Tymit
 Typedream
 Ubisoft
 Uizard
+Umbraco
 Unbabel
 Unifiedpost
+Unit4
 Unity
 Urban Jungle
 Userlane
 Ustwo
+Variant
 Varjo
 Veed
+Veja
+Version 1
+Viaplay
 Vic.ai
 Vinted
 Vipps
+Virtual Identity
+Visma
 Vivino
+VML
 Voi
 Volocopter
 Volt
+Voorhoede
 Wagestream
 Wallbox
+Wargaming
 Wefox
 Weights & Biases
+Welcome Jungle
 Welcome to the Jungle
 Westwing
 WeTransfer
 Whimsical
+Wijs
 Withings
+Workwise
+Wunderdog
+Xebia
 Y42
 Yapily
 Ynsect
 Yonder
 Young Platform
+Younium
+Yuki
 Zalando
+Zalando Lounge
 Zalaris
 Zava
 Zendesk
@@ -607,3 +929,4 @@ Zeplin
 Zettle
 Zolar
 Zoopla
+Zuhlke
