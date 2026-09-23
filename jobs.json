@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-23T11:05:06.375Z",
+ "updated": "2026-09-23T11:16:58.177Z",
  "companies": 371,
- "count": 109,
+ "count": 111,
  "jobs": [
   {
    "title": "Head of Product Design",
@@ -279,19 +279,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -300,6 +287,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -474,19 +474,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "Edinburgh",
    "country": "United Kingdom",
    "city": "Edinburgh",
@@ -508,6 +495,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -1033,19 +1033,6 @@
   {
    "title": "Product Design Lead",
    "company": "Fever",
-   "location": "Madrid",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Product Design Lead",
-   "company": "Fever",
    "location": "Barcelona",
    "country": "Spain",
    "city": "Barcelona",
@@ -1054,6 +1041,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
+   "posted": "2026-09-03"
+  },
+  {
+   "title": "Product Design Lead",
+   "company": "Fever",
+   "location": "Madrid",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
    "posted": "2026-09-03"
   },
   {
@@ -1174,17 +1174,17 @@
    "posted": "2026-08-31"
   },
   {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
+   "title": "Design Advisor | Amsterdam (Amstelveen)",
+   "company": "Tylko",
+   "location": "Amstelveen, Netherlands",
+   "country": "Netherlands",
+   "city": "Amstelveen",
+   "discipline": "Other",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
-   "posted": "2026-08-28"
+   "url": "https://tylko.recruitee.com/o/design-advisor-amsterdam-amstelveen",
+   "posted": "2026-08-31"
   },
   {
    "title": "Graphic Designer",
@@ -1197,6 +1197,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
    "posted": "2026-08-28"
   },
   {
@@ -1392,6 +1405,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://boards.greenhouse.io/onrunning/jobs/8156287?gh_jid=8156287",
+   "posted": "2026-08-25"
+  },
+  {
+   "title": "Design Advisor - Minijob (Flagship Store Berlin)",
+   "company": "Tylko",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://tylko.recruitee.com/o/design-advisor-minijob-flagship-store-berlin-0826",
    "posted": "2026-08-25"
   },
   {
