@@ -1,8 +1,47 @@
 {
- "updated": "2026-09-23T11:16:58.177Z",
+ "updated": "2026-09-23T14:18:37.209Z",
  "companies": 371,
- "count": 111,
+ "count": 109,
  "jobs": [
+  {
+   "title": "Design Engineer | Mid-Senior| Saily",
+   "company": "Nord Security",
+   "location": "Vilnius",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/nord-security/6d95f80d-bdba-4496-8eca-f2b7c4dd57f2",
+   "posted": "2026-09-23"
+  },
+  {
+   "title": "UI/UX Artist - Castle Busters",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/71108a9f-ab96-4190-8d9d-e4e055ddd8c8",
+   "posted": "2026-09-23"
+  },
+  {
+   "title": "Mid-Senior Graphic Designer / Illustrator (Freelance)",
+   "company": "Omnisend",
+   "location": "Vilnius, Lithuania",
+   "country": "Lithuania",
+   "city": "Vilnius",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/omnisend/dd8e1ff6-0303-463e-bc23-28ba770982da",
+   "posted": "2026-09-23"
+  },
   {
    "title": "Head of Product Design",
    "company": "Butternut Box",
@@ -199,14 +238,14 @@
    "posted": "2026-09-17"
   },
   {
-   "title": "User Research UX Apprentice",
+   "title": "User Research UX Intern",
    "company": "Back Market",
    "location": "Bordeaux",
    "country": "France",
    "city": "Bordeaux",
    "discipline": "Research",
    "type": "Internship",
-   "workplace": "Remote",
+   "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
    "posted": "2026-09-17"
@@ -279,19 +318,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Madrid, Spain",
    "country": "Spain",
    "city": "Madrid",
@@ -300,6 +326,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16"
   },
   {
@@ -474,19 +513,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Edinburgh",
-   "country": "United Kingdom",
-   "city": "Edinburgh",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
@@ -508,6 +534,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Edinburgh",
+   "country": "United Kingdom",
+   "city": "Edinburgh",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -589,19 +628,6 @@
    "posted": "2026-09-11"
   },
   {
-   "title": "Designer – Menswear",
-   "company": "Gymshark",
-   "location": "Solihull, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "Solihull",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974423101",
-   "posted": "2026-09-11"
-  },
-  {
    "title": "Designer – Womenswear",
    "company": "Gymshark",
    "location": "Solihull, England, United Kingdom",
@@ -651,19 +677,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.akqa.com/jobs/8184848/?gh_jid=8184848",
-   "posted": "2026-09-10"
-  },
-  {
-   "title": "Freelance Principal Product Designer",
-   "company": "Red Badger",
-   "location": "Hybrid / London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://content.red-badger.com/all-jobs?gh_jid=7990881003",
    "posted": "2026-09-10"
   },
   {
@@ -797,32 +810,6 @@
    "posted": "2026-09-08"
   },
   {
-   "title": "Senior UX Designer",
-   "company": "Red Badger",
-   "location": "Leeds",
-   "country": "United Kingdom",
-   "city": "Leeds",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://content.red-badger.com/all-jobs?gh_jid=7988749003",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Senior Director, Organizational Transformation & Workforce Design",
-   "company": "Smartly.io",
-   "location": "London, England, United Kingdom",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6184938004",
-   "posted": "2026-09-08"
-  },
-  {
    "title": "Design Engineer | Mid-Senior",
    "company": "Nord Security",
    "location": "Vilnius",
@@ -940,19 +927,6 @@
    "posted": "2026-09-07"
   },
   {
-   "title": "Freelance Senior UX Designer",
-   "company": "Red Badger",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://content.red-badger.com/all-jobs?gh_jid=7709447003",
-   "posted": "2026-09-07"
-  },
-  {
    "title": "Web Designer | Mid-Senior | Marketing Design Team",
    "company": "Nord Security",
    "location": "Vilnius",
@@ -1033,19 +1007,6 @@
   {
    "title": "Product Design Lead",
    "company": "Fever",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Product Design Lead",
-   "company": "Fever",
    "location": "Madrid",
    "country": "Spain",
    "city": "Madrid",
@@ -1054,6 +1015,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
+   "posted": "2026-09-03"
+  },
+  {
+   "title": "Product Design Lead",
+   "company": "Fever",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
    "posted": "2026-09-03"
   },
   {
