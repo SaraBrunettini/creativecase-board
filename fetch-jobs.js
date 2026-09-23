@@ -114,6 +114,19 @@ function workplace(raw, loc) {
   return 'On-site';
 }
 
+const NOT_A_CITY = new RegExp('^(' + [
+  'remote|hybrid|on-?site|in-?office|anywhere|worldwide|global|flexible',
+  'multiple locations|various|any location|distributed|field|home',
+  'europe|emea|apac|americas|north america|south america|latam|asia|africa|middle east',
+  'united states|usa|us|uk|united kingdom|england|scotland|wales|ireland|germany|deutschland',
+  'france|spain|portugal|italy|netherlands|belgium|poland|denmark|sweden|norway|finland',
+  'switzerland|austria|czechia|czech republic|hungary|romania|bulgaria|serbia|croatia|greece',
+  'lithuania|latvia|estonia|ukraine|turkey|luxembourg|canada|mexico|brazil|argentina|colombia',
+  'chile|peru|india|singapore|philippines|indonesia|malaysia|vietnam|thailand|japan',
+  'south korea|china|hong kong|taiwan|australia|new zealand|israel|uae|kuwait|saudi arabia',
+  'egypt|south africa|nigeria|kenya|other|not stated',
+].join('|') + ')$', 'i');
+
 /* Country, from a free-text location. */
 const COUNTRIES = [
   ['United Kingdom', /\b(uk|united kingdom|england|scotland|wales|london|manchester|bristol|edinburgh|glasgow|cambridge|oxford|leeds|brighton|cardiff|reading|belfast)\b/],
@@ -175,11 +188,55 @@ const COUNTRIES = [
   ['South Africa',   /\b(south africa|cape town|johannesburg)\b/],
   ['Nigeria',        /\b(nigeria|lagos)\b/],
   ['Kenya',          /\b(kenya|nairobi)\b/],
+  ['Iceland',        /\b(iceland|reykjavik)\b/],
+  ['Slovenia',       /\b(slovenia|ljubljana)\b/],
+  ['Slovakia',       /\b(slovakia|bratislava|kosice)\b/],
+  ['Malta',          /\b(malta|valletta)\b/],
+  ['Cyprus',         /\b(cyprus|nicosia|limassol)\b/],
+  ['Georgia (country)', /\b(tbilisi)\b/],
+  ['Kazakhstan',     /\b(kazakhstan|almaty|astana)\b/],
+  ['Morocco',        /\b(morocco|casablanca|marrakesh|rabat)\b/],
+  ['Ghana',          /\b(ghana|accra)\b/],
+  ['Uruguay',        /\b(uruguay|montevideo)\b/],
+  ['Costa Rica',     /\b(costa rica|san jose, cr)\b/],
+  ['Armenia',        /\b(armenia|yerevan)\b/],
+  ['Moldova',        /\b(moldova|chisinau)\b/],
+  ['Bosnia',         /\b(bosnia|sarajevo)\b/],
+  ['North Macedonia',/\b(macedonia|skopje)\b/],
+  ['Albania',        /\b(albania|tirana)\b/],
+  ['Montenegro',     /\bmontenegro\b/],
+  ['Pakistan',       /\b(pakistan|karachi|lahore|islamabad)\b/],
+  ['Bangladesh',     /\b(bangladesh|dhaka)\b/],
+  ['Sri Lanka',      /\b(sri lanka|colombo)\b/],
+  ['Nepal',          /\b(nepal|kathmandu)\b/],
 ];
 
+/* Places the table does not know. A location like "Reykjavik, Iceland" names
+   its country in the last segment, so take it - but only when there IS a last
+   segment, or a bare town name would be mistaken for a country. */
+const US_STATES = new RegExp('^(' + [
+  'alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia',
+  'hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland',
+  'massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nevada',
+  'new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma',
+  'oregon|pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah',
+  'vermont|virginia|washington|west virginia|wisconsin|wyoming',
+].join('|') + ')$', 'i');
+
 function country(loc) {
-  const l = String(loc || '').toLowerCase();
+  const raw = String(loc || '');
+  const l = raw.toLowerCase();
   for (const [name, re] of COUNTRIES) if (re.test(l)) return name;
+
+  const parts = raw.split(/[;,]/).map(x => x.replace(/\(.*?\)/g, '').trim()).filter(Boolean);
+  if (parts.length > 1) {
+    const last = parts[parts.length - 1];
+    if (last.length >= 4 && /^[\p{L}\p{M} '.-]+$/u.test(last)
+        && !NOT_A_CITY.test(last) && !US_STATES.test(last)
+        && !/\b(voivodeship|province|state|region|county|district|area|metro)\b/i.test(last)) {
+      return last.replace(/\b\w/g, c => c.toUpperCase());
+    }
+  }
   return 'Other';
 }
 
@@ -193,19 +250,6 @@ const CITY_ALIAS = {
   'new york city': 'New York', bengaluru: 'Bangalore', kiev: 'Kyiv',
   zurich: 'Zurich', 'sf': 'San Francisco', 'bay area': 'San Francisco',
 };
-
-const NOT_A_CITY = new RegExp('^(' + [
-  'remote|hybrid|on-?site|in-?office|anywhere|worldwide|global|flexible',
-  'multiple locations|various|any location|distributed|field|home',
-  'europe|emea|apac|americas|north america|south america|latam|asia|africa|middle east',
-  'united states|usa|us|uk|united kingdom|england|scotland|wales|ireland|germany|deutschland',
-  'france|spain|portugal|italy|netherlands|belgium|poland|denmark|sweden|norway|finland',
-  'switzerland|austria|czechia|czech republic|hungary|romania|bulgaria|serbia|croatia|greece',
-  'lithuania|latvia|estonia|ukraine|turkey|luxembourg|canada|mexico|brazil|argentina|colombia',
-  'chile|peru|india|singapore|philippines|indonesia|malaysia|vietnam|thailand|japan',
-  'south korea|china|hong kong|taiwan|australia|new zealand|israel|uae|kuwait|saudi arabia',
-  'egypt|south africa|nigeria|kenya|other|not stated',
-].join('|') + ')$', 'i');
 
 function city(loc) {
   const raw = String(loc || '');
