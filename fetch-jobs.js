@@ -268,6 +268,24 @@ function city(loc) {
   return null;
 }
 
+/* The board is European. A role qualifies if it sits in a European country,
+   or if it is remote and open widely enough that someone in Europe could take
+   it. A remote role pinned to another country usually needs the right to work
+   there, so "Remote - United States" does not qualify. */
+const EUROPE = new Set([
+  'United Kingdom','Ireland','Germany','France','Netherlands','Spain','Portugal',
+  'Italy','Poland','Denmark','Sweden','Norway','Finland','Switzerland','Austria',
+  'Belgium','Czechia','Hungary','Romania','Bulgaria','Serbia','Croatia','Greece',
+  'Lithuania','Latvia','Estonia','Ukraine','Luxembourg','Iceland','Slovenia',
+  'Slovakia','Malta','Cyprus','Turkey','Moldova','Bosnia','North Macedonia',
+  'Albania','Montenegro',
+]);
+const OPEN_TO_EUROPE = /\b(europe|emea|global|worldwide|anywhere)\b/i;
+
+const inEurope = (countryName, loc, work) =>
+  EUROPE.has(countryName) ||
+  (work === 'Remote' && (OPEN_TO_EUROPE.test(loc) || /^\s*remote\s*$/i.test(loc)));
+
 /* Guess the board name from the company name. */
 function slugsFor(name) {
   const base = name.toLowerCase().trim()
@@ -339,15 +357,18 @@ async function pool(items, size, fn) {
       const disc = discipline(r.title);
       if (!disc) continue;
       const loc = (r.location || 'Not stated').trim();
+      const where = country(loc);
+      const work = workplace(r.work, loc);
+      if (!inEurope(where, loc, work)) continue;
       jobs.push({
         title: r.title.trim(),
         company: name,
         location: loc,
-        country: country(loc),
+        country: where,
         city: city(loc),
         discipline: disc,
         type: employmentType(r.type, r.title),
-        workplace: workplace(r.work, loc),
+        workplace: work,
         url: r.url,
         posted: r.posted ? String(r.posted).slice(0, 10) : null,
       });
