@@ -17,7 +17,7 @@ const ATS = {
       title: j.title,
       location: j.location && j.location.name,
       url: j.absolute_url,
-      posted: j.updated_at || j.first_published,
+      posted: j.first_published || j.updated_at,
     })),
   },
   lever: {
@@ -59,7 +59,7 @@ const NOT_CREATIVE = new RegExp([
   'security research|market research',
   /* commercial roles that borrow the words brand and creative */
   'partnerships?|enablement|business development|transformation owner|event manager',
-  'creative strateg|performance creative|forward deployed',
+  'creative strateg|performance creative|forward deployed|brand ambassador',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -257,8 +257,10 @@ function city(loc) {
     part = part.replace(/\(.*?\)/g, '')            // drop "(UK)"
                .replace(/^(uk|us|usa|de|fr|es|nl)\s+/i, '')  // drop "UK London"
                .replace(/[^\p{L}\p{M}\s'.-]/gu, '')
-               .replace(/\s+/g, ' ').trim();
+               .replace(/\s+/g, ' ').trim()
+               .replace(/\s+(office|hq|headquarters)$/i, '');   // "Paris office" -> "Paris"
     if (!part || part.length < 2 || part.length > 28) continue;
+    if (/^all\s/i.test(part)) continue;              // "All France" is a country
     if (NOT_A_CITY.test(part)) continue;
     if (/\b(voivodeship|province|state|region|county|district|area|metro|prefecture)\b/i.test(part)) continue;
     const key = part.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -286,6 +288,15 @@ const inEurope = (countryName, loc, work) =>
   EUROPE.has(countryName) ||
   (work === 'Remote' && (OPEN_TO_EUROPE.test(loc) || /^\s*remote\s*$/i.test(loc)));
 
+/* A role has to be a month old at most. A board still showing a job that
+   closed in the spring is worse than a short board: it costs someone an
+   application to find out. */
+const MAX_AGE_DAYS = 31;
+const isRecent = (posted) => {
+  const t = Date.parse(posted);
+  return Number.isFinite(t) && Date.now() - t <= MAX_AGE_DAYS * 864e5;
+};
+
 /* Guess the board name from the company name. */
 function slugsFor(name) {
   const base = name.toLowerCase().trim()
@@ -303,7 +314,7 @@ async function fetchFeed(slug, ats) {
     });
     if (!res.ok) return null;
     const rows = ATS[ats].rows(await res.json()).filter(r => r.title && r.url);
-    return rows.length ? { slug, ats, rows } : null;
+    return { slug, ats, rows };
   } catch { return null; }
 }
 
@@ -319,9 +330,18 @@ async function pool(items, size, fn) {
     console.error('Needs Node 18+.'); process.exit(1);
   }
 
+  /* One company per line. A line may name its board outright —
+       Fever | feverup | greenhouse
+     — and otherwise the board name is guessed from the company name. */
+  const pinned = {};
   const names = fs.readFileSync(`${__dirname}/companies.txt`, 'utf8')
     .split('\n').map(s => s.trim())
-    .filter(s => s && !s.startsWith('#'));
+    .filter(s => s && !s.startsWith('#'))
+    .map(line => {
+      const [name, slug, ats] = line.split('|').map(p => p.trim());
+      if (slug && ATS[ats]) pinned[name] = { slug, ats };
+      return name;
+    });
 
   /* A confirmed board is remembered, so we stop guessing after the first
      success and the run gets faster over time. */
@@ -330,7 +350,7 @@ async function pool(items, size, fn) {
 
   const targets = [];
   for (const name of names) {
-    const hit = known[name];
+    const hit = pinned[name] || known[name];
     if (hit) { targets.push({ name, slug: hit.slug, ats: hit.ats }); continue; }
     for (const slug of slugsFor(name))
       for (const ats of Object.keys(ATS)) targets.push({ name, slug, ats });
@@ -348,7 +368,11 @@ async function pool(items, size, fn) {
     if (!prev || f.rows.length > prev.rows.length) best.set(f.name, f);
   }
 
+  /* Every company we have ever confirmed keeps its entry, so a quiet board
+     is never re-guessed and a company can sit on the list for months before
+     it posts anything. */
   const registry = {}, jobs = [];
+  for (const name of names) if (known[name]) registry[name] = known[name];
   let scanned = 0;
   for (const [name, f] of best) {
     registry[name] = { slug: f.slug, ats: f.ats, seen: new Date().toISOString().slice(0, 10) };
@@ -356,6 +380,7 @@ async function pool(items, size, fn) {
     for (const r of f.rows) {
       const disc = discipline(r.title);
       if (!disc) continue;
+      if (!isRecent(r.posted)) continue;
       const loc = (r.location || 'Not stated').trim();
       const where = country(loc);
       const work = workplace(r.work, loc);
