@@ -67,7 +67,10 @@ input,select{background:var(--card);border:1px solid var(--line);border-radius:6
 .clear{background:none;border:0;padding:8px 2px;font:inherit;font-size:.88rem;
   color:var(--link);cursor:pointer;text-decoration:underline}
 
-.count{color:var(--muted);font-size:.9rem;margin:0;padding:18px 0 10px}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;padding:18px 0 10px}
+.count{color:var(--muted);font-size:.9rem;margin:0}
+.head select{font-size:.88rem;padding:5px 8px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 .job{background:var(--card);border:1px solid var(--line);border-radius:8px;
   padding:13px 16px;margin-bottom:8px}
@@ -127,10 +130,25 @@ footer p{margin:4px 0}
       <div class="pills" id="work" role="group" aria-labelledby="workLbl"></div>
     </div>
 
+    <div class="f">
+      <span class="lbl" id="payLbl">Pay</span>
+      <div class="pills" role="group" aria-labelledby="payLbl">
+        <button class="pill" type="button" id="paidPill" aria-pressed="false">Salary shown</button>
+      </div>
+    </div>
+
     <button class="clear" id="clear" hidden>Clear filters</button>
   </div>
 
-  <p class="count" id="count"></p>
+  <div class="head">
+    <p class="count" id="count"></p>
+    <label><span class="vh">Sort by</span>
+      <select id="sort">
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+      </select>
+    </label>
+  </div>
 
   <div id="list"><p class="note">Loading...</p></div>
 
@@ -144,7 +162,7 @@ footer p{margin:4px 0}
 const $ = s => document.querySelector(s);
 const PAGE = 40;
 /* loc is one field holding either a city or a country, as "city:London". */
-const state = { jobs: [], disc: '', loc: '', work: [], type: '', shown: PAGE };
+const state = { jobs: [], disc: '', loc: '', work: [], type: '', paid: false, sort: 'new', shown: PAGE };
 
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
@@ -175,10 +193,14 @@ function pass(j, skip){
   if (skip !== 'loc'  && state.loc  && j[locKind()] !== locValue()) return false;
   if (skip !== 'work' && state.work.length && !state.work.includes(j.workplace)) return false;
   if (skip !== 'type' && state.type && j.type !== state.type) return false;
+  if (skip !== 'paid' && state.paid && !j.salary) return false;
   return true;
 }
 /* jobs.json arrives newest first, so the order is already right. */
-function match(skip){ return state.jobs.filter(j => pass(j, skip)); }
+function match(skip){
+  const list = state.jobs.filter(j => pass(j, skip));
+  return state.sort === 'old' ? list.reverse() : list;
+}
 /* [value, count] pairs for one field, from the pool that ignores that field. */
 function tally(skip, key){
   const n = {};
@@ -276,7 +298,8 @@ function render(){
 
   $('#count').textContent = list.length
     ? `${list.length} ${list.length === 1 ? 'job' : 'jobs'}` : '';
-  $('#clear').hidden = !(state.disc || state.loc || state.work.length || state.type);
+  $('#paidPill').setAttribute('aria-pressed', String(state.paid));
+  $('#clear').hidden = !(state.disc || state.loc || state.work.length || state.type || state.paid);
 
   const page = list.slice(0, state.shown);
   $('#list').innerHTML = list.length ? page.map(j => `
@@ -352,9 +375,13 @@ $('#locList').addEventListener('mousedown', e => {
 });
 $('#locInput').addEventListener('blur', () => setTimeout(closeCombo, 0));
 /* The title is the way back to everything, the way a logo is elsewhere. */
+$('#sort').addEventListener('change', () => set({ sort: $('#sort').value }));
+$('#paidPill').addEventListener('click', () => set({ paid: !state.paid }));
+
 $('#home').addEventListener('click', () => {
   $('#locInput').value = '';
-  set({ disc: '', loc: '', work: [], type: '' });
+  $('#sort').value = 'new';
+  set({ disc: '', loc: '', work: [], type: '', paid: false, sort: 'new' });
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
@@ -364,7 +391,7 @@ $('#locClear').addEventListener('click', () => {
 
 $('#clear').addEventListener('click', () => {
   $('#locInput').value = '';
-  set({ disc: '', loc: '', work: [], type: '' });
+  set({ disc: '', loc: '', work: [], type: '', paid: false });
 });
 </script>
 </body>
