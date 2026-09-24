@@ -148,7 +148,8 @@ const NOT_CREATIVE = new RegExp([
   /* commercial roles that borrow the words brand and creative */
   'partnerships?|enablement|business development|transformation owner|event manager',
   'creative strateg|performance creative(?! designer)|forward deployed|brand ambassador',
-  'account manager|account director|client partner',
+  'account manager|account director|client partner|design advisor',
+  'organizational transformation|benefit design|insurance product',
 ].join('|'), 'i');
 
 /* Which bucket a role belongs in. First match wins, so order matters:
@@ -161,7 +162,7 @@ const DISCIPLINES = [
   ['Motion',       /(\bmotion|\banimator|\banimation|\b3d |\bvideo editor|\bvideo artist|\bvideographer)/i],
   ['Design ops',   /\b(design ops|design operations|design program|design producer|creative operations|production design)/i],
   ['Brand',        /(\bbrand|\bgraphic design|\bvisual identity|\bvisual design|\bcommunications design|\bpackaging|\bmarketing design|\billustrat)/i],
-  ['Product & UX', /(\bproduct design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design)/i],
+  ['Product & UX', /(\bproduct design|\bproduct experience design|\bux\b|\bui\b|\buser experience|\buser interface|\binteraction design|\bdesign system|\bdesign engineer|\bdesign technologist|\bdigital design|\bweb design)/i],
 ];
 
 function discipline(title) {
@@ -173,12 +174,16 @@ function discipline(title) {
 /* Employment type. Lever and Ashby publish it; Greenhouse does not, so for
    those it is read off the title, defaulting to full-time. */
 const TYPE_WORDS = [
-  ['Internship', /\b(intern|internship|working student|werkstudent|placement|apprentice|graduate scheme|praktikum|stage)\b/i],
+  ['Internship', /\b(intern|working student|werkstudent|placement|apprentice|graduate scheme|praktikum|stage\b)/i],
   ['Contract',   /\b(contract|contractor|freelance|fixed[- ]term|\bftc\b|maternity cover|interim|temporary|temp\b)\b/i],
   ['Part-time',  /\b(part[- ]time|teilzeit|0\.[1-9] fte|\d0% fte)\b/i],
 ];
 
 function employmentType(raw, title) {
+  /* A board's own field says FullTime for a Werkstudent and for a twelve-month
+     contract alike, so an explicit title wins over a generic label. */
+  const t = String(title || '').replace(/[_|/]+/g, ' ');
+  for (const [name, re] of TYPE_WORDS) if (re.test(t)) return name;
   const r = String(raw || '').toLowerCase().replace(/[^a-z]/g, '');
   if (r) {
     if (r.startsWith('intern')) return 'Internship';
@@ -187,7 +192,6 @@ function employmentType(raw, title) {
     if (r.startsWith('contract') || r.startsWith('temporary')) return 'Contract';
     if (r.includes('freelance') || r.includes('fixedterm')) return 'Contract';
   }
-  for (const [name, re] of TYPE_WORDS) if (re.test(title || '')) return name;
   return 'Full-time';
 }
 
@@ -206,7 +210,7 @@ function workplace(raw, loc) {
 
 const NOT_A_CITY = new RegExp('^(' + [
   'remote|hybrid|on-?site|in-?office|anywhere|worldwide|global|flexible',
-  'multiple locations|various|any location|distributed|field|home',
+  'multiple locations|various|any location|distributed|field|home|hq|headquarters',
   'europe|emea|apac|americas|north america|south america|latam|asia|africa|middle east',
   'united states|usa|us|uk|united kingdom|england|scotland|wales|ireland|germany|deutschland',
   'france|spain|portugal|italy|netherlands|belgium|poland|denmark|sweden|norway|finland',
@@ -327,6 +331,9 @@ function country(loc) {
       return last.replace(/\b\w/g, c => c.toUpperCase());
     }
   }
+  /* These only reached here because the Europe gate let them through: remote
+     and open to Europe. "Other" tells the reader nothing; this does. */
+  if (/\b(europe|emea|remote|global|worldwide|anywhere)\b/i.test(raw)) return 'Europe-wide';
   return 'Other';
 }
 
@@ -348,7 +355,9 @@ function city(loc) {
                .replace(/^(uk|us|usa|de|fr|es|nl)\s+/i, '')  // drop "UK London"
                .replace(/[^\p{L}\p{M}\s'.-]/gu, '')
                .replace(/\s+/g, ' ').trim()
-               .replace(/\s+(office|hq|headquarters)$/i, '');   // "Paris office" -> "Paris"
+               .replace(/\s+(office|hq|headquarters)$/i, '')    // "Paris office" -> "Paris"
+               .replace(/^(remote|hybrid|on-?site|wfh)\s+/i, '') // "Remote UK" -> "UK"
+               .replace(/\s+(remote|hybrid|on-?site)$/i, '');
     if (!part || part.length < 2 || part.length > 28) continue;
     if (/^all\s/i.test(part)) continue;              // "All France" is a country
     if (NOT_A_CITY.test(part)) continue;
@@ -381,7 +390,9 @@ const inEurope = (countryName, loc, work) =>
 /* A role has to be a month old at most. A board still showing a job that
    closed in the spring is worse than a short board: it costs someone an
    application to find out. */
-const MAX_AGE_DAYS = 31;
+/* Stored to the day, so a role admitted at 30.9 days can render as 31.
+   Cutting at 30 keeps the promise on the page true. */
+const MAX_AGE_DAYS = 30;
 const isRecent = (posted) => {
   const t = Date.parse(posted);
   return Number.isFinite(t) && Date.now() - t <= MAX_AGE_DAYS * 864e5;
