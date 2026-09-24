@@ -211,8 +211,6 @@ h1{padding:24px 0 5px}
       <select id="sort">
         <option value="new">Newest first</option>
         <option value="old">Oldest first</option>
-        <option value="payUp">Salary: low to high</option>
-        <option value="payDown">Salary: high to low</option>
       </select>
     </label>
   </div>
@@ -262,16 +260,11 @@ function pass(j, skip){
   if (skip !== 'loc'  && state.loc  && j[locKind()] !== locValue()) return false;
   if (skip !== 'work' && state.work.length && !state.work.includes(j.workplace)) return false;
   if (skip !== 'type' && state.type && j.type !== state.type) return false;
-  if (skip !== 'view' && PAY_VIEW[state.view] && !j.salaryEur) return false;
   return true;
 }
 /* jobs.json arrives newest first, so the order is already right. */
-const PAY_VIEW = { payUp: 1, payDown: -1 };
-
 function match(skip){
   const list = state.jobs.filter(j => pass(j, skip));
-  const dir = PAY_VIEW[state.view];
-  if (dir) return list.sort((a, b) => (a.salaryEur - b.salaryEur) * dir);
   return state.view === 'old' ? list.reverse() : list;
 }
 /* [value, count] pairs for one field, from the pool that ignores that field. */
