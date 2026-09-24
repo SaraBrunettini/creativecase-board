@@ -21,7 +21,8 @@ const CURRENCY = {
 };
 const PER = { MONTH: ' a month', WEEK: ' a week', DAY: ' a day', HOUR: ' an hour' };
 
-const amount = (n) => {
+const amount = (v) => {
+  const n = Number(v);
   if (!(n > 0)) return null;
   if (n < 1000) return String(Math.round(n));
   const k = n / 1000;
@@ -72,8 +73,10 @@ async function loadRates() {
 /* Annual euros, from the midpoint of the range. */
 function salaryEur(pay) {
   if (!pay) return null;
-  const lo = pay.min > 0 ? pay.min : null;
-  const hi = pay.max > 0 ? pay.max : null;
+  /* Recruitee hands these over as strings, and "4650" + "5450" concatenates
+     rather than adds - which scored one role at 279 million a year. */
+  const num = (v) => { const n = Number(v); return Number.isFinite(n) && n > 0 ? n : null; };
+  const lo = num(pay.min), hi = num(pay.max);
   const mid = lo && hi ? (lo + hi) / 2 : (lo || hi);
   if (!mid) return null;
   const rate = RATES[pay.currency];
