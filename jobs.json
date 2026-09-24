@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T14:36:37.133Z",
+ "updated": "2026-09-24T15:57:18.756Z",
  "companies": 451,
  "count": 153,
  "jobs": [
@@ -66,6 +66,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/synthesia/ba6d0833-902b-4f80-95e4-3b08b9e86cbb",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Marketing Video Artist - BeReal",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/fad0b8a1-7be4-4c1a-a248-f40a85428d53",
    "posted": "2026-09-24"
   },
   {
@@ -864,14 +877,14 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Edinburgh",
+   "location": "London",
    "country": "United Kingdom",
-   "city": "Edinburgh",
+   "city": "London",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -890,14 +903,14 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "London",
+   "location": "Edinburgh",
    "country": "United Kingdom",
-   "city": "London",
+   "city": "Edinburgh",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -1161,7 +1174,7 @@
    "posted": "2026-09-09"
   },
   {
-   "title": "Senior Motion Designer",
+   "title": "Senior Video Editor (with Motion Design skills)",
    "company": "DEPT",
    "location": "Budapest",
    "country": "Hungary",
@@ -1735,19 +1748,6 @@
   {
    "title": "Graphic Designer",
    "company": "Flo Health",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
    "location": "Poland",
    "country": "Poland",
    "city": null,
@@ -1756,6 +1756,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
    "posted": "2026-08-28"
   },
   {
@@ -1978,19 +1991,6 @@
    "salary": "PLN 8.5K – PLN 17K",
    "url": "https://www.vml.com/careers/job/8750200002?gh_jid=8750200002",
    "posted": "2026-08-26"
-  },
-  {
-   "title": "Brand Strategy Lead",
-   "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8152695",
-   "posted": "2026-08-25"
   }
  ]
 }
