@@ -371,7 +371,7 @@
  },
  "Lovable": {
   "slug": "lovable",
-  "ats": "greenhouse",
+  "ats": "ashby",
   "seen": "2026-09-24"
  },
  "Luno": {
@@ -1852,6 +1852,256 @@
  "Xebia": {
   "slug": "xebia",
   "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "360Learning": {
+  "slug": "360learning",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Achmea": {
+  "slug": "achmeainnovationhub",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "adesso Netherlands": {
+  "slug": "werkenbijadesso",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Affirm": {
+  "slug": "affirm",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "AG1": {
+  "slug": "ag1",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Agoda": {
+  "slug": "agoda",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Aidoc": {
+  "slug": "aidocmedical",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Air Apps": {
+  "slug": "airapps",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Anthropic": {
+  "slug": "anthropic",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Applied Compute": {
+  "slug": "Applied Compute",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Arc'teryx": {
+  "slug": "arcteryx.com",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "ASAP": {
+  "slug": "asap",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Ashby": {
+  "slug": "ashby",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "AXI": {
+  "slug": "axi",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "BAS Group": {
+  "slug": "basgroup",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Binance": {
+  "slug": "binance",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Brand New School": {
+  "slug": "brandnewschool",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Brandtech+": {
+  "slug": "brandtechplus",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Bundl": {
+  "slug": "bundl",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "ClearScore": {
+  "slug": "clearscoretechnologylimited",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Clera": {
+  "slug": "clera",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "CLO Virtual Fashion": {
+  "slug": "clovirtualfashion",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Dex": {
+  "slug": "dex",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "dLocal": {
+  "slug": "dlocal",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Edra": {
+  "slug": "edra",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Eucalyptus": {
+  "slug": "eucalyptus",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "EverAI": {
+  "slug": "everai",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Fonio": {
+  "slug": "Fonio",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Highwire": {
+  "slug": "highwire",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Hived": {
+  "slug": "hived",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Hostinger": {
+  "slug": "hostinger",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Hudl": {
+  "slug": "hudl",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "IDT": {
+  "slug": "idt",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Junto": {
+  "slug": "junto",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Keyrock": {
+  "slug": "keyrock",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Metaview": {
+  "slug": "metaview",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Moss": {
+  "slug": "moss",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Nelly": {
+  "slug": "nelly",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Ormit Talent": {
+  "slug": "ormitbelgium",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Palantir": {
+  "slug": "palantir",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Pàu": {
+  "slug": "pau",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Reedsy": {
+  "slug": "reedsy",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Rightmove": {
+  "slug": "rightmovecareers",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Roucoucou": {
+  "slug": "roucoucou",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Small Giant Games": {
+  "slug": "sggcareers",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "SocialFind": {
+  "slug": "socialfind",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Taxbit": {
+  "slug": "taxbit",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Topsort": {
+  "slug": "topsort",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "TSMG": {
+  "slug": "tsmg",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "Xometry Europe": {
+  "slug": "xometryeurope",
+  "ats": "greenhouse",
   "seen": "2026-09-24"
  }
 }
