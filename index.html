@@ -5,30 +5,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creative Jobs EU — straight from company careers pages</title>
 <meta name="description" content="Design, brand, motion, content and research jobs across Europe, taken from each company's own careers page rather than a job board. Checked every morning, nothing older than a month.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111827'/%3E%3Crect x='9' y='9' width='14' height='14' rx='3' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23DC4B1E'/%3E%3Cg fill='%23fff'%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='14.5' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='20' width='10' height='3' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap&text=CreativeJobsEU%20">
 <style>
 :root{
-  --bg:#f3f4f6; --card:#fff; --ink:#111827; --muted:#6b7280; --faint:#9ca3af;
-  --line:#e5e7eb; --link:#1d4ed8; --chip:#f3f4f6; --hover:#f9fafb; --sel:#111827; --sel-ink:#fff;
+  --bg:#f6f4f1; --card:#fff; --ink:#15120f; --muted:#6b6560; --faint:#9c958d;
+  --line:#e6e1da; --link:#15120f; --accent:#dc4b1e; --chip:#f2efea; --hover:#faf8f6; --sel:#15120f; --sel-ink:#fff;
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b7280' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#0f1114; --card:#171a1f; --ink:#e7e9ec; --muted:#9aa2ad; --faint:#6b7280;
-  --line:#272b32; --link:#7aa2f7; --chip:#20242b; --hover:#1c2026; --sel:#e7e9ec; --sel-ink:#12151a;
+  --bg:#131211; --card:#1c1a18; --ink:#ece8e3; --muted:#a09991; --faint:#6f6963;
+  --line:#2c2926; --link:#ece8e3; --accent:#ff7a4d; --chip:#241f1c; --hover:#211e1b; --sel:#ece8e3; --sel-ink:#15120f;
   --chev:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239aa2ad' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
 a{color:var(--link)}
-:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .in{max-width:920px;margin:0 auto;padding:0 20px}
 
 header{background:var(--card);border-bottom:1px solid var(--line)}
-h1{font-size:1.2rem;font-weight:650;letter-spacing:-.015em;margin:0;padding:16px 0 2px}
+h1{margin:0;padding:18px 0 3px;font-weight:400;font-size:1.65rem;line-height:1}
+h1 .mark{width:21px;height:21px;flex:none;border-radius:5px}
+h1 .wm{font-family:'Instrument Serif',Georgia,'Times New Roman',serif;letter-spacing:-.005em}
+h1 .eu{color:var(--accent)}
 .sub{color:var(--muted);font-size:.86rem;margin:0;padding:0 0 12px;max-width:46em}
-h1 button{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
+h1 button{display:flex;align-items:center;gap:9px;background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
 h1 button:hover{opacity:.7}
 input,select{background:var(--card);border:1px solid var(--line);border-radius:6px;
   padding:8px 11px;font:inherit;color:inherit;min-width:0;max-width:100%}
@@ -41,7 +47,7 @@ select{appearance:none;-webkit-appearance:none;-moz-appearance:none;
 .tab{flex:none;background:none;border:0;border-bottom:2px solid transparent;
   padding:9px 12px;font:inherit;font-size:.93rem;color:var(--muted);cursor:pointer;white-space:nowrap}
 .tab:hover{color:var(--ink)}
-.tab[aria-selected=true]{color:var(--ink);font-weight:600;border-bottom-color:var(--sel)}
+.tab[aria-selected=true]{color:var(--ink);font-weight:600;border-bottom-color:var(--accent)}
 
 /* Filters */
 .filters{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;padding:16px 0 0}
@@ -83,9 +89,9 @@ select{appearance:none;-webkit-appearance:none;-moz-appearance:none;
   padding:13px 16px;margin-bottom:8px}
 .job:hover{border-color:var(--faint)}
 .job h3{margin:0;font-size:1rem;font-weight:600;line-height:1.35}
-.job h3 a{color:var(--link);text-decoration:none}
-.job h3 a:hover{text-decoration:underline}
-.co{margin:3px 0 0;font-size:.95rem;font-weight:600}
+.job h3 a{color:var(--ink);text-decoration:none}
+.job h3 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.co{margin:3px 0 0;font-size:.95rem;font-weight:500}
 .loc{margin:1px 0 0;color:var(--muted);font-size:.9rem}
 .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px;align-items:center}
 .tag{background:var(--chip);border-radius:4px;padding:2px 8px;font-size:.78rem;color:var(--muted)}
@@ -110,7 +116,10 @@ footer p{margin:4px 0}
 
 <header>
   <div class="in">
-    <h1><button id="home" type="button">Creative Jobs EU</button></h1>
+    <h1><button id="home" type="button">
+      <img class="mark" alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23DC4B1E'/%3E%3Cg fill='%23fff'%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='14.5' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='20' width='10' height='3' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+      <span class="wm">Creative Jobs <span class="eu">EU</span></span>
+    </button></h1>
     <p class="sub">Design jobs across Europe, taken from each company's own careers page. Checked every morning.</p>
     <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
   </div>
