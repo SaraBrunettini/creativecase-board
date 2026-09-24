@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-24T11:44:54.368Z",
- "companies": 421,
- "count": 145,
+ "updated": "2026-09-24T12:56:01.707Z",
+ "companies": 451,
+ "count": 164,
  "jobs": [
   {
    "title": "Agentic UX / Conversation Designer",
@@ -147,6 +147,19 @@
    "posted": "2026-09-23"
   },
   {
+   "title": "Motion Designer (BlessedApps)",
+   "company": "Gismart",
+   "location": "Kyiv",
+   "country": "Ukraine",
+   "city": "Kyiv",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/a8f90253-d8d2-444e-afd8-078fce56d3a0",
+   "posted": "2026-09-23"
+  },
+  {
    "title": "Head of Product Design",
    "company": "Butternut Box",
    "location": "London",
@@ -235,6 +248,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/xometryeurope/jobs/5246450007",
+   "posted": "2026-09-22"
+  },
+  {
+   "title": "Motion Designer",
+   "company": "VML",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8782100002?gh_jid=8782100002",
    "posted": "2026-09-22"
   },
   {
@@ -365,6 +391,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4733890005",
+   "posted": "2026-09-21"
+  },
+  {
+   "title": "Senior Visual Designer",
+   "company": "Legora",
+   "location": "Stockholm HQ",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/legora/acce1179-88d3-4f1f-bcce-597ed3a37d47",
+   "posted": "2026-09-21"
+  },
+  {
+   "title": "Senior Web Designer - Framer",
+   "company": "Legora",
+   "location": "Stockholm HQ",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/legora/56ab32e6-1212-4f66-886b-5711f20fd3dd",
    "posted": "2026-09-21"
   },
   {
@@ -564,6 +616,32 @@
   },
   {
    "title": "Senior Product Designer",
+   "company": "Legora",
+   "location": "Stockholm HQ",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/legora/89073502-e8e3-49d9-ba4b-5642ef1a933d",
+   "posted": "2026-09-17"
+  },
+  {
+   "title": "Creative Marketing Consultant",
+   "company": "VML",
+   "location": "Lisbon, Portugal",
+   "country": "Portugal",
+   "city": "Lisbon",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8816862002?gh_jid=8816862002",
+   "posted": "2026-09-17"
+  },
+  {
+   "title": "Senior Product Designer",
    "company": "AKQA",
    "location": "Gothenburg, Sweden, Stockholm, Sweden",
    "country": "Sweden",
@@ -693,6 +771,45 @@
    "posted": "2026-09-15"
   },
   {
+   "title": "Events & Experienced Designer (Madrid)",
+   "company": "VML",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8805592002?gh_jid=8805592002",
+   "posted": "2026-09-15"
+  },
+  {
+   "title": "Junior Art Director Intern",
+   "company": "VML",
+   "location": "Milan, Lombardy, Italy",
+   "country": "Italy",
+   "city": "Milan",
+   "discipline": "Leadership",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8809411002?gh_jid=8809411002",
+   "posted": "2026-09-15"
+  },
+  {
+   "title": "Junior Copywriter Intern",
+   "company": "VML",
+   "location": "Milan, Lombardy, Italy",
+   "country": "Italy",
+   "city": "Milan",
+   "discipline": "Content",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8809421002?gh_jid=8809421002",
+   "posted": "2026-09-15"
+  },
+  {
    "title": "Product Designer - Channels",
    "company": "Ebury",
    "location": "Valencia",
@@ -760,19 +877,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
@@ -781,6 +885,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -872,6 +989,32 @@
    "workplace": "On-site",
    "salary": "€65K – €100K",
    "url": "https://jobs.ashbyhq.com/Fonio/d95edc12-ff26-45d6-b4a7-c4a5bf8f8f45",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Motion Designer (GenFlex.ai)",
+   "company": "Gismart",
+   "location": "Kyiv",
+   "country": "Ukraine",
+   "city": "Kyiv",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/55fe7ee1-2838-4274-9e52-79aa0ddddeab",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Creative Producer (GenFlex.ai)",
+   "company": "Gismart",
+   "location": "Remote (Ukraine)",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/875cc355-03e3-48f6-b63c-80a5f78fad95",
    "posted": "2026-09-14"
   },
   {
@@ -1002,6 +1145,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/xometryeurope/jobs/5226081007",
+   "posted": "2026-09-10"
+  },
+  {
+   "title": "Creative Producer (Testora)",
+   "company": "Gismart",
+   "location": "Remote (Ukraine)",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/f8e9e77c-931c-4ae8-a142-df14714c808e",
    "posted": "2026-09-10"
   },
   {
@@ -1291,6 +1447,19 @@
    "posted": "2026-09-07"
   },
   {
+   "title": "Junior Creative Producer (RnD)",
+   "company": "Gismart",
+   "location": "Remote (Ukraine)",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/ae4f8433-0069-4bbb-b38d-a9fd44bba3e4",
+   "posted": "2026-09-07"
+  },
+  {
    "title": "Senior Manager, Tutor Brand",
    "company": "Preply",
    "location": "London",
@@ -1330,6 +1499,19 @@
    "posted": "2026-09-04"
   },
   {
+   "title": "Digital Art Director_Fixed Term Contract",
+   "company": "VML",
+   "location": "Milan, Lombardy, Italy",
+   "country": "Italy",
+   "city": "Milan",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": "€26K – €33K",
+   "url": "https://www.vml.com/careers/job/8783576002?gh_jid=8783576002",
+   "posted": "2026-09-04"
+  },
+  {
    "title": "Senior UX Designer (Focus on Research)",
    "company": "DEPT",
    "location": "Zagreb",
@@ -1358,19 +1540,6 @@
   {
    "title": "Product Design Lead",
    "company": "Fever",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Product Design Lead",
-   "company": "Fever",
    "location": "Madrid",
    "country": "Spain",
    "city": "Madrid",
@@ -1379,6 +1548,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
+   "posted": "2026-09-03"
+  },
+  {
+   "title": "Product Design Lead",
+   "company": "Fever",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
    "posted": "2026-09-03"
   },
   {
@@ -1405,6 +1587,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/preply/674a78f4-75c9-4731-8c1e-fa4c06bfb2c1",
+   "posted": "2026-09-03"
+  },
+  {
+   "title": "Graphic Designer_FREELANCE",
+   "company": "VML",
+   "location": "Luxembourg, Luxembourg",
+   "country": "Luxembourg",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8781394002?gh_jid=8781394002",
    "posted": "2026-09-03"
   },
   {
@@ -1592,19 +1787,6 @@
   {
    "title": "Graphic Designer",
    "company": "Flo Health",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
    "location": "Poland",
    "country": "Poland",
    "city": null,
@@ -1613,6 +1795,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Ukraine",
+   "country": "Ukraine",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
    "posted": "2026-08-28"
   },
   {
@@ -1746,6 +1941,32 @@
    "posted": "2026-08-27"
   },
   {
+   "title": "Graphic Designer - Fixed term (1 year)",
+   "company": "VML",
+   "location": "Luxembourg, Luxembourg",
+   "country": "Luxembourg",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8754505002?gh_jid=8754505002",
+   "posted": "2026-08-27"
+  },
+  {
+   "title": "Senior Graphic Designer",
+   "company": "VML",
+   "location": "Luxembourg, Luxembourg",
+   "country": "Luxembourg",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8754655002?gh_jid=8754655002",
+   "posted": "2026-08-27"
+  },
+  {
    "title": "Senior Brand Designer B2B",
    "company": "GetYourGuide",
    "location": "Berlin",
@@ -1798,6 +2019,19 @@
    "posted": "2026-08-26"
   },
   {
+   "title": "Art Director (360°-ATL)",
+   "company": "VML",
+   "location": "Warsaw, Masovian, Poland",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "PLN 8.5K – PLN 17K",
+   "url": "https://www.vml.com/careers/job/8750200002?gh_jid=8750200002",
+   "posted": "2026-08-26"
+  },
+  {
    "title": "Copywriter - Midweight (FTC) (div/f/m)",
    "company": "DEPT",
    "location": "Germany, Berlin",
@@ -1847,6 +2081,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://boards.greenhouse.io/onrunning/jobs/8156287?gh_jid=8156287",
+   "posted": "2026-08-25"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Oddin",
+   "location": "Prague",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.lever.co/oddin/9d227ce4-5179-43f6-aad5-fc0c34c264fd",
    "posted": "2026-08-25"
   },
   {
