@@ -84,7 +84,7 @@ Ivalua | ivalua | greenhouse
 Knock | knock | greenhouse
 Landor | landor | greenhouse
 Lighthouse | lighthouse | greenhouse
-Lovable | lovable | greenhouse
+Lovable | lovable | ashby
 Luno | luno | greenhouse
 Magnolia | magnolia | greenhouse
 Mentimeter | mentimeter | greenhouse
@@ -361,6 +361,61 @@ Zopa | zopa | lever
 11 bit studios | 11bitstudios | recruitee
 iO Digital | iodigital | recruitee
 Ten Square Games | tensquaregames | recruitee
+
+# --- Harvested from public ATS URLs ---
+# Found by searching for the job-board URLs themselves rather than guessing a
+# slug from the company name, which is how boards like clearscoretechnology-
+# limited and rightmovecareers turn up at all.
+360Learning | 360learning | lever
+Achmea | achmeainnovationhub | recruitee
+adesso Netherlands | werkenbijadesso | recruitee
+Affirm | affirm | greenhouse
+AG1 | ag1 | greenhouse
+Agoda | agoda | greenhouse
+Aidoc | aidocmedical | greenhouse
+Air Apps | airapps | ashby
+Anthropic | anthropic | greenhouse
+Applied Compute | Applied Compute | ashby
+Arc'teryx | arcteryx.com | lever
+ASAP | asap | recruitee
+Ashby | ashby | ashby
+AXI | axi | recruitee
+BAS Group | basgroup | recruitee
+Binance | binance | lever
+Brand New School | brandnewschool | greenhouse
+Brandtech+ | brandtechplus | greenhouse
+Bundl | bundl | recruitee
+ClearScore | clearscoretechnologylimited | greenhouse
+Clera | clera | ashby
+CLO Virtual Fashion | clovirtualfashion | lever
+Dex | dex | ashby
+dLocal | dlocal | lever
+Edra | edra | ashby
+Eucalyptus | eucalyptus | greenhouse
+EverAI | everai | ashby
+Fonio | Fonio | ashby
+Highwire | highwire | greenhouse
+Hived | hived | recruitee
+Hostinger | hostinger | ashby
+Hudl | hudl | greenhouse
+IDT | idt | lever
+Junto | junto | recruitee
+Keyrock | keyrock | ashby
+Metaview | metaview | ashby
+Moss | moss | ashby
+Nelly | nelly | ashby
+Ormit Talent | ormitbelgium | recruitee
+Palantir | palantir | lever
+Pàu | pau | recruitee
+Reedsy | reedsy | ashby
+Rightmove | rightmovecareers | greenhouse
+Roucoucou | roucoucou | recruitee
+Small Giant Games | sggcareers | greenhouse
+SocialFind | socialfind | recruitee
+Taxbit | taxbit | greenhouse
+Topsort | topsort | greenhouse
+TSMG | tsmg | lever
+Xometry Europe | xometryeurope | greenhouse
 
 # --- Watchlist ---
 # No open feed found yet. They are checked anyway, so the day one of them
