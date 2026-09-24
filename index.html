@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creative Jobs EU — straight from company careers pages</title>
 <meta name="description" content="Design, brand, motion, content and research jobs across Europe, taken from each company's own careers page rather than a job board. Checked every morning, nothing older than a month.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23DC4B1E'/%3E%3Cg fill='%23fff'%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='14.5' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='20' width='10' height='3' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c96442'/%3E%3Cg fill='%23fff'%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='14.5' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='20' width='10' height='3' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap&text=CreativeJobsEU%20">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
 <style>
 :root{
   --bg:#f6f4f1; --card:#fff; --ink:#15120f; --muted:#6b6560; --faint:#9c958d;
@@ -31,7 +31,6 @@ a{color:var(--link)}
 header{background:var(--card);border-bottom:1px solid var(--line)}
 h1{margin:0;padding:18px 0 3px;font-weight:400;font-size:1.65rem;line-height:1}
 h1 .mark{width:21px;height:21px;flex:none;border-radius:5px}
-h1 .wm{font-family:'Instrument Serif',Georgia,'Times New Roman',serif;letter-spacing:-.005em}
 h1 .eu{color:var(--accent)}
 .sub{color:var(--muted);font-size:.86rem;margin:0;padding:0 0 12px;max-width:46em}
 h1 button{display:flex;align-items:center;gap:9px;background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
@@ -110,6 +109,63 @@ footer p{margin:4px 0}
   .f{flex:1 1 100%}
   .f select,.combo input{width:100%;min-width:0}
 }
+
+:root{
+  --bg:#faf9f7; --card:#fff; --ink:#22201d; --muted:#6f6a63; --faint:#a39d95;
+  --line:#ebe6df; --link:#22201d; --accent:#c96442; --chip:#f4f1ec; --hover:#faf8f5;
+  --sel:#22201d; --sel-ink:#fff;
+  --font:'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+body{font-family:var(--font);font-size:15px;line-height:1.55;letter-spacing:-.006em}
+header{border-bottom:1px solid var(--line)}
+h1{margin:0;padding:22px 0 4px;font-size:1.32rem;font-weight:600;letter-spacing:-.022em;line-height:1.2}
+h1 button{display:inline-flex;align-items:baseline;gap:0}
+h1 .wm{font-family:var(--font);letter-spacing:-.022em}
+h1 .eu{color:var(--accent)}
+.sub{font-size:.9rem;color:var(--muted);padding:0 0 18px;letter-spacing:-.003em}
+
+.tab{padding:10px 13px;font-size:.92rem;letter-spacing:-.004em}
+.tab[aria-selected=true]{border-bottom-color:var(--accent);font-weight:500}
+
+input,select{border-radius:10px;border:1px solid var(--line);font-family:var(--font)}
+.f > label,.f > .lbl{font-size:.7rem;letter-spacing:.06em;color:var(--faint)}
+.filters{gap:16px;padding:20px 0 0}
+.pill{border-radius:99px;border:1px solid var(--line);font-size:.88rem;padding:7px 15px}
+.pill:hover{background:var(--hover)}
+.head{padding:22px 0 12px}
+.count{font-size:.88rem;color:var(--muted)}
+
+.job{border-radius:12px;border:1px solid var(--line);padding:16px 18px;margin-bottom:10px;
+  transition:border-color .15s ease, box-shadow .15s ease}
+.job:hover{border-color:#ddd6cc;box-shadow:0 1px 2px rgba(34,32,29,.04),0 8px 20px rgba(34,32,29,.045)}
+.job h3{font-size:1rem;font-weight:600;letter-spacing:-.012em;line-height:1.4}
+.job h3 a{color:var(--ink);text-decoration:none}
+.job h3 a:hover{color:var(--accent)}
+.co{font-size:.92rem;font-weight:500;color:var(--ink);margin-top:4px}
+.loc{font-size:.88rem;color:var(--muted)}
+.tag{background:var(--chip);border-radius:6px;padding:3px 9px;font-size:.76rem;color:var(--muted);letter-spacing:-.002em}
+.tag.pay{color:var(--ink);font-weight:500}
+.date{font-size:.8rem;color:var(--faint)}
+.tags{margin-top:11px}
+.more{border-radius:12px;border:1px solid var(--line);color:var(--ink);font-weight:500;padding:13px}
+.note{border-radius:12px}
+.combo ul{border-radius:12px;border:1px solid var(--line);box-shadow:0 4px 8px rgba(34,32,29,.04),0 16px 32px rgba(34,32,29,.08)}
+.combo li{border-radius:7px}
+footer{font-size:.82rem;color:var(--faint);padding:32px 0 48px}
+.clear{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.clear:hover{color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#191817; --card:#201f1d; --ink:#eae7e2; --muted:#a19b93; --faint:#726c65;
+  --line:#2f2d2a; --link:#eae7e2; --accent:#d98a6a; --chip:#282624; --hover:#242220;
+  --sel:#eae7e2; --sel-ink:#191817;
+}}
+.f > label,.f > .lbl{text-transform:none;font-size:.8rem;font-weight:500;letter-spacing:-.003em;color:var(--muted)}
+.f{gap:7px}
+h1{padding:24px 0 5px}
+.sub{padding:0 0 20px;max-width:34em;line-height:1.5}
+.filters{padding:22px 0 2px}
+
 </style>
 </head>
 <body>
@@ -117,7 +173,6 @@ footer p{margin:4px 0}
 <header>
   <div class="in">
     <h1><button id="home" type="button">
-      <img class="mark" alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23DC4B1E'/%3E%3Cg fill='%23fff'%3E%3Crect x='8' y='9' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='14.5' width='16' height='3' rx='1.5'/%3E%3Crect x='8' y='20' width='10' height='3' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
       <span class="wm">Creative Jobs <span class="eu">EU</span></span>
     </button></h1>
     <p class="sub">Design jobs across Europe, taken from each company's own careers page. Checked every morning.</p>
