@@ -417,6 +417,38 @@ Topsort | topsort | greenhouse
 TSMG | tsmg | lever
 Xometry Europe | xometryeurope | greenhouse
 
+# --- Harvested, second sweep (German, Nordic, Iberian, Italian, CEE) ---
+2K Madrid | 2kmadrid | greenhouse
+ABE | abe | ashby
+BerlinRosen | berlinrosen | greenhouse
+Conclusion Experience | experience | recruitee
+De Nieuwe Zaak | denieuwezaak | recruitee
+Digital Forms | digitalforms | recruitee
+Directive | directive | ashby
+Dreamthree | dreamthree | ashby
+e-Luscious | eluscious | recruitee
+Exitable | exitable | recruitee
+Gismart | gismart | ashby
+GRAI | grai | ashby
+Harvey | harvey | ashby
+Illumio | illumio | ashby
+Innovative Beauty Group | innovativebeautygroup | recruitee
+KLARSTEIN | berlinbrands | greenhouse
+Lakera | lakera.ai | ashby
+Legora | legora | ashby
+Oddin | oddin | lever
+OpenAI | openai | ashby
+PosadMaxwan | posadmaxwangenerationenergy | recruitee
+Rilla | rilla | ashby
+Socialpoint | spcareers | greenhouse
+Speechify | speechify | greenhouse
+The Global Talent Co | the-global-talent-co | ashby
+The Sharing Group | mijndomein | recruitee
+VML | wundermanthompson | greenhouse
+Wisemen | wisemen | recruitee
+Yappa | yappa | recruitee
+Zefir | zefir | ashby
+
 # --- Watchlist ---
 # No open feed found yet. They are checked anyway, so the day one of them
 # opens a public board it starts appearing without anyone editing this file.
