@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-24T10:06:15.919Z",
+ "updated": "2026-09-24T11:00:49.442Z",
  "companies": 371,
- "count": 118,
+ "count": 117,
  "jobs": [
   {
    "title": "Director, Product Design",
@@ -383,19 +383,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -404,6 +391,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -495,19 +495,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
-   "posted": "2026-09-15"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Farfetch",
-   "location": "Porto",
-   "country": "Portugal",
-   "city": "Porto",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/farfetch/e75ebdfa-ea55-462a-9430-bfdd9365a938",
    "posted": "2026-09-15"
   },
   {
