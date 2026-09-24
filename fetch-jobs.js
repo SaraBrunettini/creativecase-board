@@ -137,6 +137,9 @@ const NOT_CREATIVE = new RegExp([
   /* different profession entirely */
   'sales|account executive|recruiter|talent partner|solutions architect|solutions manager',
   'mechanical|electrical|civil|hardware|chip|silicon|wms|warehouse|architectural',
+  /* "design engineer" is also a hardware and physics job title */
+  'qpu|quantum|harness design|microwave|rf design|antenna|pcb|semiconductor|photonic',
+  'optical design|thermal design|structural design|circuit design|cad designer|hvac',
   /* engineering roles that only mention design in passing */
   'engineering manager',
   '(ios|android|backend|back-end|frontend|front-end|full[- ]?stack|software|data|platform|infrastructure|security|qa|test|mobile|web|systems?)[- ]?\\s*engineer',
