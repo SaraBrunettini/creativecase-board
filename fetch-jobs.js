@@ -41,50 +41,6 @@ function salary(pay) {
     : sym + (lo || hi) + per;
 }
 
-/* Ordering pay means comparing three currencies over two intervals, so each
-   figure also gets an annual euro estimate. It is only ever used to sort:
-   the card always shows the company's own wording. Rates come from the ECB
-   each morning, with a fallback so a rate outage cannot break the run. */
-const PER_YEAR = { YEAR: 1, MONTH: 12, WEEK: 52, DAY: 230, HOUR: 1750 };
-
-const FALLBACK_RATES = {
-  EUR: 1, GBP: 0.86, USD: 1.08, CHF: 0.94, PLN: 4.38, SEK: 11.27, NOK: 11.6,
-  DKK: 7.46, CZK: 25.2, HUF: 395, RON: 4.98, BGN: 1.96, UAH: 45, TRY: 38,
-};
-let RATES = { ...FALLBACK_RATES };
-
-async function loadRates() {
-  try {
-    const r = await fetch('https://api.frankfurter.dev/v1/latest?base=EUR',
-      { signal: AbortSignal.timeout(10000) });
-    if (!r.ok) throw new Error(r.status);
-    const d = await r.json();
-    if (d && d.rates) {
-      RATES = { EUR: 1, ...d.rates };
-      console.log(`Rates from ECB, ${d.date}`);
-      return;
-    }
-    throw new Error('no rates');
-  } catch (e) {
-    console.log('Rates unavailable, using fallback:', e.message);
-  }
-}
-
-/* Annual euros, from the midpoint of the range. */
-function salaryEur(pay) {
-  if (!pay) return null;
-  /* Recruitee hands these over as strings, and "4650" + "5450" concatenates
-     rather than adds - which scored one role at 279 million a year. */
-  const num = (v) => { const n = Number(v); return Number.isFinite(n) && n > 0 ? n : null; };
-  const lo = num(pay.min), hi = num(pay.max);
-  const mid = lo && hi ? (lo + hi) / 2 : (lo || hi);
-  if (!mid) return null;
-  const rate = RATES[pay.currency];
-  if (!rate) return null;
-  const perYear = PER_YEAR[pay.interval] || 1;
-  return Math.round((mid * perYear) / rate);
-}
-
 /* Each board states pay in its own shape. */
 const ghPay = (ranges) => {
   const r = (ranges || []).find((x) => x && (x.min_cents || x.max_cents));
@@ -461,8 +417,6 @@ async function pool(items, size, fn) {
     console.error('Needs Node 18+.'); process.exit(1);
   }
 
-  await loadRates();
-
   /* One company per line. A line may name its board outright —
        Fever | feverup | greenhouse
      — and otherwise the board name is guessed from the company name. */
@@ -528,7 +482,6 @@ async function pool(items, size, fn) {
         type: employmentType(r.type, r.title),
         workplace: work,
         salary: salary(r.pay),
-        salaryEur: salaryEur(r.pay),
         url: r.url,
         posted: r.posted ? String(r.posted).slice(0, 10) : null,
       });
