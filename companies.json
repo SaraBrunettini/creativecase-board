@@ -1974,136 +1974,6 @@
   "ats": "greenhouse",
   "seen": "2026-09-24"
  },
- "Adesso": {
-  "slug": "adesso",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Bibliu": {
-  "slug": "bibliu",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Bird": {
-  "slug": "bird",
-  "ats": "greenhouse",
-  "seen": "2026-09-24"
- },
- "Bloober Team": {
-  "slug": "blooberteam",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Channable": {
-  "slug": "channable",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Craftzing": {
-  "slug": "craftzing",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Dashmote": {
-  "slug": "dashmote",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Droptica": {
-  "slug": "droptica",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Espeo": {
-  "slug": "espeo",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Famly": {
-  "slug": "famly",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Holded": {
-  "slug": "holded",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Landbot": {
-  "slug": "landbot",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Multiplier": {
-  "slug": "multiplier",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Oyster": {
-  "slug": "oyster",
-  "ats": "ashby",
-  "seen": "2026-09-24"
- },
- "Papaya": {
-  "slug": "papaya",
-  "ats": "greenhouse",
-  "seen": "2026-09-24"
- },
- "Personio": {
-  "slug": "personio",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Phase": {
-  "slug": "phase",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Pragmatic Coders": {
-  "slug": "pragmaticcoders",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Quantum Systems": {
-  "slug": "quantumsystems",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Signifly": {
-  "slug": "signifly",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Spyke Games": {
-  "slug": "spyke-games",
-  "ats": "lever",
-  "seen": "2026-09-24"
- },
- "STRV": {
-  "slug": "strv",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Twisto": {
-  "slug": "twisto",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Tylko": {
-  "slug": "tylko",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Virtual Identity": {
-  "slug": "virtualidentity",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
- "Xebia": {
-  "slug": "xebia",
-  "ats": "recruitee",
-  "seen": "2026-09-24"
- },
  "2K Madrid": {
   "slug": "2kmadrid",
   "ats": "greenhouse",
@@ -2252,6 +2122,136 @@
  "Zefir": {
   "slug": "zefir",
   "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Adesso": {
+  "slug": "adesso",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Bibliu": {
+  "slug": "bibliu",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Bird": {
+  "slug": "bird",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Bloober Team": {
+  "slug": "blooberteam",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Channable": {
+  "slug": "channable",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Craftzing": {
+  "slug": "craftzing",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Dashmote": {
+  "slug": "dashmote",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Droptica": {
+  "slug": "droptica",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Espeo": {
+  "slug": "espeo",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Famly": {
+  "slug": "famly",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Holded": {
+  "slug": "holded",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Landbot": {
+  "slug": "landbot",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Multiplier": {
+  "slug": "multiplier",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Oyster": {
+  "slug": "oyster",
+  "ats": "ashby",
+  "seen": "2026-09-24"
+ },
+ "Papaya": {
+  "slug": "papaya",
+  "ats": "greenhouse",
+  "seen": "2026-09-24"
+ },
+ "Personio": {
+  "slug": "personio",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Phase": {
+  "slug": "phase",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Pragmatic Coders": {
+  "slug": "pragmaticcoders",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Quantum Systems": {
+  "slug": "quantumsystems",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Signifly": {
+  "slug": "signifly",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Spyke Games": {
+  "slug": "spyke-games",
+  "ats": "lever",
+  "seen": "2026-09-24"
+ },
+ "STRV": {
+  "slug": "strv",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Twisto": {
+  "slug": "twisto",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Tylko": {
+  "slug": "tylko",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Virtual Identity": {
+  "slug": "virtualidentity",
+  "ats": "recruitee",
+  "seen": "2026-09-24"
+ },
+ "Xebia": {
+  "slug": "xebia",
+  "ats": "recruitee",
   "seen": "2026-09-24"
  }
 }
