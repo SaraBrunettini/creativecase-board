@@ -1,8 +1,73 @@
 {
- "updated": "2026-09-23T14:18:37.209Z",
+ "updated": "2026-09-24T10:06:15.919Z",
  "companies": 371,
- "count": 109,
+ "count": 118,
  "jobs": [
+  {
+   "title": "Director, Product Design",
+   "company": "Funding Circle",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/fundingcircle/6f9ae625-18a0-40a4-8566-5e1d5aed2065",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Product Designer, Generative Media (Staff-Level / L6)",
+   "company": "Synthesia",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/synthesia/ba6d0833-902b-4f80-95e4-3b08b9e86cbb",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Senior UX/UI Designer | AI & Digital Experience",
+   "company": "Adesso",
+   "location": "Utrecht, Netherlands",
+   "country": "Netherlands",
+   "city": "Utrecht",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": "€4.7K – €5.5K a month",
+   "url": "https://werkenbijadesso.recruitee.com/o/senior-uxui-designer-ai-digital-experience",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Manager, Insurance Product and Benefit Design",
+   "company": "Oscar",
+   "location": "Remote",
+   "country": "Other",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/oscar/jobs/8201964",
+   "posted": "2026-09-23"
+  },
+  {
+   "title": "Design Engineer | Mid-Senior| Saily",
+   "company": "Nord Security",
+   "location": "Warsaw",
+   "country": "Poland",
+   "city": "Warsaw",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "PLN 17.6K – PLN 29.5K a month",
+   "url": "https://jobs.ashbyhq.com/nord-security/0d9ac726-81db-48fb-a9b8-f64ecad8e37c",
+   "posted": "2026-09-23"
+  },
   {
    "title": "Design Engineer | Mid-Senior| Saily",
    "company": "Nord Security",
@@ -149,9 +214,9 @@
   {
    "title": "UX/UI Designer | Mid-Senior | Apps | Saily",
    "company": "Nord Security",
-   "location": "Poland",
+   "location": "Warsaw",
    "country": "Poland",
-   "city": null,
+   "city": "Warsaw",
    "discipline": "Product & UX",
    "type": "Full-time",
    "workplace": "Remote",
@@ -513,6 +578,19 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
+   "location": "Edinburgh",
+   "country": "United Kingdom",
+   "city": "Edinburgh",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
@@ -534,19 +612,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
-   "location": "Edinburgh",
-   "country": "United Kingdom",
-   "city": "Edinburgh",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -680,6 +745,19 @@
    "posted": "2026-09-10"
   },
   {
+   "title": "Freelance Principal Product Designer",
+   "company": "Red Badger",
+   "location": "Hybrid / London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://content.red-badger.com/all-jobs?gh_jid=7990881003",
+   "posted": "2026-09-10"
+  },
+  {
    "title": "Brand Marketing Designer - (Fixed Contract 12 months)",
    "company": "SumUp",
    "location": "London, England, United Kingdom",
@@ -810,6 +888,32 @@
    "posted": "2026-09-08"
   },
   {
+   "title": "Senior UX Designer",
+   "company": "Red Badger",
+   "location": "Leeds",
+   "country": "United Kingdom",
+   "city": "Leeds",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://content.red-badger.com/all-jobs?gh_jid=7988749003",
+   "posted": "2026-09-08"
+  },
+  {
+   "title": "Senior Director, Organizational Transformation & Workforce Design",
+   "company": "Smartly.io",
+   "location": "London, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/smartlyio/jobs/6184938004",
+   "posted": "2026-09-08"
+  },
+  {
    "title": "Design Engineer | Mid-Senior",
    "company": "Nord Security",
    "location": "Vilnius",
@@ -924,6 +1028,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4954101101",
+   "posted": "2026-09-07"
+  },
+  {
+   "title": "Freelance Senior UX Designer",
+   "company": "Red Badger",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://content.red-badger.com/all-jobs?gh_jid=7709447003",
    "posted": "2026-09-07"
   },
   {
