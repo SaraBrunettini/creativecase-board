@@ -1,8 +1,73 @@
 {
- "updated": "2026-09-24T15:57:18.756Z",
+ "updated": "2026-09-25T11:38:32.395Z",
  "companies": 451,
- "count": 153,
+ "count": 159,
  "jobs": [
+  {
+   "title": "Manager, Visual Merchandising, EMEA",
+   "company": "Oura",
+   "location": "Hybrid - London, England",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/oura/jobs/4419213009",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Member of Product Staff, Product Designer",
+   "company": "Metaview",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/metaview/196fa91b-b547-45e8-ab3f-d42a4aa02337",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Senior Content Strategist - Freelancer",
+   "company": "VML",
+   "location": "Luxembourg, Luxembourg",
+   "country": "Luxembourg",
+   "city": null,
+   "discipline": "Content",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.vml.com/careers/job/8844336002?gh_jid=8844336002",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "VP, Product Design",
+   "company": "Algolia",
+   "location": "London, England",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "£158K – £197K",
+   "url": "https://job-boards.greenhouse.io/algolia/jobs/6207699004",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Senior Motion Designer (x/f/m)",
+   "company": "HelloFresh",
+   "location": "Berlin, Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://careers.hellofresh.com/global/en/job/8121150?gh_jid=8121150",
+   "posted": "2026-09-24"
+  },
   {
    "title": "Agentic UX / Conversation Designer",
    "company": "N-iX",
@@ -92,6 +157,19 @@
    "workplace": "Hybrid",
    "salary": "€4.7K – €5.5K a month",
    "url": "https://werkenbijadesso.recruitee.com/o/senior-uxui-designer-ai-digital-experience",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/dcd6df8d-5cee-4ee3-a4ed-4f4697b3337d",
    "posted": "2026-09-24"
   },
   {
@@ -656,19 +734,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Madrid, Spain",
    "country": "Spain",
    "city": "Madrid",
@@ -677,6 +742,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16"
   },
   {
@@ -768,19 +846,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
-   "posted": "2026-09-15"
-  },
-  {
-   "title": "Events & Experienced Designer (Madrid)",
-   "company": "VML",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8805592002?gh_jid=8805592002",
    "posted": "2026-09-15"
   },
   {
@@ -877,14 +942,14 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "London",
+   "location": "Edinburgh",
    "country": "United Kingdom",
-   "city": "London",
+   "city": "Edinburgh",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -903,14 +968,14 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Edinburgh",
+   "location": "London",
    "country": "United Kingdom",
-   "city": "Edinburgh",
+   "city": "London",
    "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -1054,6 +1119,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/gymshark/jobs/4974462101",
+   "posted": "2026-09-11"
+  },
+  {
+   "title": "FR - Generative AI Creative",
+   "company": "Valtech",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/valtech/jobs/4972639101",
    "posted": "2026-09-11"
   },
   {
@@ -1382,6 +1460,19 @@
    "posted": "2026-09-07"
   },
   {
+   "title": "Senior Brand Designer, Fixed Term Contract",
+   "company": "Monzo",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/monzo/jobs/8180014",
+   "posted": "2026-09-07"
+  },
+  {
    "title": "Product Designer (m/f/d)",
    "company": "Raisin",
    "location": "Berlin, Berlin, Germany",
@@ -1527,19 +1618,6 @@
   {
    "title": "Product Design Lead",
    "company": "Fever",
-   "location": "Madrid",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Product Design Lead",
-   "company": "Fever",
    "location": "Barcelona",
    "country": "Spain",
    "city": "Barcelona",
@@ -1551,16 +1629,16 @@
    "posted": "2026-09-03"
   },
   {
-   "title": "Senior Product Designer - New Ventures & Consumer UX",
-   "company": "HelloFresh",
-   "location": "Warszawa, Masovian Voivodeship, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
+   "title": "Product Design Lead",
+   "company": "Fever",
+   "location": "Madrid",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Leadership",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/7610098?gh_jid=7610098",
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
    "posted": "2026-09-03"
   },
   {
@@ -1748,19 +1826,6 @@
   {
    "title": "Graphic Designer",
    "company": "Flo Health",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
    "location": "Ukraine",
    "country": "Ukraine",
    "city": null,
@@ -1769,6 +1834,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
+   "posted": "2026-08-28"
+  },
+  {
+   "title": "Graphic Designer",
+   "company": "Flo Health",
+   "location": "Poland",
+   "country": "Poland",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
    "posted": "2026-08-28"
   },
   {
