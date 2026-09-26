@@ -1,8 +1,60 @@
 {
- "updated": "2026-09-25T11:38:32.395Z",
+ "updated": "2026-09-26T11:11:59.045Z",
  "companies": 451,
  "count": 159,
  "jobs": [
+  {
+   "title": "Senior Creative Producer (Fixed-term Employment)",
+   "company": "Wolt",
+   "location": "Athens, Greece; Berlin, Germany; Copenhagen, Denmark; Helsinki, Finland; Stockholm, Sweden",
+   "country": "Germany",
+   "city": "Athens",
+   "discipline": "Other",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/wolt/jobs/8232982",
+   "posted": "2026-09-26"
+  },
+  {
+   "title": "Freelancer - Video Editor (Part-Time, Remote)",
+   "company": "Flo Health",
+   "location": "Poland | Ukraine",
+   "country": "Poland",
+   "city": "Poland Ukraine",
+   "discipline": "Motion",
+   "type": "Part-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/flohealth/jobs/8004575003",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Midweight Designer",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8232883",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Senior Designer",
+   "company": "Landor",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/landor/jobs/8222858",
+   "posted": "2026-09-25"
+  },
   {
    "title": "Manager, Visual Merchandising, EMEA",
    "company": "Oura",
@@ -14,6 +66,58 @@
    "workplace": "Hybrid",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/oura/jobs/4419213009",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Intern Brand Marketing (m/f/d)",
+   "company": "Raisin",
+   "location": "Berlin, Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4936971101",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Freelance Principal UX Researcher",
+   "company": "Red Badger",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://content.red-badger.com/all-jobs?gh_jid=8005302003",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "AI Designer",
+   "company": "Solita",
+   "location": "Helsinki, Lahti, Oulu, Tampere, Turku",
+   "country": "Finland",
+   "city": "Helsinki",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.solita.fi/positions/?gh_jid=8005221003",
+   "posted": "2026-09-25"
+  },
+  {
+   "title": "Senior Graphic Designer | Brand & Creative focus | EU-based",
+   "company": "Hostinger",
+   "location": "Spain",
+   "country": "Spain",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/hostinger/4c17ea83-ba12-46ef-b5a9-f29a4f290051",
    "posted": "2026-09-25"
   },
   {
@@ -170,6 +274,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/dcd6df8d-5cee-4ee3-a4ed-4f4697b3337d",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Visual Designer",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/visual-designer-1",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Kreativní copywriter*ka",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Content",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
    "posted": "2026-09-24"
   },
   {
@@ -537,19 +667,6 @@
    "posted": "2026-09-19"
   },
   {
-   "title": "Visual Designer",
-   "company": "Clera",
-   "location": "Vienna",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/35d2f90a-9de8-479f-8cc7-d1bbcc5bc233",
-   "posted": "2026-09-19"
-  },
-  {
    "title": "Associate UX Designer",
    "company": "Dataiku",
    "location": "France, Paris",
@@ -565,7 +682,7 @@
   {
    "title": "Staff Product Designer",
    "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
+   "location": "London, England",
    "country": "United Kingdom",
    "city": "London",
    "discipline": "Product & UX",
@@ -578,7 +695,7 @@
   {
    "title": "Staff Product Designer (12-Month FTC)",
    "company": "Deliveroo",
-   "location": "London, United Kingdom - Deliveroo",
+   "location": "London, United Kingdom",
    "country": "United Kingdom",
    "city": "London",
    "discipline": "Product & UX",
@@ -734,19 +851,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -755,6 +859,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -942,19 +1059,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Edinburgh",
-   "country": "United Kingdom",
-   "city": "Edinburgh",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "Copenhagen",
    "country": "Denmark",
    "city": "Copenhagen",
@@ -963,6 +1067,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Edinburgh",
+   "country": "United Kingdom",
+   "city": "Edinburgh",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
    "posted": "2026-09-14"
   },
   {
@@ -1028,19 +1145,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.lever.co/pigment/c8fad9d3-4424-4a40-b1ce-2a4cb68c8421",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Mid/Senior AI Cinematic Video Editor (Freelance - Full Remote - Europe)",
-   "company": "EverAI",
-   "location": "Europe",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Motion",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": "$28K – $58K",
-   "url": "https://jobs.ashbyhq.com/everai/349f0839-6496-45db-9a9f-a7f051a5c38e",
    "posted": "2026-09-14"
   },
   {
@@ -1618,19 +1722,6 @@
   {
    "title": "Product Design Lead",
    "company": "Fever",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
-   "posted": "2026-09-03"
-  },
-  {
-   "title": "Product Design Lead",
-   "company": "Fever",
    "location": "Madrid",
    "country": "Spain",
    "city": "Madrid",
@@ -1639,6 +1730,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964211101",
+   "posted": "2026-09-03"
+  },
+  {
+   "title": "Product Design Lead",
+   "company": "Fever",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4964209101",
    "posted": "2026-09-03"
   },
   {
@@ -1876,19 +1980,6 @@
    "posted": "2026-08-28"
   },
   {
-   "title": "Senior Product Designer - Onboarding & Activation",
-   "company": "Ebury",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959179101",
-   "posted": "2026-08-27"
-  },
-  {
    "title": "(Senior) Director UX, Operations",
    "company": "HelloFresh",
    "location": "Berlin, Berlin, Germany",
@@ -1978,97 +2069,6 @@
    "salary": "€75K – €95K",
    "url": "https://jobs.ashbyhq.com/everai/fbb45268-2b00-49a0-b06f-6f8d5716d42f",
    "posted": "2026-08-27"
-  },
-  {
-   "title": "Graphic Designer - Fixed term (1 year)",
-   "company": "VML",
-   "location": "Luxembourg, Luxembourg",
-   "country": "Luxembourg",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8754505002?gh_jid=8754505002",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Senior Graphic Designer",
-   "company": "VML",
-   "location": "Luxembourg, Luxembourg",
-   "country": "Luxembourg",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.vml.com/careers/job/8754655002?gh_jid=8754655002",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Senior Brand Designer B2B",
-   "company": "GetYourGuide",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/getyourguide/jobs/8158781",
-   "posted": "2026-08-26"
-  },
-  {
-   "title": "Motion Design Intern - Brand & Marketing",
-   "company": "SumUp",
-   "location": "Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Motion",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://sumup.com/careers/positions/8690943002?gh_jid=8690943002",
-   "posted": "2026-08-26"
-  },
-  {
-   "title": "Performance Creative Designer",
-   "company": "Recraft",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/recraft/be843017-b1be-4276-b408-61bcfc8e6565",
-   "posted": "2026-08-26"
-  },
-  {
-   "title": "Head of Product Design",
-   "company": "Malt",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://jobs.lever.co/malt/910560d4-80ce-41c7-9a5b-b3e714ce0f78",
-   "posted": "2026-08-26"
-  },
-  {
-   "title": "Art Director (360°-ATL)",
-   "company": "VML",
-   "location": "Warsaw, Masovian, Poland",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "PLN 8.5K – PLN 17K",
-   "url": "https://www.vml.com/careers/job/8750200002?gh_jid=8750200002",
-   "posted": "2026-08-26"
   }
  ]
 }
