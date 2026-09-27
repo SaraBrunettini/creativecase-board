@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-26T11:11:59.045Z",
+ "updated": "2026-09-27T11:50:19.088Z",
  "companies": 451,
- "count": 159,
+ "count": 151,
  "jobs": [
   {
    "title": "Senior Creative Producer (Fixed-term Employment)",
@@ -14,6 +14,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/wolt/jobs/8232982",
+   "posted": "2026-09-26"
+  },
+  {
+   "title": "Founding Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/1dfdf07d-cc28-4710-8cbc-1fe2e5971222",
+   "posted": "2026-09-26"
+  },
+  {
+   "title": "Visual Designer",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/325e1c17-c8ae-4f71-9f30-5017558762ff",
    "posted": "2026-09-26"
   },
   {
@@ -626,45 +652,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/legora/56ab32e6-1212-4f66-886b-5711f20fd3dd",
    "posted": "2026-09-21"
-  },
-  {
-   "title": "Head of Product Design",
-   "company": "Clera",
-   "location": "Munich",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/ddbbd232-b993-434d-a72d-42cd340fc959",
-   "posted": "2026-09-20"
-  },
-  {
-   "title": "Junior Product Designer (Senior optional not specified)",
-   "company": "Clera",
-   "location": "Munich",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/0d993092-a42b-4024-80bd-ee095149baf6",
-   "posted": "2026-09-20"
-  },
-  {
-   "title": "Founding Product Designer",
-   "company": "Clera",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/c1c4c925-fb4d-40b5-8160-e72de4171629",
-   "posted": "2026-09-19"
   },
   {
    "title": "Associate UX Designer",
@@ -1978,97 +1965,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/zilch/2ea37d02-cd4c-41d0-a232-efeb38e9f8cd",
    "posted": "2026-08-28"
-  },
-  {
-   "title": "(Senior) Director UX, Operations",
-   "company": "HelloFresh",
-   "location": "Berlin, Berlin, Germany",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://careers.hellofresh.com/global/en/job/8146772?gh_jid=8146772",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Robotics Senior Digital Designer",
-   "company": "Helsing",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://helsing.ai/jobs/4961544101?gh_jid=4961544101",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Lead Product Designer",
-   "company": "Nord Security",
-   "location": "Vilnius",
-   "country": "Lithuania",
-   "city": "Vilnius",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€4.7K – €6.5K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/f2e8b050-a467-4c28-b598-aaef65cfd6cd",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Midweight Creative Artworker",
-   "company": "Zilch",
-   "location": "Zilch UK",
-   "country": "United Kingdom",
-   "city": "Zilch UK",
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/zilch/de6d1c0c-60c3-43bf-8e9e-f358fcd0d7f8",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - Europe)",
-   "company": "EverAI",
-   "location": "Europe",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €95K",
-   "url": "https://jobs.ashbyhq.com/everai/3068ad20-23ae-49c0-a611-a38c9809b98c",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - France)",
-   "company": "EverAI",
-   "location": "France",
-   "country": "France",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €95K",
-   "url": "https://jobs.ashbyhq.com/everai/7ab9cf04-5fe3-4d7b-83de-4b069046b9ab",
-   "posted": "2026-08-27"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - Germany)",
-   "company": "EverAI",
-   "location": "Germany",
-   "country": "Germany",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €95K",
-   "url": "https://jobs.ashbyhq.com/everai/fbb45268-2b00-49a0-b06f-6f8d5716d42f",
-   "posted": "2026-08-27"
   }
  ]
 }
