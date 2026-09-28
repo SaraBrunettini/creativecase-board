@@ -1,8 +1,86 @@
 {
- "updated": "2026-09-27T11:50:19.088Z",
+ "updated": "2026-09-28T13:35:10.497Z",
  "companies": 451,
- "count": 151,
+ "count": 142,
  "jobs": [
+  {
+   "title": "Product Designer, Growth Acquisition",
+   "company": "Mentimeter",
+   "location": "Stockholm",
+   "country": "Sweden",
+   "city": "Stockholm",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4976852101",
+   "posted": "2026-09-28"
+  },
+  {
+   "title": "Marketing Video Artist - Growth",
+   "company": "Voodoo",
+   "location": "Paris",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Motion",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/voodoo/0a2e0221-fc2b-4239-b973-ed4ab11f9c3a",
+   "posted": "2026-09-28"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Clera",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/0a84910d-714b-4a68-968b-62b82827c5f3",
+   "posted": "2026-09-27"
+  },
+  {
+   "title": "Fractional Founding Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/8a354a7f-6fae-4a18-a682-993f59e6bd32",
+   "posted": "2026-09-27"
+  },
+  {
+   "title": "Junior Product Designer",
+   "company": "Clera",
+   "location": "Munich",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/b620d8fb-d530-4785-8c6a-f2f6a2720ec9",
+   "posted": "2026-09-27"
+  },
+  {
+   "title": "Head of Product Design",
+   "company": "Clera",
+   "location": "Munich",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/2efc38dd-eede-4dea-af0e-9f7c9cea03ea",
+   "posted": "2026-09-27"
+  },
   {
    "title": "Senior Creative Producer (Fixed-term Employment)",
    "company": "Wolt",
@@ -131,19 +209,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://www.solita.fi/positions/?gh_jid=8005221003",
-   "posted": "2026-09-25"
-  },
-  {
-   "title": "Senior Graphic Designer | Brand & Creative focus | EU-based",
-   "company": "Hostinger",
-   "location": "Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/4c17ea83-ba12-46ef-b5a9-f29a4f290051",
    "posted": "2026-09-25"
   },
   {
@@ -300,32 +365,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/dcd6df8d-5cee-4ee3-a4ed-4f4697b3337d",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Visual Designer",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/visual-designer-1",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Kreativní copywriter*ka",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Content",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
    "posted": "2026-09-24"
   },
   {
@@ -537,6 +576,19 @@
    "posted": "2026-09-21"
   },
   {
+   "title": "Product Designer - Grow & Engage",
+   "company": "N26",
+   "location": "Barcelona",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
+   "posted": "2026-09-21"
+  },
+  {
    "title": "UX/UI Designer | Mid-Senior | Apps | Saily",
    "company": "Nord Security",
    "location": "Warsaw",
@@ -573,45 +625,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7990774003",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Senior/Staff Product Designer",
-   "company": "Clera",
-   "location": "Munich",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/b42d2e05-e7ec-4fb6-8192-a9fe305c2a45",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Clera",
-   "location": "remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/bb75972c-af70-499c-9784-3925924846a5",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Lead Product Designer (m/w/d)",
-   "company": "Clera",
-   "location": "Vienna",
-   "country": "Austria",
-   "city": "Vienna",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/0f294b54-f9d3-4a62-9ef0-9c6d27b51774",
    "posted": "2026-09-21"
   },
   {
@@ -652,19 +665,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/legora/56ab32e6-1212-4f66-886b-5711f20fd3dd",
    "posted": "2026-09-21"
-  },
-  {
-   "title": "Associate UX Designer",
-   "company": "Dataiku",
-   "location": "France, Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dataiku/jobs/6184876004",
-   "posted": "2026-09-18"
   },
   {
    "title": "Staff Product Designer",
@@ -717,19 +717,6 @@
    "salary": null,
    "url": "https://job-boards.greenhouse.io/eucalyptus/jobs/4735384005",
    "posted": "2026-09-18"
-  },
-  {
-   "title": "Graphic Designer (Pharma Industry)",
-   "company": "Ogilvy",
-   "location": "Barcelona, Spain",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://www.ogilvy.com/careers/4735011005?gh_jid=4735011005",
-   "posted": "2026-09-17"
   },
   {
    "title": "User Research UX Intern",
@@ -838,19 +825,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Madrid, Spain",
    "country": "Spain",
    "city": "Madrid",
@@ -859,6 +833,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Munich, Germany",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
    "posted": "2026-09-16"
   },
   {
@@ -924,19 +911,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/linear/ea0b5868-6d7a-46fa-99d8-207cd19357a6",
-   "posted": "2026-09-15"
-  },
-  {
-   "title": "Marketing Video Artist - Portfolio Games",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/2965f58a-7aea-42e8-97c7-9b20c3b3c6a3",
    "posted": "2026-09-15"
   },
   {
@@ -1046,6 +1020,19 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
    "location": "Copenhagen",
    "country": "Denmark",
    "city": "Copenhagen",
@@ -1067,19 +1054,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200593?gh_jid=8200593",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -1356,19 +1330,6 @@
    "posted": "2026-09-09"
   },
   {
-   "title": "Visual Designer",
-   "company": "DEPT",
-   "location": "Budapest",
-   "country": "Hungary",
-   "city": "Budapest",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8188470",
-   "posted": "2026-09-09"
-  },
-  {
    "title": "Lead Product Designer, Growth",
    "company": "Monzo",
    "location": "Cardiff, London or Remote (UK)",
@@ -1470,19 +1431,6 @@
    "workplace": "Remote",
    "salary": "PLN 17.6K – PLN 29.5K a month",
    "url": "https://jobs.ashbyhq.com/nord-security/d9da600d-43b4-43f3-af47-d854c5eb508c",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Content Strategist",
-   "company": "Sitecore",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/sitecore/95ab8b4f-586f-4bd9-9ceb-7be5a0f650f3",
    "posted": "2026-09-08"
   },
   {
@@ -1889,19 +1837,6 @@
    "posted": "2026-08-31"
   },
   {
-   "title": "Marketing Video Artist - Hole.io",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/baaeea93-72d2-4379-af2f-5fc0c4394a53",
-   "posted": "2026-08-31"
-  },
-  {
    "title": "Content CRO/UX Specialist",
    "company": "Hostinger",
    "location": "Spain",
@@ -1913,58 +1848,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/hostinger/45f7c365-5273-495a-86b9-102ca90439d8",
    "posted": "2026-08-31"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
-   "location": "Ukraine",
-   "country": "Ukraine",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980449003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "Graphic Designer",
-   "company": "Flo Health",
-   "location": "Poland",
-   "country": "Poland",
-   "city": null,
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/flohealth/jobs/7980217003",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "AI Designer",
-   "company": "Recraft",
-   "location": "Remote",
-   "country": "Europe-wide",
-   "city": null,
-   "discipline": "Other",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/recraft/64655615-7a15-4e41-bd92-d2c91201b7a8",
-   "posted": "2026-08-28"
-  },
-  {
-   "title": "UX Copywriter",
-   "company": "Zilch",
-   "location": "Zilch UK",
-   "country": "United Kingdom",
-   "city": "Zilch UK",
-   "discipline": "Content",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/zilch/2ea37d02-cd4c-41d0-a232-efeb38e9f8cd",
-   "posted": "2026-08-28"
   }
  ]
 }
