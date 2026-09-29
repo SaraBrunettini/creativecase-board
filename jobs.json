@@ -1,8 +1,47 @@
 {
- "updated": "2026-09-28T13:35:10.497Z",
+ "updated": "2026-09-29T12:38:07.718Z",
  "companies": 451,
- "count": 142,
+ "count": 144,
  "jobs": [
+  {
+   "title": "Werkstudent:in (m/w/d) – UX Copywriting",
+   "company": "Tide",
+   "location": "Berlin, Germany",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Content",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/tide/jobs/8006663003",
+   "posted": "2026-09-29"
+  },
+  {
+   "title": "Director of Product Design",
+   "company": "Carwow",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/carwow/19504c63-effb-4df7-8c0b-8440e2c0ec69",
+   "posted": "2026-09-29"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nabla",
+   "location": "Paris office",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/nabla/d3f336e9-bf79-4ab8-918c-36b143066234",
+   "posted": "2026-09-29"
+  },
   {
    "title": "Product Designer, Growth Acquisition",
    "company": "Mentimeter",
@@ -27,6 +66,45 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/0a2e0221-fc2b-4239-b973-ed4ab11f9c3a",
+   "posted": "2026-09-28"
+  },
+  {
+   "title": "Senior/Staff Product Designer",
+   "company": "Clera",
+   "location": "Munich",
+   "country": "Germany",
+   "city": "Munich",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/fc126b84-84f7-4194-92d3-5f7b9780e577",
+   "posted": "2026-09-28"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Clera",
+   "location": "remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/bea2c64a-69d0-4f8a-ae61-d0bc82e9f2ca",
+   "posted": "2026-09-28"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Clera",
+   "location": "Vienna",
+   "country": "Austria",
+   "city": "Vienna",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/d14c20cd-02d8-441d-988a-8d1996e79c75",
    "posted": "2026-09-28"
   },
   {
@@ -329,19 +407,6 @@
    "posted": "2026-09-24"
   },
   {
-   "title": "Marketing Video Artist - BeReal",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/fad0b8a1-7be4-4c1a-a248-f40a85428d53",
-   "posted": "2026-09-24"
-  },
-  {
    "title": "Senior UX/UI Designer | AI & Digital Experience",
    "company": "adesso Netherlands",
    "location": "Utrecht, Netherlands",
@@ -365,6 +430,32 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/clera/dcd6df8d-5cee-4ee3-a4ed-4f4697b3337d",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Visual Designer",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Brand",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/visual-designer-1",
+   "posted": "2026-09-24"
+  },
+  {
+   "title": "Kreativní copywriter*ka",
+   "company": "Twisto",
+   "location": "Prague, Czechia",
+   "country": "Czechia",
+   "city": "Prague",
+   "discipline": "Content",
+   "type": "Contract",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
    "posted": "2026-09-24"
   },
   {
@@ -417,19 +508,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.lever.co/omnisend/dd8e1ff6-0303-463e-bc23-28ba770982da",
-   "posted": "2026-09-23"
-  },
-  {
-   "title": "Founding UI/UX & Graphic Designer",
-   "company": "Clera",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/3a0cea31-3452-47ed-9543-d627b9723e93",
    "posted": "2026-09-23"
   },
   {
@@ -508,19 +586,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://career.tensquaregames.com/o/mid-senior-uiux-designer-fmd",
-   "posted": "2026-09-22"
-  },
-  {
-   "title": "Werkstudent Content & Brand (m/w/d)",
-   "company": "Clera",
-   "location": "Berlin",
-   "country": "Germany",
-   "city": "Berlin",
-   "discipline": "Brand",
-   "type": "Internship",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/clera/a4432c98-2d1e-49fd-8fef-cda39353c166",
    "posted": "2026-09-22"
   },
   {
@@ -719,6 +784,19 @@
    "posted": "2026-09-18"
   },
   {
+   "title": "Graphic Designer (Pharma Industry)",
+   "company": "Ogilvy",
+   "location": "Barcelona, Spain",
+   "country": "Spain",
+   "city": "Barcelona",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.ogilvy.com/careers/4735011005?gh_jid=4735011005",
+   "posted": "2026-09-17"
+  },
+  {
    "title": "User Research UX Intern",
    "company": "Back Market",
    "location": "Bordeaux",
@@ -825,19 +903,6 @@
   {
    "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
    "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
    "location": "Munich, Germany",
    "country": "Germany",
    "city": "Munich",
@@ -846,6 +911,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
+   "posted": "2026-09-16"
+  },
+  {
+   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
+   "company": "Celonis",
+   "location": "Madrid, Spain",
+   "country": "Spain",
+   "city": "Madrid",
+   "discipline": "Design ops",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
    "posted": "2026-09-16"
   },
   {
@@ -1033,19 +1111,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "Edinburgh",
    "country": "United Kingdom",
    "city": "Edinburgh",
@@ -1057,29 +1122,16 @@
    "posted": "2026-09-14"
   },
   {
-   "title": "Product Designer",
-   "company": "Nabla",
-   "location": "Paris office",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/nabla/d3f336e9-bf79-4ab8-918c-36b143066234",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Nabla",
-   "location": "Paris office",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/nabla/97679de0-52bd-49e8-8c92-25bd21c10e21",
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {
@@ -1265,19 +1317,6 @@
    "posted": "2026-09-10"
   },
   {
-   "title": "Director of Product Design",
-   "company": "Carwow",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Leadership",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/19504c63-effb-4df7-8c0b-8440e2c0ec69",
-   "posted": "2026-09-10"
-  },
-  {
    "title": "Copywriter - Paid Social Media Ad Creative",
    "company": "Xometry Europe",
    "location": "Bulgaria",
@@ -1444,19 +1483,6 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
-   "posted": "2026-09-08"
-  },
-  {
-   "title": "Marketing Video Artist -  New Apps",
-   "company": "Voodoo",
-   "location": "Paris",
-   "country": "France",
-   "city": "Paris",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/voodoo/d02e550d-d9eb-47ad-8fd0-2cf884436348",
    "posted": "2026-09-08"
   },
   {
