@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T11:46:00.583Z",
+ "updated": "2026-09-30T12:23:24.884Z",
  "companies": 452,
  "count": 143,
  "jobs": [
@@ -1137,19 +1137,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "Copenhagen",
-   "country": "Denmark",
-   "city": "Copenhagen",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
@@ -1158,6 +1145,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "Copenhagen",
+   "country": "Denmark",
+   "city": "Copenhagen",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
    "posted": "2026-09-14"
   },
   {

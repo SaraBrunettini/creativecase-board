@@ -2132,7 +2132,7 @@
  "Bibliu": {
   "slug": "bibliu",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Bird": {
   "slug": "bird",
@@ -2142,12 +2142,12 @@
  "Bloober Team": {
   "slug": "blooberteam",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Channable": {
   "slug": "channable",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Craftzing": {
   "slug": "craftzing",
@@ -2162,22 +2162,27 @@
  "Droptica": {
   "slug": "droptica",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Espeo": {
   "slug": "espeo",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Famly": {
   "slug": "famly",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Holded": {
   "slug": "holded",
   "ats": "recruitee",
   "seen": "2026-09-29"
+ },
+ "IQM": {
+  "slug": "iqm",
+  "ats": "lever",
+  "seen": "2026-09-30"
  },
  "Landbot": {
   "slug": "landbot",
@@ -2247,16 +2252,11 @@
  "Virtual Identity": {
   "slug": "virtualidentity",
   "ats": "recruitee",
-  "seen": "2026-09-29"
+  "seen": "2026-09-30"
  },
  "Xebia": {
   "slug": "xebia",
   "ats": "recruitee",
-  "seen": "2026-09-28"
- },
- "IQM": {
-  "slug": "iqm",
-  "ats": "lever",
   "seen": "2026-09-30"
  }
 }
