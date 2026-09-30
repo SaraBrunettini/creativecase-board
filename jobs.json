@@ -1,8 +1,73 @@
 {
- "updated": "2026-09-29T12:38:07.718Z",
- "companies": 451,
- "count": 144,
+ "updated": "2026-09-30T11:46:00.583Z",
+ "companies": 452,
+ "count": 143,
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "Zilch",
+   "location": "Zilch UK",
+   "country": "United Kingdom",
+   "city": "Zilch UK",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/zilch/57a156a7-bd35-4962-aa0e-417513741bae",
+   "posted": "2026-09-30"
+  },
+  {
+   "title": "Creative Producer (BlessedApps)",
+   "company": "Gismart",
+   "location": "Kyiv",
+   "country": "Ukraine",
+   "city": "Kyiv",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/gismart/ecb0421b-f02a-4a47-a541-43f74ccc99d3",
+   "posted": "2026-09-30"
+  },
+  {
+   "title": "Creative Director (Copy)",
+   "company": "AKQA",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://www.akqa.com/jobs/8204374/?gh_jid=8204374",
+   "posted": "2026-09-29"
+  },
+  {
+   "title": "Head of Creative",
+   "company": "Deliveroo",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Leadership",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8236375",
+   "posted": "2026-09-29"
+  },
+  {
+   "title": "Mid/Senior Social Creative",
+   "company": "DEPT",
+   "location": "Budapest",
+   "country": "Hungary",
+   "city": "Budapest",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://job-boards.greenhouse.io/dept/jobs/8239309",
+   "posted": "2026-09-29"
+  },
   {
    "title": "Werkstudent:in (m/w/d) – UX Copywriting",
    "company": "Tide",
@@ -43,17 +108,30 @@
    "posted": "2026-09-29"
   },
   {
-   "title": "Product Designer, Growth Acquisition",
-   "company": "Mentimeter",
-   "location": "Stockholm",
-   "country": "Sweden",
-   "city": "Stockholm",
-   "discipline": "Product & UX",
+   "title": "Werkstudent Content & Brand (m/w/d)",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Brand",
+   "type": "Internship",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/f86380d1-6f6a-4997-a60a-8ee09d9edcbd",
+   "posted": "2026-09-29"
+  },
+  {
+   "title": "Senior Copywriter",
+   "company": "VML",
+   "location": "London, United Kingdom",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Content",
    "type": "Full-time",
    "workplace": "On-site",
    "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/mentimeter/jobs/4976852101",
-   "posted": "2026-09-28"
+   "url": "https://www.vml.com/careers/job/8842214002?gh_jid=8842214002",
+   "posted": "2026-09-29"
   },
   {
    "title": "Marketing Video Artist - Growth",
@@ -511,19 +589,6 @@
    "posted": "2026-09-23"
   },
   {
-   "title": "Motion Designer (BlessedApps)",
-   "company": "Gismart",
-   "location": "Kyiv",
-   "country": "Ukraine",
-   "city": "Kyiv",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/gismart/a8f90253-d8d2-444e-afd8-078fce56d3a0",
-   "posted": "2026-09-23"
-  },
-  {
    "title": "Head of Product Design",
    "company": "Butternut Box",
    "location": "London",
@@ -638,19 +703,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206585",
-   "posted": "2026-09-21"
-  },
-  {
-   "title": "Product Designer - Grow & Engage",
-   "company": "N26",
-   "location": "Barcelona",
-   "country": "Spain",
-   "city": "Barcelona",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://n26.com/en-eu/careers/positions/8211088?gh_jid=8211088",
    "posted": "2026-09-21"
   },
   {
@@ -901,32 +953,6 @@
    "posted": "2026-09-16"
   },
   {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
-   "location": "Munich, Germany",
-   "country": "Germany",
-   "city": "Munich",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856976003?gh_jid=7856976003",
-   "posted": "2026-09-16"
-  },
-  {
-   "title": "Senior Design Engineer, Design Operations: AI-Powered Design Platform",
-   "company": "Celonis",
-   "location": "Madrid, Spain",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Design ops",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/celonis/jobs/7856979003?gh_jid=7856979003",
-   "posted": "2026-09-16"
-  },
-  {
    "title": "UX Content Designer Intern (UX copywriter - English speaker)",
    "company": "Back Market",
    "location": "Paris",
@@ -1098,19 +1124,6 @@
   {
    "title": "Senior Quantitative UX Researcher",
    "company": "Trustpilot",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Research",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
-   "posted": "2026-09-14"
-  },
-  {
-   "title": "Senior Quantitative UX Researcher",
-   "company": "Trustpilot",
    "location": "Edinburgh",
    "country": "United Kingdom",
    "city": "Edinburgh",
@@ -1132,6 +1145,19 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://corporate.trustpilot.com/careers/job/8200590?gh_jid=8200590",
+   "posted": "2026-09-14"
+  },
+  {
+   "title": "Senior Quantitative UX Researcher",
+   "company": "Trustpilot",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Research",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://corporate.trustpilot.com/careers/job/8156166?gh_jid=8156166",
    "posted": "2026-09-14"
   },
   {
@@ -1499,19 +1525,6 @@
    "posted": "2026-09-07"
   },
   {
-   "title": "MTUK - Lead Motion Designer",
-   "company": "DEPT",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Motion",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/dept/jobs/8184713",
-   "posted": "2026-09-07"
-  },
-  {
    "title": "Senior UX Product Designer",
    "company": "HelloFresh",
    "location": "Warszawa, Masovian Voivodeship, Poland",
@@ -1522,19 +1535,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://careers.hellofresh.com/global/en/job/8147119?gh_jid=8147119",
-   "posted": "2026-09-07"
-  },
-  {
-   "title": "Senior Brand Designer, Fixed Term Contract",
-   "company": "Monzo",
-   "location": "London",
-   "country": "United Kingdom",
-   "city": "London",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.greenhouse.io/monzo/jobs/8180014",
    "posted": "2026-09-07"
   },
   {
@@ -1860,19 +1860,6 @@
    "workplace": "On-site",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/lovable/8a196add-25ef-4dfa-a196-c54c986bda60",
-   "posted": "2026-08-31"
-  },
-  {
-   "title": "Content CRO/UX Specialist",
-   "company": "Hostinger",
-   "location": "Spain",
-   "country": "Spain",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": null,
-   "url": "https://jobs.ashbyhq.com/hostinger/45f7c365-5273-495a-86b9-102ca90439d8",
    "posted": "2026-08-31"
   }
  ]
