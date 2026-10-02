@@ -1,8 +1,47 @@
 {
- "updated": "2026-10-01T12:58:24.121Z",
+ "updated": "2026-10-02T12:18:46.733Z",
  "companies": 453,
- "count": 145,
+ "count": 143,
  "jobs": [
+  {
+   "title": "PR & Brand Manager (f/m/x) - remote",
+   "company": "Refurbed",
+   "location": "Remote",
+   "country": "Europe-wide",
+   "city": null,
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://www.refurbed.de/jobs/?gh_jid=4990723101",
+   "posted": "2026-10-02"
+  },
+  {
+   "title": "Brand Designer",
+   "company": "BlaBlaCar",
+   "location": "Paris, France",
+   "country": "France",
+   "city": "Paris",
+   "discipline": "Brand",
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": null,
+   "url": "https://jobs.lever.co/blablacar/b73a9b73-8f4c-4bf5-b76d-6975b2280775",
+   "posted": "2026-10-02"
+  },
+  {
+   "title": "Web Designer | Based in Europe",
+   "company": "Hostinger",
+   "location": "Spain",
+   "country": "Spain",
+   "city": null,
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/hostinger/251c7336-502c-405f-b927-d0ff45c08427",
+   "posted": "2026-10-02"
+  },
   {
    "title": "Project Manager, Creative",
    "company": "DEPT",
@@ -56,16 +95,29 @@
    "posted": "2026-10-01"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Carwow",
+   "title": "Senior Product Designer",
+   "company": "Lendable",
    "location": "London",
    "country": "United Kingdom",
    "city": "London",
    "discipline": "Product & UX",
    "type": "Full-time",
-   "workplace": "On-site",
+   "workplace": "Remote",
    "salary": null,
-   "url": "https://jobs.ashbyhq.com/carwow/2fc7be85-a43b-4fe2-99ac-cef17c2612ce",
+   "url": "https://jobs.ashbyhq.com/lendable/207bb4cf-b1ae-4298-bb17-19dbcdcfa20a",
+   "posted": "2026-10-01"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Lendable",
+   "location": "London",
+   "country": "United Kingdom",
+   "city": "London",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/lendable/8363d371-b914-405b-b6dc-0e209f0ca12c",
    "posted": "2026-10-01"
   },
   {
@@ -92,6 +144,19 @@
    "workplace": "Remote",
    "salary": null,
    "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
+   "posted": "2026-10-01"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Clera",
+   "location": "Berlin",
+   "country": "Germany",
+   "city": "Berlin",
+   "discipline": "Product & UX",
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": null,
+   "url": "https://jobs.ashbyhq.com/clera/c495c73a-e9a1-49be-a747-50f92fc484ac",
    "posted": "2026-10-01"
   },
   {
@@ -589,32 +654,6 @@
    "posted": "2026-09-24"
   },
   {
-   "title": "Visual Designer",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Brand",
-   "type": "Contract",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/visual-designer-1",
-   "posted": "2026-09-24"
-  },
-  {
-   "title": "Kreativní copywriter*ka",
-   "company": "Twisto",
-   "location": "Prague, Czechia",
-   "country": "Czechia",
-   "city": "Prague",
-   "discipline": "Content",
-   "type": "Part-time",
-   "workplace": "Hybrid",
-   "salary": null,
-   "url": "https://twisto.recruitee.com/o/kreativni-copywriterka-1",
-   "posted": "2026-09-24"
-  },
-  {
    "title": "Design Engineer | Mid-Senior| Saily",
    "company": "Nord Security",
    "location": "Warsaw",
@@ -797,7 +836,7 @@
    "posted": "2026-09-21"
   },
   {
-   "title": "UX/UI Designer | Mid-Senior | Saily | Apps",
+   "title": "UX/UI Designer | Mid-Senior | Apps | Saily",
    "company": "Nord Security",
    "location": "Vilnius",
    "country": "Lithuania",
@@ -1811,19 +1850,6 @@
    "posted": "2026-09-03"
   },
   {
-   "title": "Lead Product Designer",
-   "company": "Nord Security",
-   "location": "Warsaw",
-   "country": "Poland",
-   "city": "Warsaw",
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "PLN 29.5K – PLN 35K a month",
-   "url": "https://jobs.ashbyhq.com/nord-security/3b81f583-2e0f-41f7-b93e-401265ed62a0",
-   "posted": "2026-09-02"
-  },
-  {
    "title": "Design Engineer",
    "company": "Tldraw",
    "location": "London Office",
@@ -1835,58 +1861,6 @@
    "salary": null,
    "url": "https://jobs.ashbyhq.com/tldraw/c52007ee-bac0-4176-a5f0-48fe6e1fe854",
    "posted": "2026-09-02"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - Italy)",
-   "company": "EverAI",
-   "location": "Italy",
-   "country": "Italy",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €125K",
-   "url": "https://jobs.ashbyhq.com/everai/f8e8162d-f32c-4bd5-8f57-5a39f48680eb",
-   "posted": "2026-09-02"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - Netherlands)",
-   "company": "EverAI",
-   "location": "Netherlands",
-   "country": "Netherlands",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €125K",
-   "url": "https://jobs.ashbyhq.com/everai/cf5a47c5-a9c3-43e4-adc0-bccbaef1a4ef",
-   "posted": "2026-09-02"
-  },
-  {
-   "title": "Senior Product Designer (Full Remote - UK)",
-   "company": "EverAI",
-   "location": "United Kingdom",
-   "country": "United Kingdom",
-   "city": null,
-   "discipline": "Product & UX",
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "€75K – €105K",
-   "url": "https://jobs.ashbyhq.com/everai/2f552302-a5c2-4b80-b69e-95d7a2780568",
-   "posted": "2026-09-02"
-  },
-  {
-   "title": "Senior Brand Designer",
-   "company": "Fever",
-   "location": "Madrid",
-   "country": "Spain",
-   "city": "Madrid",
-   "discipline": "Brand",
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": null,
-   "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4965445101",
-   "posted": "2026-09-01"
   }
  ]
 }
